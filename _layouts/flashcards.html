@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+  
+
+  <body>
+  
+ 
+  <div id="flashcards">
+    <div id="mydiv">
+      <div class="top"><a href="#" class="flashcards-close">&times;</a></div>
+      <div class="deck">A</div>
+      <div class="tools">
+	<button>hi</button><button data-correct="true">ha</button><button>hu</button>      
+      </div>
+    </div>  
+  </div>
+  
+  
+  
+  
+    {%- include header.html -%}
+
+    <main class="container main-content" aria-label="Content">
+
+        {{ content }}
+
+    </main>
+    
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

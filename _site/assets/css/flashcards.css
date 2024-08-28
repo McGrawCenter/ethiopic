@@ -1,0 +1,60 @@
+/************** flashcards *************/
+#flashcards {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  z-index:999; 
+  padding-top:5em;
+}
+
+#flashcards-title { color:white; }
+
+#flashcards #mydiv {
+  margin-left: auto; 
+  margin-right: auto; 
+  width:10%;
+  min-width: 380px; /* Need a specific value to work */
+  height:260px;
+}
+#mydiv-close { 
+  text-align:right;
+  padding: 5px;
+  font-size:3em;
+  color:white;
+}
+.flashcards-close, .flashcards-close:hover { color:white; }
+
+.top { 
+  display:flex;
+  justify-content:space-between;
+  font-size:2em;
+  font-weight:bold; 
+}
+
+.deck{ 
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  font-size:7em;
+  height:100%;
+  width:100%;
+  background: white;
+  border-radius: 10px;  
+}
+
+.tools button { 
+   background:white;
+   padding: 14px;
+   margin:0.2em;
+   border: solid 1px gray;
+   border-radius: 7px;
+   width:31%;
+}
+.tools { text-align:center;padding-top:0.5em; }
+.tools button.incorrect { background:grey; }
+.tools button.correct { background:green; }

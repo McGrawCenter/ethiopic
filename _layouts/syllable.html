@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+  
+
+  <body>
+  
+ 
+  <div id="flashcards">
+    <div id="mydiv">
+      <div class="top">
+        <div id="flashcards-title">Title</div>
+        <a href="#" class="flashcards-close">&times;</a>
+      </div>
+      <div class="deck">A</div>
+      <div class="tools">
+	<button>hi</button><button data-correct="true">ha</button><button>hu</button>      
+      </div>
+    </div>  
+  </div>
+ 
+  
+    {%- include header.html -%}
+
+    <main class="container main-content" aria-label="Content">
+
+{% for c in site.data.alphabet6 %}
+   {% assign temp = c.ID | plus:0 %}
+   {% if temp == page.id %}
+     {% assign char = c %}
+     {% assign groups = char.group | split: "," %}
+   {% endif %}
+{% endfor %}
+
+<div class='row' style='margin-top:2em;'>
+
+    <div class='col-sm-12' id="nextprev">
+<a href='{{char.previous}}.html'>Previous</a><a href='{{char.next}}'>Next</a>
+    </div>
+
+</div>
+
+
+<div class='row'>
+
+    <div class='col-sm-3'>
+	<h2 class='page-title'>{{ char.character }} {{ char.transliteration }}</h2>
+    </div>
+    
+    <div class='col-sm-9'>
+
+
+<div style='display:flex;flex-wrap:no-wrap;text-align:right;justify-content:right;margin-bottom:2em;'>
+{% for co in site.data.alphabet6 %}
+   {% if char.name == co.name %}
+     {% if char.character == co.character %} <h2 class='variants active'>{{co.character}}</h2>{% endif %}
+     {% if char.character != co.character %} <h2 class='variants'><a href='{{co.ID}}'>{{co.character}}</a></h2>{% endif %}
+   {% endif %}
+{% endfor %}
+</div>
+    </div>    
+
+</div>
+
+
+
+
+<div class='row'>
+
+    <div class='col-sm-6'>
+	<div id="animation-viewer">
+	<div class="toolbar">
+	  <a href='#' class='set_hand btn active' rel='script'>Script</a>
+	  <a href='#' class='set_hand btn' rel='cursive'>Cursive</a>
+	  <a href='#' class="replay"><img src="../assets/images/arrow-repeat.svg" class='icon'/></a>
+	</div>
+	<div class="animation"><img src="../assets/images/animations/10-ሊ.gif" title='Sabaic, "inscriptional" precursor' alt='Sabaic, "inscriptional" precursor'/></div>
+	</div>
+    </div>
+    
+    <div class='col-sm-6'>
+
+    	<div id='image-gallery'>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/01.jpg"/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/02.jpg"/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/03.jpg"/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/04.jpg"/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/05.jpg"/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/06.jpg"/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/07.jpg"/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/08.jpg"/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/09.jpg"/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/10.jpg"/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/11.jpg"/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/12.jpg"/></div></div>
+	</div>
+
+
+<a href="#" class="flashcards-open">Flashcards</a>
+
+
+
+    </div>
+   
+<div class='row' style='margin-top:2em;'>
+
+    <div class='col-sm-12'>
+
+     <h2>Groups</h2>
+     
+      <p>This letter appears in the following groups:</p>
+
+      <script>
+       var cards = [];
+       {% for g in groups %}
+           cards['{{ g }}'] = {{ site.data.flashcards[g] | jsonify }}
+       {% endfor %}
+      </script>
+
+       {% for g in groups %}
+            <h3>{{ g }} (<a href="#" class="flashcards-open" rel="{{g}}">flashcards</a>)</h3>
+       {% endfor %}
+    </div>
+    
+    
+</div>
+
+<script>
+
+  var current_set = 'syllables';
+	
+  jQuery(".flashcards-open").click(function(e){
+    var rel = jQuery(this).attr('rel');
+    current_set = rel;
+    showNext();
+    window.scrollTo(0,0);
+    jQuery('#flashcards').show();
+    e.preventDefault();
+  }); 
+  
+  jQuery(".flashcards-close").click(function(e){
+    jQuery('#flashcards').hide();
+    e.preventDefault();
+  });	
+  	showNext();
+</script>
+
+    </main>
+    
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
