@@ -6,8 +6,6 @@ var reverse = false;
 var delay = 800;
 
 
-
-
   function shuffle(array) {
      for (var i = array.length - 1; i > 0; i--) { 
          var j = Math.floor(Math.random() * (i + 1));           
@@ -43,9 +41,10 @@ var delay = 800;
 
   function showNext() {
   
+    console.log(current_set);
+    console.log(cards[current_set]);
     jQuery(".deck").html(cards[current_set][0].f);
     
-    console.log(current_set);
     jQuery("#flashcards-title").text(current_set);
     
     var answer = cards[current_set][0];

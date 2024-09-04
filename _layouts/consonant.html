@@ -3,7 +3,6 @@
 
   {%- include head.html -%}
   
-
   <body>
   
  
@@ -22,10 +21,11 @@
  
   
     {%- include header.html -%}
+    
+<main class="container main-content" aria-label="Content">
+    
 
-    <main class="container main-content" aria-label="Content">
-
-{% for c in site.data.alphabet6 %}
+{% for c in site.data.letters %}
    {% assign temp = c.ID | plus:0 %}
    {% if temp == page.id %}
      {% assign char = c %}
@@ -37,27 +37,8 @@
 
 <div class='row' style='margin-top:2em;'>
 
-    <div class='col-sm-12'>
-
-       
-       {% if page.prev == null %}
-	  <div id='nextprev'><a href='{{page.prev}}.html'></a><a href='{{page.next}}.html'>Next</a></div>
-       {% elsif page.next == null %}
-	  <div id='nextprev'><a href='{{page.prev}}.html'>Previous</a><a href='{{page.next}}.html'></a></div>	  
-	{% else %}
-	  <div id='nextprev'><a href='{{page.prev}}.html'>Previous</a><a href='{{page.next}}.html'>Next</a></div>
-	{% endif %}
-	
-    </div>
-
-</div>
-
-
-
-<div class='row' style='margin-top:2em;'>
-
     <div class='col-sm-3'>
-	<h2 class='page-title'>{{ char.character }} {{ char.transliteration }}</h2>
+	<h2 class='page-title'>{{ char.character }} <span style='font-size:0.5em;'>({{ char.transliteration }})</span></h2>
     </div>
     <div class='col-sm-9' style='text-align:right;'>
         <img src="../assets/images/sabaic/{{page.id}}.gif"/>        
@@ -65,7 +46,7 @@
 
 </div>
 
-<div class='row' style='margin-top:2em;'>
+<div class='row'>
 
     <div class='col-sm-12'>
         <p style='margin-bottom:2em;'>{{char.description}}</p>
@@ -74,66 +55,55 @@
 
 </div>
 
-<div class='row' style='margin-top:2em;'>
+<div class='row'>
 
     <div class='col-sm-6'>
 	<div id="animation-viewer">
 	<div class="toolbar">
-	  <a href='#' class='set_hand btn active' rel='script'>Script</a>
-	  <a href='#' class='set_hand btn' rel='cursive'>Cursive</a>
+	  <a href='#' class='set_hand script btn active' rel='scribal' data-id='{{ char.ID | prepend: '0000' | slice: -3, 3 }}'>Script</a>
+	  <a href='#' class='set_hand cursive btn' rel='cursive' data-id='{{ char.ID | prepend: '0000' | slice: -3, 3 }}'>Cursive</a>
 	  <a href='#' class="replay"><img src="../assets/images/arrow-repeat.svg" class='icon'/></a>
 	</div>
-	<div class="animation"><img src="../assets/images/animations/10-ሊ.gif" title='Sabaic, "inscriptional" precursor' alt='Sabaic, "inscriptional" precursor'/></div>
+	<div class="animation"><img src="../assets/images/animations/scribal/{{ char.ID | prepend: '0000' | slice: -3, 3 }}.gif" title='' alt=''/></div>
 	</div>
     </div>
-    
+  
     <div class='col-sm-6'>
 
     	<div id='image-gallery'>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/01.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/02.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/03.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/04.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/05.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/06.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/07.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/08.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/09.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/10.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/11.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/12.jpg"/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src='../assets/images/letters/01.jpg'/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src='../assets/images/letters/02.jpg'/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src='../assets/images/letters/03.jpg'/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src='../assets/images/letters/04.jpg'/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src='../assets/images/letters/05.jpg'/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src='../assets/images/letters/06.jpg'/></div></div>
 	</div>
 
 
-<a href="#" class="flashcards-open">Flashcards</a>
+    <!--<a href="#" class="flashcards-open">Flashcards</a>-->
 
 
 
     </div>
-   
-<div class='row' style='margin-top:2em;'>
+  
+
+<div class='row' style='margin-top:1em;'>
 
     <div class='col-sm-12'>
 
-     <h2>Groups</h2>
-     
-      <p>This letter appears in the following groups:</p>
-
-      <script>
-       var cards = [];
-       {% for g in groups %}
-           cards['{{ g }}'] = {{ site.data.flashcards[g] | jsonify }}
-       {% endfor %}
-      </script>
-
-       {% for g in groups %}
-            <h3>{{ g }} (<a href="#" class="flashcards-open" rel="{{g}}">flashcards</a>)</h3>
-       {% endfor %}
+       {% if page.prev == null %}
+	  <div id='nextprev'><a class='btn active' href='{{page.prev}}.html'></a><a class='btn active' href='{{page.next}}.html'>Next</a></div>
+       {% elsif page.next == null %}
+	  <div id='nextprev'><a class='btn active' href='{{page.prev}}.html'>Previous</a><a class='btn active' href='{{page.next}}.html'></a></div>	  
+	{% else %}
+	  <div id='nextprev'><a class='btn active' href='{{page.prev}}.html'>Previous</a><a class='btn active' href='{{page.next}}.html'>Next</a></div>
+	{% endif %}
+	
     </div>
-   
-    
-    
+
 </div>
+
+</main>
 
 <script>
 
@@ -151,12 +121,14 @@ var current_set = 'consonants';
     jQuery('#flashcards').hide();
     e.preventDefault();
   });	
+  
+  
+
+
 	
    
 </script>
 
-
-    </main>
     
     {%- include footer.html -%}
 

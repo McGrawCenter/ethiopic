@@ -1,0 +1,57 @@
+I"Ç<div class="row">
+
+    <div class="col-sm-12">
+
+      <h2>THE ETHIOPIAN-ERITREAN WRITING SYSTEM</h2>
+      
+   </div>
+
+</div>
+<style>
+  #big-menu h2 {
+    color:white;
+    font-weight:bold;
+    text-shadow: 0 0 10px black;
+  }
+  .big-menu-block {
+  width:100%;
+  height:600px;
+  padding:1em 1.6em;
+  background-position:center;
+  background-size:cover;
+  }
+  @media only screen and (max-width: 770px) {
+    .big-menu-block { height:200px; }
+  }  
+</style>
+
+<div class="row" id="big-menu" style="position:relative">
+    <div class="col-sm-3" style="padding:10px;">
+      <a href="letters.html">
+       <div class="big-menu-block" style="background-image:url(assets/images/TheLetters-bg.jpg);">
+         <h2>The Letters</h2>
+       </div>
+      </a>
+    </div>
+    <div class="col-sm-3" style="padding:10px;">
+      <a href="syllabary.html">
+      <div class="big-menu-block" style="background-image:url(assets/images/TheSyllables-bg.jpg);">
+        <h2>The Syllabary</h2>
+      </div></a>
+    </div>
+    <div class="col-sm-3" style="padding:10px;">
+      <a href="numerals.html">
+      <div class="big-menu-block" style="background-image:url(assets/images/TheNumerals-bg.jpg);">
+        <h2>The Numerals</h2>
+      </div></a>
+    </div>
+    <div class="col-sm-3" style="padding:10px;">
+      <a href="history.html">
+      <div class="big-menu-block" style="background-image:url(assets/images/TheHistory-bg.jpg);">
+        <h2>The History</h2>
+      </div></a>
+    </div>
+
+</div>
+
+:ET

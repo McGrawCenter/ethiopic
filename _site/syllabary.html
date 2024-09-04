@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Ge'ez Alphabet</title>
+ 
+  <!--<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> -->
+  
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="/ethiopic-alphabet/assets/js/jquery.min.js"></script>
+  <script src="/ethiopic-alphabet/assets/js/bootstrap.min.js"></script>
+  <script src="/ethiopic-alphabet/assets/js/script.js"></script>
+
+  
+  
+  <!--<link rel="stylesheet" href="/ethiopic-alphabet/assets/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/ethiopic-alphabet/assets/css/style.css?v=0.1" type="text/css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/ethiopic-alphabet/assets/images/favicon.png">
+  
+  <link rel="preload" href="/ethiopic-alphabet/assets/fonts/Brana-Regular.woff" as="font" type="font/woff" crossorigin>
+
+  <link rel="stylesheet" href="/ethiopic-alphabet/assets/css/flashcards.css">
+  
+  <script>
+  var cards = {"All":[{"ID":1,"f":"ሀ","b":"ha"},{"ID":2,"f":"ሁ","b":"hu"},{"ID":3,"f":"ሂ","b":"hi"},{"ID":4,"f":"ሃ","b":"hā"},{"ID":5,"f":"ሄ","b":"he"},{"ID":6,"f":"ህ","b":"hə"},{"ID":7,"f":"ሆ","b":"ho"},{"ID":8,"f":"ለ","b":"la"},{"ID":9,"f":"ሉ","b":"lu"},{"ID":10,"f":"ሊ","b":"li"},{"ID":11,"f":"ላ","b":"lā"},{"ID":12,"f":"ሌ","b":"le"},{"ID":13,"f":"ል","b":"lə"},{"ID":14,"f":"ሎ","b":"lo"},{"ID":15,"f":"ሐ","b":"ḥə"},{"ID":16,"f":"ሑ","b":"ḥu"},{"ID":17,"f":"ሒ","b":"ḥi"},{"ID":18,"f":"ሓ","b":"ḥā"},{"ID":19,"f":"ሔ","b":"ḥe"},{"ID":20,"f":"ሕ","b":"ḥə"},{"ID":21,"f":"ሖ","b":"ḥo"},{"ID":22,"f":"መ","b":"ma"},{"ID":23,"f":"ሙ","b":"mu"},{"ID":24,"f":"ሚ","b":"mi"},{"ID":25,"f":"ማ","b":"mā"},{"ID":26,"f":"ሜ","b":"me"},{"ID":27,"f":"ም","b":"mə"},{"ID":28,"f":"ሞ","b":"mo"},{"ID":29,"f":"ሠ","b":"ša"},{"ID":30,"f":"ሡ","b":"šu"},{"ID":31,"f":"ሢ","b":"ši"},{"ID":32,"f":"ሣ","b":"šā"},{"ID":33,"f":"ሤ","b":"še"},{"ID":34,"f":"ሥ","b":"šə"},{"ID":35,"f":"ሦ","b":"šo"},{"ID":36,"f":"ረ","b":"ra"},{"ID":37,"f":"ሩ","b":"ru"},{"ID":38,"f":"ሪ","b":"ri"},{"ID":39,"f":"ራ","b":"rā"},{"ID":40,"f":"ሬ","b":"re"},{"ID":41,"f":"ር","b":"rə"},{"ID":42,"f":"ሮ","b":"ro"},{"ID":43,"f":"ሰ","b":"sa"},{"ID":44,"f":"ሱ","b":"su"},{"ID":45,"f":"ሲ","b":"si"},{"ID":46,"f":"ሳ","b":"sā"},{"ID":47,"f":"ሴ","b":"se"},{"ID":48,"f":"ስ","b":"sə"},{"ID":49,"f":"ሶ","b":"so"},{"ID":50,"f":"ቀ","b":"qa"},{"ID":51,"f":"ቁ","b":"qu"},{"ID":52,"f":"ቂ","b":"qi"},{"ID":53,"f":"ቃ","b":"qā"},{"ID":54,"f":"ቄ","b":"qe"},{"ID":55,"f":"ቅ","b":"qə"},{"ID":56,"f":"ቆ","b":"qo"},{"ID":57,"f":"በ","b":"ba"},{"ID":58,"f":"ቡ","b":"bu"},{"ID":59,"f":"ቢ","b":"bi"},{"ID":60,"f":"ባ","b":"bā"},{"ID":61,"f":"ቤ","b":"be"},{"ID":62,"f":"ብ","b":"bə"},{"ID":63,"f":"ቦ","b":"bo"},{"ID":64,"f":"ተ","b":"ta"},{"ID":65,"f":"ቱ","b":"tu"},{"ID":66,"f":"ቲ","b":"ti"},{"ID":67,"f":"ታ","b":"tā"},{"ID":68,"f":"ቴ","b":"te"},{"ID":69,"f":"ት","b":"tə"},{"ID":70,"f":"ቶ","b":"to"},{"ID":71,"f":"ኀ","b":"ḫa"},{"ID":72,"f":"ኁ","b":"ḫu"},{"ID":73,"f":"ኂ","b":"ḫi"},{"ID":74,"f":"ኃ","b":"ḫa"},{"ID":75,"f":"ኄ","b":"ḫe"},{"ID":76,"f":"ኅ","b":"ḫə"},{"ID":77,"f":"ኆ","b":"ḫo"},{"ID":78,"f":"ነ","b":"na"},{"ID":79,"f":"ኑ","b":"nu"},{"ID":80,"f":"ኒ","b":"ni"},{"ID":81,"f":"ና","b":"nā"},{"ID":82,"f":"ኔ","b":"ne"},{"ID":83,"f":"ን","b":"nə"},{"ID":84,"f":"ኖ","b":"no"},{"ID":85,"f":"አ","b":"ʾa"},{"ID":86,"f":"ኡ","b":"ʾu"},{"ID":87,"f":"ኢ","b":"ʾi"},{"ID":88,"f":"ኣ","b":"ʾa"},{"ID":89,"f":"ኤ","b":"ʾe"},{"ID":90,"f":"እ","b":"ʾə"},{"ID":91,"f":"ኦ","b":"ʾo"},{"ID":92,"f":"ከ","b":"ka"},{"ID":93,"f":"ኩ","b":"ku"},{"ID":94,"f":"ኪ","b":"ki"},{"ID":95,"f":"ካ","b":"kā"},{"ID":96,"f":"ኬ","b":"ke"},{"ID":97,"f":"ክ","b":"kə"},{"ID":98,"f":"ኮ","b":"ko"},{"ID":99,"f":"ወ","b":"wa"},{"ID":100,"f":"ዉ","b":"wu"},{"ID":101,"f":"ዊ","b":"wi"},{"ID":102,"f":"ዋ","b":"wā"},{"ID":103,"f":"ዌ","b":"we"},{"ID":104,"f":"ው","b":"wə"},{"ID":105,"f":"ዎ","b":"wo"},{"ID":106,"f":"ዐ","b":"ʿa"},{"ID":107,"f":"ዑ","b":"ʿu"},{"ID":108,"f":"ዒ","b":"ʿi"},{"ID":109,"f":"ዓ","b":"ʿa"},{"ID":110,"f":"ዔ","b":"ʿe"},{"ID":111,"f":"ዕ","b":"ʿə"},{"ID":112,"f":"ዖ","b":"ʿo"},{"ID":113,"f":"ዘ","b":"za"},{"ID":114,"f":"ዙ","b":"zu"},{"ID":115,"f":"ዚ","b":"zi"},{"ID":116,"f":"ዛ","b":"zā"},{"ID":117,"f":"ዜ","b":"ze"},{"ID":118,"f":"ዝ","b":"zə"},{"ID":119,"f":"ዞ","b":"zo"},{"ID":120,"f":"የ","b":"ya"},{"ID":121,"f":"ዩ","b":"yu"},{"ID":122,"f":"ዪ","b":"yi"},{"ID":123,"f":"ያ","b":"yā"},{"ID":124,"f":"ዬ","b":"ye"},{"ID":125,"f":"ይ","b":"yə"},{"ID":126,"f":"ዮ","b":"yo"},{"ID":127,"f":"ደ","b":"da"},{"ID":128,"f":"ዱ","b":"du"},{"ID":129,"f":"ዲ","b":"di"},{"ID":130,"f":"ዳ","b":"dā"},{"ID":131,"f":"ዴ","b":"de"},{"ID":132,"f":"ድ","b":"də"},{"ID":133,"f":"ዶ","b":"do"},{"ID":134,"f":"ገ","b":"ga"},{"ID":135,"f":"ጉ","b":"gu"},{"ID":136,"f":"ጊ","b":"gi"},{"ID":137,"f":"ጋ","b":"gā"},{"ID":138,"f":"ጌ","b":"ge"},{"ID":139,"f":"ግ","b":"gə"},{"ID":140,"f":"ጎ","b":"go"},{"ID":141,"f":"ጠ","b":"ṭa"},{"ID":142,"f":"ጡ","b":"ṭu"},{"ID":143,"f":"ጢ","b":"ṭi"},{"ID":144,"f":"ጣ","b":"ṭā"},{"ID":145,"f":"ጤ","b":"ṭe"},{"ID":146,"f":"ጥ","b":"ṭə"},{"ID":147,"f":"ጦ","b":"ṭo"},{"ID":148,"f":"ጰ","b":"p̣a"},{"ID":149,"f":"ጱ","b":"p̣u"},{"ID":150,"f":"ጲ","b":"p̣i"},{"ID":151,"f":"ጳ","b":"p̣ā"},{"ID":152,"f":"ጴ","b":"p̣e"},{"ID":153,"f":"ጵ","b":"p̣ə"},{"ID":154,"f":"ጶ","b":"p̣o"},{"ID":155,"f":"ጸ","b":"ṣa"},{"ID":156,"f":"ጹ","b":"ṣu"},{"ID":157,"f":"ጺ","b":"ṣi"},{"ID":158,"f":"ጻ","b":"ṣā"},{"ID":159,"f":"ጼ","b":"ṣe"},{"ID":160,"f":"ጽ","b":"ṣə"},{"ID":161,"f":"ጾ","b":"ṣo"},{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":163,"f":"ፁ","b":"ḍu"},{"ID":164,"f":"ፂ","b":"ḍi"},{"ID":165,"f":"ፃ","b":"ḍā"},{"ID":166,"f":"ፄ","b":"ḍe"},{"ID":167,"f":"ፅ","b":"ḍə"},{"ID":168,"f":"ፆ","b":"ḍo"},{"ID":169,"f":"ፈ","b":"fa"},{"ID":170,"f":"ፉ","b":"fu"},{"ID":171,"f":"ፊ","b":"fi"},{"ID":172,"f":"ፋ","b":"fā"},{"ID":173,"f":"ፌ","b":"fe"},{"ID":174,"f":"ፍ","b":"fə"},{"ID":175,"f":"ፎ","b":"fo"},{"ID":176,"f":"ፐ","b":"pa"},{"ID":177,"f":"ፑ","b":"pu"},{"ID":178,"f":"ፒ","b":"pi"},{"ID":179,"f":"ፓ","b":"pā"},{"ID":180,"f":"ፔ","b":"pe"},{"ID":181,"f":"ፕ","b":"pə"},{"ID":182,"f":"ፖ","b":"po"},{"ID":183,"f":"፡","b":"word break"},{"ID":184,"f":"።","b":"sent. break"},{"ID":185,"f":"፨","b":"para. break"},{"ID":186,"f":"፩","b":"1"},{"ID":187,"f":"፪","b":"2"},{"ID":188,"f":"፫","b":"3"},{"ID":189,"f":"፬","b":"4"},{"ID":190,"f":"፭","b":"5"},{"ID":191,"f":"፮","b":"6"},{"ID":192,"f":"፯","b":"7"},{"ID":193,"f":"፰","b":"8"},{"ID":194,"f":"፱","b":"9"},{"ID":195,"f":"፲","b":"10"},{"ID":196,"f":"፳","b":"20"},{"ID":197,"f":"፴","b":"30"},{"ID":198,"f":"፵","b":"40"},{"ID":199,"f":"፶","b":"50"},{"ID":200,"f":"፷","b":"60"},{"ID":201,"f":"፸","b":"70"},{"ID":202,"f":"፹","b":"80"},{"ID":203,"f":"፺","b":"90"},{"ID":204,"f":"፻","b":"100"},{"ID":205,"f":"፼","b":"10000"}],"Letters":[{"ID":1,"f":"ሀ","b":"ha"},{"ID":8,"f":"ለ","b":"la"},{"ID":15,"f":"ሐ","b":"ḥə"},{"ID":22,"f":"መ","b":"ma"},{"ID":29,"f":"ሠ","b":"ša"},{"ID":36,"f":"ረ","b":"ra"},{"ID":43,"f":"ሰ","b":"sa"},{"ID":50,"f":"ቀ","b":"qa"},{"ID":57,"f":"በ","b":"ba"},{"ID":64,"f":"ተ","b":"ta"},{"ID":71,"f":"ኀ","b":"ḫa"},{"ID":78,"f":"ነ","b":"na"},{"ID":85,"f":"አ","b":"ʾa"},{"ID":92,"f":"ከ","b":"ka"},{"ID":99,"f":"ወ","b":"wa"},{"ID":106,"f":"ዐ","b":"ʿa"},{"ID":113,"f":"ዘ","b":"za"},{"ID":120,"f":"የ","b":"ya"},{"ID":127,"f":"ደ","b":"da"},{"ID":134,"f":"ገ","b":"ga"},{"ID":141,"f":"ጠ","b":"ṭa"},{"ID":148,"f":"ጰ","b":"p̣a"},{"ID":155,"f":"ጸ","b":"ṣa"},{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":169,"f":"ፈ","b":"fa"},{"ID":176,"f":"ፐ","b":"pa"}],"Syllables":[{"ID":1,"f":"ሀ","b":"ha"},{"ID":2,"f":"ሁ","b":"hu"},{"ID":3,"f":"ሂ","b":"hi"},{"ID":4,"f":"ሃ","b":"hā"},{"ID":5,"f":"ሄ","b":"he"},{"ID":6,"f":"ህ","b":"hə"},{"ID":7,"f":"ሆ","b":"ho"},{"ID":8,"f":"ለ","b":"la"},{"ID":9,"f":"ሉ","b":"lu"},{"ID":10,"f":"ሊ","b":"li"},{"ID":11,"f":"ላ","b":"lā"},{"ID":12,"f":"ሌ","b":"le"},{"ID":13,"f":"ል","b":"lə"},{"ID":14,"f":"ሎ","b":"lo"},{"ID":15,"f":"ሐ","b":"ḥə"},{"ID":16,"f":"ሑ","b":"ḥu"},{"ID":17,"f":"ሒ","b":"ḥi"},{"ID":18,"f":"ሓ","b":"ḥā"},{"ID":19,"f":"ሔ","b":"ḥe"},{"ID":20,"f":"ሕ","b":"ḥə"},{"ID":21,"f":"ሖ","b":"ḥo"},{"ID":22,"f":"መ","b":"ma"},{"ID":23,"f":"ሙ","b":"mu"},{"ID":24,"f":"ሚ","b":"mi"},{"ID":25,"f":"ማ","b":"mā"},{"ID":26,"f":"ሜ","b":"me"},{"ID":27,"f":"ም","b":"mə"},{"ID":28,"f":"ሞ","b":"mo"},{"ID":29,"f":"ሠ","b":"ša"},{"ID":30,"f":"ሡ","b":"šu"},{"ID":31,"f":"ሢ","b":"ši"},{"ID":32,"f":"ሣ","b":"šā"},{"ID":33,"f":"ሤ","b":"še"},{"ID":34,"f":"ሥ","b":"šə"},{"ID":35,"f":"ሦ","b":"šo"},{"ID":36,"f":"ረ","b":"ra"},{"ID":37,"f":"ሩ","b":"ru"},{"ID":38,"f":"ሪ","b":"ri"},{"ID":39,"f":"ራ","b":"rā"},{"ID":40,"f":"ሬ","b":"re"},{"ID":41,"f":"ር","b":"rə"},{"ID":42,"f":"ሮ","b":"ro"},{"ID":43,"f":"ሰ","b":"sa"},{"ID":44,"f":"ሱ","b":"su"},{"ID":45,"f":"ሲ","b":"si"},{"ID":46,"f":"ሳ","b":"sā"},{"ID":47,"f":"ሴ","b":"se"},{"ID":48,"f":"ስ","b":"sə"},{"ID":49,"f":"ሶ","b":"so"},{"ID":50,"f":"ቀ","b":"qa"},{"ID":51,"f":"ቁ","b":"qu"},{"ID":52,"f":"ቂ","b":"qi"},{"ID":53,"f":"ቃ","b":"qā"},{"ID":54,"f":"ቄ","b":"qe"},{"ID":55,"f":"ቅ","b":"qə"},{"ID":56,"f":"ቆ","b":"qo"},{"ID":57,"f":"በ","b":"ba"},{"ID":58,"f":"ቡ","b":"bu"},{"ID":59,"f":"ቢ","b":"bi"},{"ID":60,"f":"ባ","b":"bā"},{"ID":61,"f":"ቤ","b":"be"},{"ID":62,"f":"ብ","b":"bə"},{"ID":63,"f":"ቦ","b":"bo"},{"ID":64,"f":"ተ","b":"ta"},{"ID":65,"f":"ቱ","b":"tu"},{"ID":66,"f":"ቲ","b":"ti"},{"ID":67,"f":"ታ","b":"tā"},{"ID":68,"f":"ቴ","b":"te"},{"ID":69,"f":"ት","b":"tə"},{"ID":70,"f":"ቶ","b":"to"},{"ID":71,"f":"ኀ","b":"ḫa"},{"ID":72,"f":"ኁ","b":"ḫu"},{"ID":73,"f":"ኂ","b":"ḫi"},{"ID":74,"f":"ኃ","b":"ḫa"},{"ID":75,"f":"ኄ","b":"ḫe"},{"ID":76,"f":"ኅ","b":"ḫə"},{"ID":77,"f":"ኆ","b":"ḫo"},{"ID":78,"f":"ነ","b":"na"},{"ID":79,"f":"ኑ","b":"nu"},{"ID":80,"f":"ኒ","b":"ni"},{"ID":81,"f":"ና","b":"nā"},{"ID":82,"f":"ኔ","b":"ne"},{"ID":83,"f":"ን","b":"nə"},{"ID":84,"f":"ኖ","b":"no"},{"ID":85,"f":"አ","b":"ʾa"},{"ID":86,"f":"ኡ","b":"ʾu"},{"ID":87,"f":"ኢ","b":"ʾi"},{"ID":88,"f":"ኣ","b":"ʾa"},{"ID":89,"f":"ኤ","b":"ʾe"},{"ID":90,"f":"እ","b":"ʾə"},{"ID":91,"f":"ኦ","b":"ʾo"},{"ID":92,"f":"ከ","b":"ka"},{"ID":93,"f":"ኩ","b":"ku"},{"ID":94,"f":"ኪ","b":"ki"},{"ID":95,"f":"ካ","b":"kā"},{"ID":96,"f":"ኬ","b":"ke"},{"ID":97,"f":"ክ","b":"kə"},{"ID":98,"f":"ኮ","b":"ko"},{"ID":99,"f":"ወ","b":"wa"},{"ID":100,"f":"ዉ","b":"wu"},{"ID":101,"f":"ዊ","b":"wi"},{"ID":102,"f":"ዋ","b":"wā"},{"ID":103,"f":"ዌ","b":"we"},{"ID":104,"f":"ው","b":"wə"},{"ID":105,"f":"ዎ","b":"wo"},{"ID":106,"f":"ዐ","b":"ʿa"},{"ID":107,"f":"ዑ","b":"ʿu"},{"ID":108,"f":"ዒ","b":"ʿi"},{"ID":109,"f":"ዓ","b":"ʿa"},{"ID":110,"f":"ዔ","b":"ʿe"},{"ID":111,"f":"ዕ","b":"ʿə"},{"ID":112,"f":"ዖ","b":"ʿo"},{"ID":113,"f":"ዘ","b":"za"},{"ID":114,"f":"ዙ","b":"zu"},{"ID":115,"f":"ዚ","b":"zi"},{"ID":116,"f":"ዛ","b":"zā"},{"ID":117,"f":"ዜ","b":"ze"},{"ID":118,"f":"ዝ","b":"zə"},{"ID":119,"f":"ዞ","b":"zo"},{"ID":120,"f":"የ","b":"ya"},{"ID":121,"f":"ዩ","b":"yu"},{"ID":122,"f":"ዪ","b":"yi"},{"ID":123,"f":"ያ","b":"yā"},{"ID":124,"f":"ዬ","b":"ye"},{"ID":125,"f":"ይ","b":"yə"},{"ID":126,"f":"ዮ","b":"yo"},{"ID":127,"f":"ደ","b":"da"},{"ID":128,"f":"ዱ","b":"du"},{"ID":129,"f":"ዲ","b":"di"},{"ID":130,"f":"ዳ","b":"dā"},{"ID":131,"f":"ዴ","b":"de"},{"ID":132,"f":"ድ","b":"də"},{"ID":133,"f":"ዶ","b":"do"},{"ID":134,"f":"ገ","b":"ga"},{"ID":135,"f":"ጉ","b":"gu"},{"ID":136,"f":"ጊ","b":"gi"},{"ID":137,"f":"ጋ","b":"gā"},{"ID":138,"f":"ጌ","b":"ge"},{"ID":139,"f":"ግ","b":"gə"},{"ID":140,"f":"ጎ","b":"go"},{"ID":141,"f":"ጠ","b":"ṭa"},{"ID":142,"f":"ጡ","b":"ṭu"},{"ID":143,"f":"ጢ","b":"ṭi"},{"ID":144,"f":"ጣ","b":"ṭā"},{"ID":145,"f":"ጤ","b":"ṭe"},{"ID":146,"f":"ጥ","b":"ṭə"},{"ID":147,"f":"ጦ","b":"ṭo"},{"ID":148,"f":"ጰ","b":"p̣a"},{"ID":149,"f":"ጱ","b":"p̣u"},{"ID":150,"f":"ጲ","b":"p̣i"},{"ID":151,"f":"ጳ","b":"p̣ā"},{"ID":152,"f":"ጴ","b":"p̣e"},{"ID":153,"f":"ጵ","b":"p̣ə"},{"ID":154,"f":"ጶ","b":"p̣o"},{"ID":155,"f":"ጸ","b":"ṣa"},{"ID":156,"f":"ጹ","b":"ṣu"},{"ID":157,"f":"ጺ","b":"ṣi"},{"ID":158,"f":"ጻ","b":"ṣā"},{"ID":159,"f":"ጼ","b":"ṣe"},{"ID":160,"f":"ጽ","b":"ṣə"},{"ID":161,"f":"ጾ","b":"ṣo"},{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":163,"f":"ፁ","b":"ḍu"},{"ID":164,"f":"ፂ","b":"ḍi"},{"ID":165,"f":"ፃ","b":"ḍā"},{"ID":166,"f":"ፄ","b":"ḍe"},{"ID":167,"f":"ፅ","b":"ḍə"},{"ID":168,"f":"ፆ","b":"ḍo"},{"ID":169,"f":"ፈ","b":"fa"},{"ID":170,"f":"ፉ","b":"fu"},{"ID":171,"f":"ፊ","b":"fi"},{"ID":172,"f":"ፋ","b":"fā"},{"ID":173,"f":"ፌ","b":"fe"},{"ID":174,"f":"ፍ","b":"fə"},{"ID":175,"f":"ፎ","b":"fo"},{"ID":176,"f":"ፐ","b":"pa"},{"ID":177,"f":"ፑ","b":"pu"},{"ID":178,"f":"ፒ","b":"pi"},{"ID":179,"f":"ፓ","b":"pā"},{"ID":180,"f":"ፔ","b":"pe"},{"ID":181,"f":"ፕ","b":"pə"},{"ID":182,"f":"ፖ","b":"po"}],"Sitting":[{"ID":1,"f":"ሀ","b":"ha"},{"ID":22,"f":"መ","b":"ma"},{"ID":29,"f":"ሠ","b":"ša"},{"ID":36,"f":"ረ","b":"ra"},{"ID":99,"f":"ወ","b":"wa"},{"ID":106,"f":"ዐ","b":"ʿa"},{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":169,"f":"ፈ","b":"fa"}],"1-legged":[{"ID":50,"f":"ቀ","b":"qa"},{"ID":64,"f":"ተ","b":"ta"},{"ID":71,"f":"ኀ","b":"ḫa"},{"ID":78,"f":"ነ","b":"na"},{"ID":120,"f":"የ","b":"ya"},{"ID":134,"f":"ገ","b":"ga"},{"ID":176,"f":"ፐ","b":"pa"}],"2-legged":[{"ID":8,"f":"ለ","b":"la"},{"ID":43,"f":"ሰ","b":"sa"},{"ID":57,"f":"በ","b":"ba"},{"ID":85,"f":"አ","b":"ʾa"},{"ID":92,"f":"ከ","b":"ka"},{"ID":113,"f":"ዘ","b":"za"},{"ID":127,"f":"ደ","b":"da"},{"ID":148,"f":"ጰ","b":"p̣a"},{"ID":155,"f":"ጸ","b":"ṣa"}],"3-legged":[{"ID":15,"f":"ሐ","b":"ḥə"},{"ID":141,"f":"ጠ","b":"ṭa"}],"Variants of hoy":[{"ID":1,"f":"ሀ","b":"ha"},{"ID":2,"f":"ሁ","b":"hu"},{"ID":3,"f":"ሂ","b":"hi"},{"ID":4,"f":"ሃ","b":"hā"},{"ID":5,"f":"ሄ","b":"he"},{"ID":6,"f":"ህ","b":"hə"},{"ID":7,"f":"ሆ","b":"ho"}],"Variants of lāwi":[{"ID":8,"f":"ለ","b":"la"},{"ID":9,"f":"ሉ","b":"lu"},{"ID":10,"f":"ሊ","b":"li"},{"ID":11,"f":"ላ","b":"lā"},{"ID":12,"f":"ሌ","b":"le"},{"ID":13,"f":"ል","b":"lə"},{"ID":14,"f":"ሎ","b":"lo"}],"Variants of ḥawt":[{"ID":15,"f":"ሐ","b":"ḥə"},{"ID":16,"f":"ሑ","b":"ḥu"},{"ID":17,"f":"ሒ","b":"ḥi"},{"ID":18,"f":"ሓ","b":"ḥā"},{"ID":19,"f":"ሔ","b":"ḥe"},{"ID":20,"f":"ሕ","b":"ḥə"},{"ID":21,"f":"ሖ","b":"ḥo"}],"Variants of māy":[{"ID":22,"f":"መ","b":"ma"},{"ID":23,"f":"ሙ","b":"mu"},{"ID":24,"f":"ሚ","b":"mi"},{"ID":25,"f":"ማ","b":"mā"},{"ID":26,"f":"ሜ","b":"me"},{"ID":27,"f":"ም","b":"mə"},{"ID":28,"f":"ሞ","b":"mo"}],"Variants of šawt":[{"ID":29,"f":"ሠ","b":"ša"},{"ID":30,"f":"ሡ","b":"šu"},{"ID":31,"f":"ሢ","b":"ši"},{"ID":32,"f":"ሣ","b":"šā"},{"ID":33,"f":"ሤ","b":"še"},{"ID":34,"f":"ሥ","b":"šə"},{"ID":35,"f":"ሦ","b":"šo"}],"Variants of rəʾəs":[{"ID":36,"f":"ረ","b":"ra"},{"ID":37,"f":"ሩ","b":"ru"},{"ID":38,"f":"ሪ","b":"ri"},{"ID":39,"f":"ራ","b":"rā"},{"ID":40,"f":"ሬ","b":"re"},{"ID":41,"f":"ር","b":"rə"},{"ID":42,"f":"ሮ","b":"ro"}],"Variants of sāt":[{"ID":43,"f":"ሰ","b":"sa"},{"ID":44,"f":"ሱ","b":"su"},{"ID":45,"f":"ሲ","b":"si"},{"ID":46,"f":"ሳ","b":"sā"},{"ID":47,"f":"ሴ","b":"se"},{"ID":48,"f":"ስ","b":"sə"},{"ID":49,"f":"ሶ","b":"so"}],"Variants of qāf":[{"ID":50,"f":"ቀ","b":"qa"},{"ID":51,"f":"ቁ","b":"qu"},{"ID":52,"f":"ቂ","b":"qi"},{"ID":53,"f":"ቃ","b":"qā"},{"ID":54,"f":"ቄ","b":"qe"},{"ID":55,"f":"ቅ","b":"qə"},{"ID":56,"f":"ቆ","b":"qo"}],"Variants of bet":[{"ID":57,"f":"በ","b":"ba"},{"ID":58,"f":"ቡ","b":"bu"},{"ID":59,"f":"ቢ","b":"bi"},{"ID":60,"f":"ባ","b":"bā"},{"ID":61,"f":"ቤ","b":"be"},{"ID":62,"f":"ብ","b":"bə"},{"ID":63,"f":"ቦ","b":"bo"}],"Variants of tāw":[{"ID":64,"f":"ተ","b":"ta"},{"ID":65,"f":"ቱ","b":"tu"},{"ID":66,"f":"ቲ","b":"ti"},{"ID":67,"f":"ታ","b":"tā"},{"ID":68,"f":"ቴ","b":"te"},{"ID":69,"f":"ት","b":"tə"},{"ID":70,"f":"ቶ","b":"to"}],"Variants of ḫarm":[{"ID":71,"f":"ኀ","b":"ḫa"},{"ID":72,"f":"ኁ","b":"ḫu"},{"ID":73,"f":"ኂ","b":"ḫi"},{"ID":74,"f":"ኃ","b":"ḫa"},{"ID":75,"f":"ኄ","b":"ḫe"},{"ID":76,"f":"ኅ","b":"ḫə"},{"ID":77,"f":"ኆ","b":"ḫo"}],"Variants of naḥs":[{"ID":78,"f":"ነ","b":"na"},{"ID":79,"f":"ኑ","b":"nu"},{"ID":80,"f":"ኒ","b":"ni"},{"ID":81,"f":"ና","b":"nā"},{"ID":82,"f":"ኔ","b":"ne"},{"ID":83,"f":"ን","b":"nə"},{"ID":84,"f":"ኖ","b":"no"}],"Variants of ʾalf":[{"ID":85,"f":"አ","b":"ʾa"},{"ID":86,"f":"ኡ","b":"ʾu"},{"ID":87,"f":"ኢ","b":"ʾi"},{"ID":88,"f":"ኣ","b":"ʾa"},{"ID":89,"f":"ኤ","b":"ʾe"},{"ID":90,"f":"እ","b":"ʾə"},{"ID":91,"f":"ኦ","b":"ʾo"}],"Variants of kāf":[{"ID":92,"f":"ከ","b":"ka"},{"ID":93,"f":"ኩ","b":"ku"},{"ID":94,"f":"ኪ","b":"ki"},{"ID":95,"f":"ካ","b":"kā"},{"ID":96,"f":"ኬ","b":"ke"},{"ID":97,"f":"ክ","b":"kə"},{"ID":98,"f":"ኮ","b":"ko"}],"Variants of wawe":[{"ID":99,"f":"ወ","b":"wa"},{"ID":100,"f":"ዉ","b":"wu"},{"ID":101,"f":"ዊ","b":"wi"},{"ID":102,"f":"ዋ","b":"wā"},{"ID":103,"f":"ዌ","b":"we"},{"ID":104,"f":"ው","b":"wə"},{"ID":105,"f":"ዎ","b":"wo"}],"Variants of ʿayn":[{"ID":106,"f":"ዐ","b":"ʿa"},{"ID":107,"f":"ዑ","b":"ʿu"},{"ID":108,"f":"ዒ","b":"ʿi"},{"ID":109,"f":"ዓ","b":"ʿa"},{"ID":110,"f":"ዔ","b":"ʿe"},{"ID":111,"f":"ዕ","b":"ʿə"},{"ID":112,"f":"ዖ","b":"ʿo"}],"Variants of zay":[{"ID":113,"f":"ዘ","b":"za"},{"ID":114,"f":"ዙ","b":"zu"},{"ID":115,"f":"ዚ","b":"zi"},{"ID":116,"f":"ዛ","b":"zā"},{"ID":117,"f":"ዜ","b":"ze"},{"ID":118,"f":"ዝ","b":"zə"},{"ID":119,"f":"ዞ","b":"zo"}],"Variants of yaman":[{"ID":120,"f":"የ","b":"ya"},{"ID":121,"f":"ዩ","b":"yu"},{"ID":122,"f":"ዪ","b":"yi"},{"ID":123,"f":"ያ","b":"yā"},{"ID":124,"f":"ዬ","b":"ye"},{"ID":125,"f":"ይ","b":"yə"},{"ID":126,"f":"ዮ","b":"yo"}],"Variants of dənt":[{"ID":127,"f":"ደ","b":"da"},{"ID":128,"f":"ዱ","b":"du"},{"ID":129,"f":"ዲ","b":"di"},{"ID":130,"f":"ዳ","b":"dā"},{"ID":131,"f":"ዴ","b":"de"},{"ID":132,"f":"ድ","b":"də"},{"ID":133,"f":"ዶ","b":"do"}],"Variants of gaml":[{"ID":134,"f":"ገ","b":"ga"},{"ID":135,"f":"ጉ","b":"gu"},{"ID":136,"f":"ጊ","b":"gi"},{"ID":137,"f":"ጋ","b":"gā"},{"ID":138,"f":"ጌ","b":"ge"},{"ID":139,"f":"ግ","b":"gə"},{"ID":140,"f":"ጎ","b":"go"}],"Variants of ṭayt":[{"ID":141,"f":"ጠ","b":"ṭa"},{"ID":142,"f":"ጡ","b":"ṭu"},{"ID":143,"f":"ጢ","b":"ṭi"},{"ID":144,"f":"ጣ","b":"ṭā"},{"ID":145,"f":"ጤ","b":"ṭe"},{"ID":146,"f":"ጥ","b":"ṭə"},{"ID":147,"f":"ጦ","b":"ṭo"}],"Variants of p̣ayt":[{"ID":148,"f":"ጰ","b":"p̣a"},{"ID":149,"f":"ጱ","b":"p̣u"},{"ID":150,"f":"ጲ","b":"p̣i"},{"ID":151,"f":"ጳ","b":"p̣ā"},{"ID":152,"f":"ጴ","b":"p̣e"},{"ID":153,"f":"ጵ","b":"p̣ə"},{"ID":154,"f":"ጶ","b":"p̣o"}],"Variants of ṣaday":[{"ID":155,"f":"ጸ","b":"ṣa"},{"ID":156,"f":"ጹ","b":"ṣu"},{"ID":157,"f":"ጺ","b":"ṣi"},{"ID":158,"f":"ጻ","b":"ṣā"},{"ID":159,"f":"ጼ","b":"ṣe"},{"ID":160,"f":"ጽ","b":"ṣə"},{"ID":161,"f":"ጾ","b":"ṣo"}],"Variants of ḍappa":[{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":163,"f":"ፁ","b":"ḍu"},{"ID":164,"f":"ፂ","b":"ḍi"},{"ID":165,"f":"ፃ","b":"ḍā"},{"ID":166,"f":"ፄ","b":"ḍe"},{"ID":167,"f":"ፅ","b":"ḍə"},{"ID":168,"f":"ፆ","b":"ḍo"}],"Variants of ʾaf":[{"ID":169,"f":"ፈ","b":"fa"},{"ID":170,"f":"ፉ","b":"fu"},{"ID":171,"f":"ፊ","b":"fi"},{"ID":172,"f":"ፋ","b":"fā"},{"ID":173,"f":"ፌ","b":"fe"},{"ID":174,"f":"ፍ","b":"fə"},{"ID":175,"f":"ፎ","b":"fo"}],"Variants of pəs":[{"ID":176,"f":"ፐ","b":"pa"},{"ID":177,"f":"ፑ","b":"pu"},{"ID":178,"f":"ፒ","b":"pi"},{"ID":179,"f":"ፓ","b":"pā"},{"ID":180,"f":"ፔ","b":"pe"},{"ID":181,"f":"ፕ","b":"pə"},{"ID":182,"f":"ፖ","b":"po"}],"Punctuation":[{"ID":183,"f":"፡","b":"word break"},{"ID":184,"f":"።","b":"sent. break"},{"ID":185,"f":"፨","b":"para. break"}],"Numerals":[{"ID":186,"f":"፩","b":"1"},{"ID":187,"f":"፪","b":"2"},{"ID":188,"f":"፫","b":"3"},{"ID":189,"f":"፬","b":"4"},{"ID":190,"f":"፭","b":"5"},{"ID":191,"f":"፮","b":"6"},{"ID":192,"f":"፯","b":"7"},{"ID":193,"f":"፰","b":"8"},{"ID":194,"f":"፱","b":"9"},{"ID":195,"f":"፲","b":"10"},{"ID":196,"f":"፳","b":"20"},{"ID":197,"f":"፴","b":"30"},{"ID":198,"f":"፵","b":"40"},{"ID":199,"f":"፶","b":"50"},{"ID":200,"f":"፷","b":"60"},{"ID":201,"f":"፸","b":"70"},{"ID":202,"f":"፹","b":"80"},{"ID":203,"f":"፺","b":"90"},{"ID":204,"f":"፻","b":"100"},{"ID":205,"f":"፼","b":"10000"}]};
+  var current_set = 'All';
+  </script>
+
+  <script src="/ethiopic-alphabet/assets/js/flashcards.js"></script>
+  
+ 
+
+</head>
+<body>
+    <div id="flashcards">
+    <div id="mydiv">
+      <div class="top">
+        <div id="flashcards-title">Title</div>
+        <a href="#" class="flashcards-close">&times;</a>
+      </div>
+      <div class="deck">A</div>
+      <div class="tools">
+	<button>hi</button><button data-correct="true">ha</button><button>hu</button>      
+      </div>
+    </div>  
+  </div><section id='header'>
+    <div id="header-tint"></div>
+    <!-- Fixed navbar -->
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/ethiopic-alphabet/" style="font-weight:bold;color:black;text-transform:uppercase;letter-spacing:4px;">THE GE'EZ SCRIPT</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>          
+        </div>
+        
+        
+        
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/ethiopic-alphabet/index.html">Home</a></li>
+            <li><a href="/ethiopic-alphabet/letters.html">The Letters</a></li>
+            <li><a href="/ethiopic-alphabet/syllabary.html">The Syllabary</a></li>
+            <li><a href="/ethiopic-alphabet/numerals.html">The Numerals</a></li>
+            <li><a href="/ethiopic-alphabet/history.html">The History</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+</section>
+
+
+<div style='width:100%;height:10px;background-image:url(assets/images/TheSyllables-wide.jpg);background-position:top;background-size:cover;margin-top:-24px;'></div> 
+
+
+    <main class="container main-content" aria-label="Content">   
+        <div class="row">
+
+  <div class="col-sm-12">
+
+      <h2 style="margin-bottom:1em;">The Syllabary</h2>
+	      
+
+	
+        <div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of hoy</a></div>
+	<div class="gallery" style="margin-top:0px;">
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/1.html">ሀ<div class="tile-title">ha</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/2.html">ሁ<div class="tile-title">hu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/3.html">ሂ<div class="tile-title">hi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/4.html">ሃ<div class="tile-title">hā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/5.html">ሄ<div class="tile-title">he</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/6.html">ህ<div class="tile-title">hə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/7.html">ሆ<div class="tile-title">ho</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of lāwi</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/8.html">ለ<div class="tile-title">la</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/9.html">ሉ<div class="tile-title">lu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/10.html">ሊ<div class="tile-title">li</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/11.html">ላ<div class="tile-title">lā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/12.html">ሌ<div class="tile-title">le</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/13.html">ል<div class="tile-title">lə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/14.html">ሎ<div class="tile-title">lo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of ḥawt</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/15.html">ሐ<div class="tile-title">ḥə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/16.html">ሑ<div class="tile-title">ḥu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/17.html">ሒ<div class="tile-title">ḥi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/18.html">ሓ<div class="tile-title">ḥā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/19.html">ሔ<div class="tile-title">ḥe</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/20.html">ሕ<div class="tile-title">ḥə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/21.html">ሖ<div class="tile-title">ḥo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of māy</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/22.html">መ<div class="tile-title">ma</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/23.html">ሙ<div class="tile-title">mu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/24.html">ሚ<div class="tile-title">mi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/25.html">ማ<div class="tile-title">mā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/26.html">ሜ<div class="tile-title">me</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/27.html">ም<div class="tile-title">mə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/28.html">ሞ<div class="tile-title">mo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of šawt</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/29.html">ሠ<div class="tile-title">ša</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/30.html">ሡ<div class="tile-title">šu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/31.html">ሢ<div class="tile-title">ši</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/32.html">ሣ<div class="tile-title">šā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/33.html">ሤ<div class="tile-title">še</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/34.html">ሥ<div class="tile-title">šə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/35.html">ሦ<div class="tile-title">šo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of rəʾəs</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/36.html">ረ<div class="tile-title">ra</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/37.html">ሩ<div class="tile-title">ru</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/38.html">ሪ<div class="tile-title">ri</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/39.html">ራ<div class="tile-title">rā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/40.html">ሬ<div class="tile-title">re</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/41.html">ር<div class="tile-title">rə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/42.html">ሮ<div class="tile-title">ro</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of sāt</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/43.html">ሰ<div class="tile-title">sa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/44.html">ሱ<div class="tile-title">su</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/45.html">ሲ<div class="tile-title">si</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/46.html">ሳ<div class="tile-title">sā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/47.html">ሴ<div class="tile-title">se</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/48.html">ስ<div class="tile-title">sə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/49.html">ሶ<div class="tile-title">so</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of qāf</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/50.html">ቀ<div class="tile-title">qa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/51.html">ቁ<div class="tile-title">qu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/52.html">ቂ<div class="tile-title">qi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/53.html">ቃ<div class="tile-title">qā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/54.html">ቄ<div class="tile-title">qe</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/55.html">ቅ<div class="tile-title">qə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/56.html">ቆ<div class="tile-title">qo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of bet</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/57.html">በ<div class="tile-title">ba</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/58.html">ቡ<div class="tile-title">bu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/59.html">ቢ<div class="tile-title">bi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/60.html">ባ<div class="tile-title">bā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/61.html">ቤ<div class="tile-title">be</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/62.html">ብ<div class="tile-title">bə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/63.html">ቦ<div class="tile-title">bo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of tāw</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/64.html">ተ<div class="tile-title">ta</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/65.html">ቱ<div class="tile-title">tu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/66.html">ቲ<div class="tile-title">ti</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/67.html">ታ<div class="tile-title">tā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/68.html">ቴ<div class="tile-title">te</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/69.html">ት<div class="tile-title">tə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/70.html">ቶ<div class="tile-title">to</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of ḫarm</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/71.html">ኀ<div class="tile-title">ḫa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/72.html">ኁ<div class="tile-title">ḫu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/73.html">ኂ<div class="tile-title">ḫi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/74.html">ኃ<div class="tile-title">ḫa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/75.html">ኄ<div class="tile-title">ḫe</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/76.html">ኅ<div class="tile-title">ḫə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/77.html">ኆ<div class="tile-title">ḫo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of naḥs</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/78.html">ነ<div class="tile-title">na</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/79.html">ኑ<div class="tile-title">nu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/80.html">ኒ<div class="tile-title">ni</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/81.html">ና<div class="tile-title">nā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/82.html">ኔ<div class="tile-title">ne</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/83.html">ን<div class="tile-title">nə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/84.html">ኖ<div class="tile-title">no</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of ʾalf</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/85.html">አ<div class="tile-title">ʾa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/86.html">ኡ<div class="tile-title">ʾu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/87.html">ኢ<div class="tile-title">ʾi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/88.html">ኣ<div class="tile-title">ʾa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/89.html">ኤ<div class="tile-title">ʾe</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/90.html">እ<div class="tile-title">ʾə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/91.html">ኦ<div class="tile-title">ʾo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of kāf</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/92.html">ከ<div class="tile-title">ka</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/93.html">ኩ<div class="tile-title">ku</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/94.html">ኪ<div class="tile-title">ki</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/95.html">ካ<div class="tile-title">kā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/96.html">ኬ<div class="tile-title">ke</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/97.html">ክ<div class="tile-title">kə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/98.html">ኮ<div class="tile-title">ko</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of wawe</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/99.html">ወ<div class="tile-title">wa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/100.html">ዉ<div class="tile-title">wu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/101.html">ዊ<div class="tile-title">wi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/102.html">ዋ<div class="tile-title">wā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/103.html">ዌ<div class="tile-title">we</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/104.html">ው<div class="tile-title">wə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/105.html">ዎ<div class="tile-title">wo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of ʿayn</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/106.html">ዐ<div class="tile-title">ʿa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/107.html">ዑ<div class="tile-title">ʿu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/108.html">ዒ<div class="tile-title">ʿi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/109.html">ዓ<div class="tile-title">ʿa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/110.html">ዔ<div class="tile-title">ʿe</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/111.html">ዕ<div class="tile-title">ʿə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/112.html">ዖ<div class="tile-title">ʿo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of zay</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/113.html">ዘ<div class="tile-title">za</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/114.html">ዙ<div class="tile-title">zu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/115.html">ዚ<div class="tile-title">zi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/116.html">ዛ<div class="tile-title">zā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/117.html">ዜ<div class="tile-title">ze</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/118.html">ዝ<div class="tile-title">zə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/119.html">ዞ<div class="tile-title">zo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of yaman</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/120.html">የ<div class="tile-title">ya</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/121.html">ዩ<div class="tile-title">yu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/122.html">ዪ<div class="tile-title">yi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/123.html">ያ<div class="tile-title">yā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/124.html">ዬ<div class="tile-title">ye</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/125.html">ይ<div class="tile-title">yə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/126.html">ዮ<div class="tile-title">yo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of dənt</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/127.html">ደ<div class="tile-title">da</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/128.html">ዱ<div class="tile-title">du</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/129.html">ዲ<div class="tile-title">di</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/130.html">ዳ<div class="tile-title">dā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/131.html">ዴ<div class="tile-title">de</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/132.html">ድ<div class="tile-title">də</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/133.html">ዶ<div class="tile-title">do</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of gaml</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/134.html">ገ<div class="tile-title">ga</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/135.html">ጉ<div class="tile-title">gu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/136.html">ጊ<div class="tile-title">gi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/137.html">ጋ<div class="tile-title">gā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/138.html">ጌ<div class="tile-title">ge</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/139.html">ግ<div class="tile-title">gə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/140.html">ጎ<div class="tile-title">go</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of ṭayt</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/141.html">ጠ<div class="tile-title">ṭa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/142.html">ጡ<div class="tile-title">ṭu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/143.html">ጢ<div class="tile-title">ṭi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/144.html">ጣ<div class="tile-title">ṭā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/145.html">ጤ<div class="tile-title">ṭe</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/146.html">ጥ<div class="tile-title">ṭə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/147.html">ጦ<div class="tile-title">ṭo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of p̣ayt</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/148.html">ጰ<div class="tile-title">p̣a</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/149.html">ጱ<div class="tile-title">p̣u</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/150.html">ጲ<div class="tile-title">p̣i</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/151.html">ጳ<div class="tile-title">p̣ā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/152.html">ጴ<div class="tile-title">p̣e</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/153.html">ጵ<div class="tile-title">p̣ə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/154.html">ጶ<div class="tile-title">p̣o</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of ṣaday</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/155.html">ጸ<div class="tile-title">ṣa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/156.html">ጹ<div class="tile-title">ṣu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/157.html">ጺ<div class="tile-title">ṣi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/158.html">ጻ<div class="tile-title">ṣā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/159.html">ጼ<div class="tile-title">ṣe</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/160.html">ጽ<div class="tile-title">ṣə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/161.html">ጾ<div class="tile-title">ṣo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of ḍappa</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/162.html">ፀ<div class="tile-title">ḍa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/163.html">ፁ<div class="tile-title">ḍu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/164.html">ፂ<div class="tile-title">ḍi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/165.html">ፃ<div class="tile-title">ḍā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/166.html">ፄ<div class="tile-title">ḍe</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/167.html">ፅ<div class="tile-title">ḍə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/168.html">ፆ<div class="tile-title">ḍo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of ʾaf</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/169.html">ፈ<div class="tile-title">fa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/170.html">ፉ<div class="tile-title">fu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/171.html">ፊ<div class="tile-title">fi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/172.html">ፋ<div class="tile-title">fā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/173.html">ፌ<div class="tile-title">fe</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/174.html">ፍ<div class="tile-title">fə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/175.html">ፎ<div class="tile-title">fo</div></a>
+	    
+	    
+	
+	    </div><div><a href="#" class="setgroup flashcards-open btn active" rel="Variants of hoy">Variants of pəs</a></div><div class="gallery" style="margin-top:0px;">
+	    <a class="tile group" data-hilite="" href="syllables/176.html">ፐ<div class="tile-title">pa</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/177.html">ፑ<div class="tile-title">pu</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/178.html">ፒ<div class="tile-title">pi</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/179.html">ፓ<div class="tile-title">pā</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/180.html">ፔ<div class="tile-title">pe</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/181.html">ፕ<div class="tile-title">pə</div></a>
+	    
+	    
+	
+	    
+	    <a class="tile group" data-hilite="" href="syllables/182.html">ፖ<div class="tile-title">po</div></a>
+	    
+	    
+	
+	</div>
+
+
+  </div> <!-- /.col -->
+
+
+
+</div>
+
+<script>
+
+
+jQuery(document).ready(function(){
+  
+  
+	
+  jQuery(".flashcards-open").click(function(e){
+    var rel = jQuery(this).attr('rel');
+    console.log(rel);
+    current_set = rel;
+    showNext();
+    jQuery('#flashcards').show();
+    e.preventDefault();
+  }); 
+  
+  jQuery(".flashcards-close").click(function(e){
+    jQuery('#flashcards').hide();
+    e.preventDefault();
+  });	
+  	showNext();
+
+});
+</script>
+
+
+
+    </main><section id='footersection'>
+ 
+  <div class="container-fluid" id='footer'>
+    <div class="row">
+      <div class="col-sm-6" style='valign:top;font-size: 0.8em;'>
+        &copy; 2024 Trustees of <a href="https://www.princeton.edu">Princeton University</a> and Hamza Zafer<br />
+      </div>
+
+      <div class="col-sm-6" style="text-align:right;valign:top;">
+	<a href="https://www.princeton.edu"><img src="/ethiopic-alphabet/assets/images/Princeton-logo-transparent.png" height="60"/></a><br />
+      </div>
+    </div>
+
+</section>
+</body>
+
+</html>

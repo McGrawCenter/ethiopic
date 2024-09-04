@@ -19,7 +19,8 @@
 
   
   
-  <link rel="stylesheet" href="/ethiopic-alphabet/assets/css/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="/ethiopic-alphabet/assets/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="/ethiopic-alphabet/assets/css/style.css?v=0.1" type="text/css">
 
   <!-- Favicon
@@ -29,13 +30,18 @@
   <link rel="preload" href="/ethiopic-alphabet/assets/fonts/Brana-Regular.woff" as="font" type="font/woff" crossorigin>
 
   <link rel="stylesheet" href="/ethiopic-alphabet/assets/css/flashcards.css">
+  
+  <script>
+  var cards = {"All":[{"ID":1,"f":"ሀ","b":"ha"},{"ID":2,"f":"ሁ","b":"hu"},{"ID":3,"f":"ሂ","b":"hi"},{"ID":4,"f":"ሃ","b":"hā"},{"ID":5,"f":"ሄ","b":"he"},{"ID":6,"f":"ህ","b":"hə"},{"ID":7,"f":"ሆ","b":"ho"},{"ID":8,"f":"ለ","b":"la"},{"ID":9,"f":"ሉ","b":"lu"},{"ID":10,"f":"ሊ","b":"li"},{"ID":11,"f":"ላ","b":"lā"},{"ID":12,"f":"ሌ","b":"le"},{"ID":13,"f":"ል","b":"lə"},{"ID":14,"f":"ሎ","b":"lo"},{"ID":15,"f":"ሐ","b":"ḥə"},{"ID":16,"f":"ሑ","b":"ḥu"},{"ID":17,"f":"ሒ","b":"ḥi"},{"ID":18,"f":"ሓ","b":"ḥā"},{"ID":19,"f":"ሔ","b":"ḥe"},{"ID":20,"f":"ሕ","b":"ḥə"},{"ID":21,"f":"ሖ","b":"ḥo"},{"ID":22,"f":"መ","b":"ma"},{"ID":23,"f":"ሙ","b":"mu"},{"ID":24,"f":"ሚ","b":"mi"},{"ID":25,"f":"ማ","b":"mā"},{"ID":26,"f":"ሜ","b":"me"},{"ID":27,"f":"ም","b":"mə"},{"ID":28,"f":"ሞ","b":"mo"},{"ID":29,"f":"ሠ","b":"ša"},{"ID":30,"f":"ሡ","b":"šu"},{"ID":31,"f":"ሢ","b":"ši"},{"ID":32,"f":"ሣ","b":"šā"},{"ID":33,"f":"ሤ","b":"še"},{"ID":34,"f":"ሥ","b":"šə"},{"ID":35,"f":"ሦ","b":"šo"},{"ID":36,"f":"ረ","b":"ra"},{"ID":37,"f":"ሩ","b":"ru"},{"ID":38,"f":"ሪ","b":"ri"},{"ID":39,"f":"ራ","b":"rā"},{"ID":40,"f":"ሬ","b":"re"},{"ID":41,"f":"ር","b":"rə"},{"ID":42,"f":"ሮ","b":"ro"},{"ID":43,"f":"ሰ","b":"sa"},{"ID":44,"f":"ሱ","b":"su"},{"ID":45,"f":"ሲ","b":"si"},{"ID":46,"f":"ሳ","b":"sā"},{"ID":47,"f":"ሴ","b":"se"},{"ID":48,"f":"ስ","b":"sə"},{"ID":49,"f":"ሶ","b":"so"},{"ID":50,"f":"ቀ","b":"qa"},{"ID":51,"f":"ቁ","b":"qu"},{"ID":52,"f":"ቂ","b":"qi"},{"ID":53,"f":"ቃ","b":"qā"},{"ID":54,"f":"ቄ","b":"qe"},{"ID":55,"f":"ቅ","b":"qə"},{"ID":56,"f":"ቆ","b":"qo"},{"ID":57,"f":"በ","b":"ba"},{"ID":58,"f":"ቡ","b":"bu"},{"ID":59,"f":"ቢ","b":"bi"},{"ID":60,"f":"ባ","b":"bā"},{"ID":61,"f":"ቤ","b":"be"},{"ID":62,"f":"ብ","b":"bə"},{"ID":63,"f":"ቦ","b":"bo"},{"ID":64,"f":"ተ","b":"ta"},{"ID":65,"f":"ቱ","b":"tu"},{"ID":66,"f":"ቲ","b":"ti"},{"ID":67,"f":"ታ","b":"tā"},{"ID":68,"f":"ቴ","b":"te"},{"ID":69,"f":"ት","b":"tə"},{"ID":70,"f":"ቶ","b":"to"},{"ID":71,"f":"ኀ","b":"ḫa"},{"ID":72,"f":"ኁ","b":"ḫu"},{"ID":73,"f":"ኂ","b":"ḫi"},{"ID":74,"f":"ኃ","b":"ḫa"},{"ID":75,"f":"ኄ","b":"ḫe"},{"ID":76,"f":"ኅ","b":"ḫə"},{"ID":77,"f":"ኆ","b":"ḫo"},{"ID":78,"f":"ነ","b":"na"},{"ID":79,"f":"ኑ","b":"nu"},{"ID":80,"f":"ኒ","b":"ni"},{"ID":81,"f":"ና","b":"nā"},{"ID":82,"f":"ኔ","b":"ne"},{"ID":83,"f":"ን","b":"nə"},{"ID":84,"f":"ኖ","b":"no"},{"ID":85,"f":"አ","b":"ʾa"},{"ID":86,"f":"ኡ","b":"ʾu"},{"ID":87,"f":"ኢ","b":"ʾi"},{"ID":88,"f":"ኣ","b":"ʾa"},{"ID":89,"f":"ኤ","b":"ʾe"},{"ID":90,"f":"እ","b":"ʾə"},{"ID":91,"f":"ኦ","b":"ʾo"},{"ID":92,"f":"ከ","b":"ka"},{"ID":93,"f":"ኩ","b":"ku"},{"ID":94,"f":"ኪ","b":"ki"},{"ID":95,"f":"ካ","b":"kā"},{"ID":96,"f":"ኬ","b":"ke"},{"ID":97,"f":"ክ","b":"kə"},{"ID":98,"f":"ኮ","b":"ko"},{"ID":99,"f":"ወ","b":"wa"},{"ID":100,"f":"ዉ","b":"wu"},{"ID":101,"f":"ዊ","b":"wi"},{"ID":102,"f":"ዋ","b":"wā"},{"ID":103,"f":"ዌ","b":"we"},{"ID":104,"f":"ው","b":"wə"},{"ID":105,"f":"ዎ","b":"wo"},{"ID":106,"f":"ዐ","b":"ʿa"},{"ID":107,"f":"ዑ","b":"ʿu"},{"ID":108,"f":"ዒ","b":"ʿi"},{"ID":109,"f":"ዓ","b":"ʿa"},{"ID":110,"f":"ዔ","b":"ʿe"},{"ID":111,"f":"ዕ","b":"ʿə"},{"ID":112,"f":"ዖ","b":"ʿo"},{"ID":113,"f":"ዘ","b":"za"},{"ID":114,"f":"ዙ","b":"zu"},{"ID":115,"f":"ዚ","b":"zi"},{"ID":116,"f":"ዛ","b":"zā"},{"ID":117,"f":"ዜ","b":"ze"},{"ID":118,"f":"ዝ","b":"zə"},{"ID":119,"f":"ዞ","b":"zo"},{"ID":120,"f":"የ","b":"ya"},{"ID":121,"f":"ዩ","b":"yu"},{"ID":122,"f":"ዪ","b":"yi"},{"ID":123,"f":"ያ","b":"yā"},{"ID":124,"f":"ዬ","b":"ye"},{"ID":125,"f":"ይ","b":"yə"},{"ID":126,"f":"ዮ","b":"yo"},{"ID":127,"f":"ደ","b":"da"},{"ID":128,"f":"ዱ","b":"du"},{"ID":129,"f":"ዲ","b":"di"},{"ID":130,"f":"ዳ","b":"dā"},{"ID":131,"f":"ዴ","b":"de"},{"ID":132,"f":"ድ","b":"də"},{"ID":133,"f":"ዶ","b":"do"},{"ID":134,"f":"ገ","b":"ga"},{"ID":135,"f":"ጉ","b":"gu"},{"ID":136,"f":"ጊ","b":"gi"},{"ID":137,"f":"ጋ","b":"gā"},{"ID":138,"f":"ጌ","b":"ge"},{"ID":139,"f":"ግ","b":"gə"},{"ID":140,"f":"ጎ","b":"go"},{"ID":141,"f":"ጠ","b":"ṭa"},{"ID":142,"f":"ጡ","b":"ṭu"},{"ID":143,"f":"ጢ","b":"ṭi"},{"ID":144,"f":"ጣ","b":"ṭā"},{"ID":145,"f":"ጤ","b":"ṭe"},{"ID":146,"f":"ጥ","b":"ṭə"},{"ID":147,"f":"ጦ","b":"ṭo"},{"ID":148,"f":"ጰ","b":"p̣a"},{"ID":149,"f":"ጱ","b":"p̣u"},{"ID":150,"f":"ጲ","b":"p̣i"},{"ID":151,"f":"ጳ","b":"p̣ā"},{"ID":152,"f":"ጴ","b":"p̣e"},{"ID":153,"f":"ጵ","b":"p̣ə"},{"ID":154,"f":"ጶ","b":"p̣o"},{"ID":155,"f":"ጸ","b":"ṣa"},{"ID":156,"f":"ጹ","b":"ṣu"},{"ID":157,"f":"ጺ","b":"ṣi"},{"ID":158,"f":"ጻ","b":"ṣā"},{"ID":159,"f":"ጼ","b":"ṣe"},{"ID":160,"f":"ጽ","b":"ṣə"},{"ID":161,"f":"ጾ","b":"ṣo"},{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":163,"f":"ፁ","b":"ḍu"},{"ID":164,"f":"ፂ","b":"ḍi"},{"ID":165,"f":"ፃ","b":"ḍā"},{"ID":166,"f":"ፄ","b":"ḍe"},{"ID":167,"f":"ፅ","b":"ḍə"},{"ID":168,"f":"ፆ","b":"ḍo"},{"ID":169,"f":"ፈ","b":"fa"},{"ID":170,"f":"ፉ","b":"fu"},{"ID":171,"f":"ፊ","b":"fi"},{"ID":172,"f":"ፋ","b":"fā"},{"ID":173,"f":"ፌ","b":"fe"},{"ID":174,"f":"ፍ","b":"fə"},{"ID":175,"f":"ፎ","b":"fo"},{"ID":176,"f":"ፐ","b":"pa"},{"ID":177,"f":"ፑ","b":"pu"},{"ID":178,"f":"ፒ","b":"pi"},{"ID":179,"f":"ፓ","b":"pā"},{"ID":180,"f":"ፔ","b":"pe"},{"ID":181,"f":"ፕ","b":"pə"},{"ID":182,"f":"ፖ","b":"po"},{"ID":183,"f":"፡","b":"word break"},{"ID":184,"f":"።","b":"sent. break"},{"ID":185,"f":"፨","b":"para. break"},{"ID":186,"f":"፩","b":"1"},{"ID":187,"f":"፪","b":"2"},{"ID":188,"f":"፫","b":"3"},{"ID":189,"f":"፬","b":"4"},{"ID":190,"f":"፭","b":"5"},{"ID":191,"f":"፮","b":"6"},{"ID":192,"f":"፯","b":"7"},{"ID":193,"f":"፰","b":"8"},{"ID":194,"f":"፱","b":"9"},{"ID":195,"f":"፲","b":"10"},{"ID":196,"f":"፳","b":"20"},{"ID":197,"f":"፴","b":"30"},{"ID":198,"f":"፵","b":"40"},{"ID":199,"f":"፶","b":"50"},{"ID":200,"f":"፷","b":"60"},{"ID":201,"f":"፸","b":"70"},{"ID":202,"f":"፹","b":"80"},{"ID":203,"f":"፺","b":"90"},{"ID":204,"f":"፻","b":"100"},{"ID":205,"f":"፼","b":"10000"}],"Letters":[{"ID":1,"f":"ሀ","b":"ha"},{"ID":8,"f":"ለ","b":"la"},{"ID":15,"f":"ሐ","b":"ḥə"},{"ID":22,"f":"መ","b":"ma"},{"ID":29,"f":"ሠ","b":"ša"},{"ID":36,"f":"ረ","b":"ra"},{"ID":43,"f":"ሰ","b":"sa"},{"ID":50,"f":"ቀ","b":"qa"},{"ID":57,"f":"በ","b":"ba"},{"ID":64,"f":"ተ","b":"ta"},{"ID":71,"f":"ኀ","b":"ḫa"},{"ID":78,"f":"ነ","b":"na"},{"ID":85,"f":"አ","b":"ʾa"},{"ID":92,"f":"ከ","b":"ka"},{"ID":99,"f":"ወ","b":"wa"},{"ID":106,"f":"ዐ","b":"ʿa"},{"ID":113,"f":"ዘ","b":"za"},{"ID":120,"f":"የ","b":"ya"},{"ID":127,"f":"ደ","b":"da"},{"ID":134,"f":"ገ","b":"ga"},{"ID":141,"f":"ጠ","b":"ṭa"},{"ID":148,"f":"ጰ","b":"p̣a"},{"ID":155,"f":"ጸ","b":"ṣa"},{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":169,"f":"ፈ","b":"fa"},{"ID":176,"f":"ፐ","b":"pa"}],"Syllables":[{"ID":1,"f":"ሀ","b":"ha"},{"ID":2,"f":"ሁ","b":"hu"},{"ID":3,"f":"ሂ","b":"hi"},{"ID":4,"f":"ሃ","b":"hā"},{"ID":5,"f":"ሄ","b":"he"},{"ID":6,"f":"ህ","b":"hə"},{"ID":7,"f":"ሆ","b":"ho"},{"ID":8,"f":"ለ","b":"la"},{"ID":9,"f":"ሉ","b":"lu"},{"ID":10,"f":"ሊ","b":"li"},{"ID":11,"f":"ላ","b":"lā"},{"ID":12,"f":"ሌ","b":"le"},{"ID":13,"f":"ል","b":"lə"},{"ID":14,"f":"ሎ","b":"lo"},{"ID":15,"f":"ሐ","b":"ḥə"},{"ID":16,"f":"ሑ","b":"ḥu"},{"ID":17,"f":"ሒ","b":"ḥi"},{"ID":18,"f":"ሓ","b":"ḥā"},{"ID":19,"f":"ሔ","b":"ḥe"},{"ID":20,"f":"ሕ","b":"ḥə"},{"ID":21,"f":"ሖ","b":"ḥo"},{"ID":22,"f":"መ","b":"ma"},{"ID":23,"f":"ሙ","b":"mu"},{"ID":24,"f":"ሚ","b":"mi"},{"ID":25,"f":"ማ","b":"mā"},{"ID":26,"f":"ሜ","b":"me"},{"ID":27,"f":"ም","b":"mə"},{"ID":28,"f":"ሞ","b":"mo"},{"ID":29,"f":"ሠ","b":"ša"},{"ID":30,"f":"ሡ","b":"šu"},{"ID":31,"f":"ሢ","b":"ši"},{"ID":32,"f":"ሣ","b":"šā"},{"ID":33,"f":"ሤ","b":"še"},{"ID":34,"f":"ሥ","b":"šə"},{"ID":35,"f":"ሦ","b":"šo"},{"ID":36,"f":"ረ","b":"ra"},{"ID":37,"f":"ሩ","b":"ru"},{"ID":38,"f":"ሪ","b":"ri"},{"ID":39,"f":"ራ","b":"rā"},{"ID":40,"f":"ሬ","b":"re"},{"ID":41,"f":"ር","b":"rə"},{"ID":42,"f":"ሮ","b":"ro"},{"ID":43,"f":"ሰ","b":"sa"},{"ID":44,"f":"ሱ","b":"su"},{"ID":45,"f":"ሲ","b":"si"},{"ID":46,"f":"ሳ","b":"sā"},{"ID":47,"f":"ሴ","b":"se"},{"ID":48,"f":"ስ","b":"sə"},{"ID":49,"f":"ሶ","b":"so"},{"ID":50,"f":"ቀ","b":"qa"},{"ID":51,"f":"ቁ","b":"qu"},{"ID":52,"f":"ቂ","b":"qi"},{"ID":53,"f":"ቃ","b":"qā"},{"ID":54,"f":"ቄ","b":"qe"},{"ID":55,"f":"ቅ","b":"qə"},{"ID":56,"f":"ቆ","b":"qo"},{"ID":57,"f":"በ","b":"ba"},{"ID":58,"f":"ቡ","b":"bu"},{"ID":59,"f":"ቢ","b":"bi"},{"ID":60,"f":"ባ","b":"bā"},{"ID":61,"f":"ቤ","b":"be"},{"ID":62,"f":"ብ","b":"bə"},{"ID":63,"f":"ቦ","b":"bo"},{"ID":64,"f":"ተ","b":"ta"},{"ID":65,"f":"ቱ","b":"tu"},{"ID":66,"f":"ቲ","b":"ti"},{"ID":67,"f":"ታ","b":"tā"},{"ID":68,"f":"ቴ","b":"te"},{"ID":69,"f":"ት","b":"tə"},{"ID":70,"f":"ቶ","b":"to"},{"ID":71,"f":"ኀ","b":"ḫa"},{"ID":72,"f":"ኁ","b":"ḫu"},{"ID":73,"f":"ኂ","b":"ḫi"},{"ID":74,"f":"ኃ","b":"ḫa"},{"ID":75,"f":"ኄ","b":"ḫe"},{"ID":76,"f":"ኅ","b":"ḫə"},{"ID":77,"f":"ኆ","b":"ḫo"},{"ID":78,"f":"ነ","b":"na"},{"ID":79,"f":"ኑ","b":"nu"},{"ID":80,"f":"ኒ","b":"ni"},{"ID":81,"f":"ና","b":"nā"},{"ID":82,"f":"ኔ","b":"ne"},{"ID":83,"f":"ን","b":"nə"},{"ID":84,"f":"ኖ","b":"no"},{"ID":85,"f":"አ","b":"ʾa"},{"ID":86,"f":"ኡ","b":"ʾu"},{"ID":87,"f":"ኢ","b":"ʾi"},{"ID":88,"f":"ኣ","b":"ʾa"},{"ID":89,"f":"ኤ","b":"ʾe"},{"ID":90,"f":"እ","b":"ʾə"},{"ID":91,"f":"ኦ","b":"ʾo"},{"ID":92,"f":"ከ","b":"ka"},{"ID":93,"f":"ኩ","b":"ku"},{"ID":94,"f":"ኪ","b":"ki"},{"ID":95,"f":"ካ","b":"kā"},{"ID":96,"f":"ኬ","b":"ke"},{"ID":97,"f":"ክ","b":"kə"},{"ID":98,"f":"ኮ","b":"ko"},{"ID":99,"f":"ወ","b":"wa"},{"ID":100,"f":"ዉ","b":"wu"},{"ID":101,"f":"ዊ","b":"wi"},{"ID":102,"f":"ዋ","b":"wā"},{"ID":103,"f":"ዌ","b":"we"},{"ID":104,"f":"ው","b":"wə"},{"ID":105,"f":"ዎ","b":"wo"},{"ID":106,"f":"ዐ","b":"ʿa"},{"ID":107,"f":"ዑ","b":"ʿu"},{"ID":108,"f":"ዒ","b":"ʿi"},{"ID":109,"f":"ዓ","b":"ʿa"},{"ID":110,"f":"ዔ","b":"ʿe"},{"ID":111,"f":"ዕ","b":"ʿə"},{"ID":112,"f":"ዖ","b":"ʿo"},{"ID":113,"f":"ዘ","b":"za"},{"ID":114,"f":"ዙ","b":"zu"},{"ID":115,"f":"ዚ","b":"zi"},{"ID":116,"f":"ዛ","b":"zā"},{"ID":117,"f":"ዜ","b":"ze"},{"ID":118,"f":"ዝ","b":"zə"},{"ID":119,"f":"ዞ","b":"zo"},{"ID":120,"f":"የ","b":"ya"},{"ID":121,"f":"ዩ","b":"yu"},{"ID":122,"f":"ዪ","b":"yi"},{"ID":123,"f":"ያ","b":"yā"},{"ID":124,"f":"ዬ","b":"ye"},{"ID":125,"f":"ይ","b":"yə"},{"ID":126,"f":"ዮ","b":"yo"},{"ID":127,"f":"ደ","b":"da"},{"ID":128,"f":"ዱ","b":"du"},{"ID":129,"f":"ዲ","b":"di"},{"ID":130,"f":"ዳ","b":"dā"},{"ID":131,"f":"ዴ","b":"de"},{"ID":132,"f":"ድ","b":"də"},{"ID":133,"f":"ዶ","b":"do"},{"ID":134,"f":"ገ","b":"ga"},{"ID":135,"f":"ጉ","b":"gu"},{"ID":136,"f":"ጊ","b":"gi"},{"ID":137,"f":"ጋ","b":"gā"},{"ID":138,"f":"ጌ","b":"ge"},{"ID":139,"f":"ግ","b":"gə"},{"ID":140,"f":"ጎ","b":"go"},{"ID":141,"f":"ጠ","b":"ṭa"},{"ID":142,"f":"ጡ","b":"ṭu"},{"ID":143,"f":"ጢ","b":"ṭi"},{"ID":144,"f":"ጣ","b":"ṭā"},{"ID":145,"f":"ጤ","b":"ṭe"},{"ID":146,"f":"ጥ","b":"ṭə"},{"ID":147,"f":"ጦ","b":"ṭo"},{"ID":148,"f":"ጰ","b":"p̣a"},{"ID":149,"f":"ጱ","b":"p̣u"},{"ID":150,"f":"ጲ","b":"p̣i"},{"ID":151,"f":"ጳ","b":"p̣ā"},{"ID":152,"f":"ጴ","b":"p̣e"},{"ID":153,"f":"ጵ","b":"p̣ə"},{"ID":154,"f":"ጶ","b":"p̣o"},{"ID":155,"f":"ጸ","b":"ṣa"},{"ID":156,"f":"ጹ","b":"ṣu"},{"ID":157,"f":"ጺ","b":"ṣi"},{"ID":158,"f":"ጻ","b":"ṣā"},{"ID":159,"f":"ጼ","b":"ṣe"},{"ID":160,"f":"ጽ","b":"ṣə"},{"ID":161,"f":"ጾ","b":"ṣo"},{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":163,"f":"ፁ","b":"ḍu"},{"ID":164,"f":"ፂ","b":"ḍi"},{"ID":165,"f":"ፃ","b":"ḍā"},{"ID":166,"f":"ፄ","b":"ḍe"},{"ID":167,"f":"ፅ","b":"ḍə"},{"ID":168,"f":"ፆ","b":"ḍo"},{"ID":169,"f":"ፈ","b":"fa"},{"ID":170,"f":"ፉ","b":"fu"},{"ID":171,"f":"ፊ","b":"fi"},{"ID":172,"f":"ፋ","b":"fā"},{"ID":173,"f":"ፌ","b":"fe"},{"ID":174,"f":"ፍ","b":"fə"},{"ID":175,"f":"ፎ","b":"fo"},{"ID":176,"f":"ፐ","b":"pa"},{"ID":177,"f":"ፑ","b":"pu"},{"ID":178,"f":"ፒ","b":"pi"},{"ID":179,"f":"ፓ","b":"pā"},{"ID":180,"f":"ፔ","b":"pe"},{"ID":181,"f":"ፕ","b":"pə"},{"ID":182,"f":"ፖ","b":"po"}],"Sitting":[{"ID":1,"f":"ሀ","b":"ha"},{"ID":22,"f":"መ","b":"ma"},{"ID":29,"f":"ሠ","b":"ša"},{"ID":36,"f":"ረ","b":"ra"},{"ID":99,"f":"ወ","b":"wa"},{"ID":106,"f":"ዐ","b":"ʿa"},{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":169,"f":"ፈ","b":"fa"}],"1-legged":[{"ID":50,"f":"ቀ","b":"qa"},{"ID":64,"f":"ተ","b":"ta"},{"ID":71,"f":"ኀ","b":"ḫa"},{"ID":78,"f":"ነ","b":"na"},{"ID":120,"f":"የ","b":"ya"},{"ID":134,"f":"ገ","b":"ga"},{"ID":176,"f":"ፐ","b":"pa"}],"2-legged":[{"ID":8,"f":"ለ","b":"la"},{"ID":43,"f":"ሰ","b":"sa"},{"ID":57,"f":"በ","b":"ba"},{"ID":85,"f":"አ","b":"ʾa"},{"ID":92,"f":"ከ","b":"ka"},{"ID":113,"f":"ዘ","b":"za"},{"ID":127,"f":"ደ","b":"da"},{"ID":148,"f":"ጰ","b":"p̣a"},{"ID":155,"f":"ጸ","b":"ṣa"}],"3-legged":[{"ID":15,"f":"ሐ","b":"ḥə"},{"ID":141,"f":"ጠ","b":"ṭa"}],"Variants of hoy":[{"ID":1,"f":"ሀ","b":"ha"},{"ID":2,"f":"ሁ","b":"hu"},{"ID":3,"f":"ሂ","b":"hi"},{"ID":4,"f":"ሃ","b":"hā"},{"ID":5,"f":"ሄ","b":"he"},{"ID":6,"f":"ህ","b":"hə"},{"ID":7,"f":"ሆ","b":"ho"}],"Variants of lāwi":[{"ID":8,"f":"ለ","b":"la"},{"ID":9,"f":"ሉ","b":"lu"},{"ID":10,"f":"ሊ","b":"li"},{"ID":11,"f":"ላ","b":"lā"},{"ID":12,"f":"ሌ","b":"le"},{"ID":13,"f":"ል","b":"lə"},{"ID":14,"f":"ሎ","b":"lo"}],"Variants of ḥawt":[{"ID":15,"f":"ሐ","b":"ḥə"},{"ID":16,"f":"ሑ","b":"ḥu"},{"ID":17,"f":"ሒ","b":"ḥi"},{"ID":18,"f":"ሓ","b":"ḥā"},{"ID":19,"f":"ሔ","b":"ḥe"},{"ID":20,"f":"ሕ","b":"ḥə"},{"ID":21,"f":"ሖ","b":"ḥo"}],"Variants of māy":[{"ID":22,"f":"መ","b":"ma"},{"ID":23,"f":"ሙ","b":"mu"},{"ID":24,"f":"ሚ","b":"mi"},{"ID":25,"f":"ማ","b":"mā"},{"ID":26,"f":"ሜ","b":"me"},{"ID":27,"f":"ም","b":"mə"},{"ID":28,"f":"ሞ","b":"mo"}],"Variants of šawt":[{"ID":29,"f":"ሠ","b":"ša"},{"ID":30,"f":"ሡ","b":"šu"},{"ID":31,"f":"ሢ","b":"ši"},{"ID":32,"f":"ሣ","b":"šā"},{"ID":33,"f":"ሤ","b":"še"},{"ID":34,"f":"ሥ","b":"šə"},{"ID":35,"f":"ሦ","b":"šo"}],"Variants of rəʾəs":[{"ID":36,"f":"ረ","b":"ra"},{"ID":37,"f":"ሩ","b":"ru"},{"ID":38,"f":"ሪ","b":"ri"},{"ID":39,"f":"ራ","b":"rā"},{"ID":40,"f":"ሬ","b":"re"},{"ID":41,"f":"ር","b":"rə"},{"ID":42,"f":"ሮ","b":"ro"}],"Variants of sāt":[{"ID":43,"f":"ሰ","b":"sa"},{"ID":44,"f":"ሱ","b":"su"},{"ID":45,"f":"ሲ","b":"si"},{"ID":46,"f":"ሳ","b":"sā"},{"ID":47,"f":"ሴ","b":"se"},{"ID":48,"f":"ስ","b":"sə"},{"ID":49,"f":"ሶ","b":"so"}],"Variants of qāf":[{"ID":50,"f":"ቀ","b":"qa"},{"ID":51,"f":"ቁ","b":"qu"},{"ID":52,"f":"ቂ","b":"qi"},{"ID":53,"f":"ቃ","b":"qā"},{"ID":54,"f":"ቄ","b":"qe"},{"ID":55,"f":"ቅ","b":"qə"},{"ID":56,"f":"ቆ","b":"qo"}],"Variants of bet":[{"ID":57,"f":"በ","b":"ba"},{"ID":58,"f":"ቡ","b":"bu"},{"ID":59,"f":"ቢ","b":"bi"},{"ID":60,"f":"ባ","b":"bā"},{"ID":61,"f":"ቤ","b":"be"},{"ID":62,"f":"ብ","b":"bə"},{"ID":63,"f":"ቦ","b":"bo"}],"Variants of tāw":[{"ID":64,"f":"ተ","b":"ta"},{"ID":65,"f":"ቱ","b":"tu"},{"ID":66,"f":"ቲ","b":"ti"},{"ID":67,"f":"ታ","b":"tā"},{"ID":68,"f":"ቴ","b":"te"},{"ID":69,"f":"ት","b":"tə"},{"ID":70,"f":"ቶ","b":"to"}],"Variants of ḫarm":[{"ID":71,"f":"ኀ","b":"ḫa"},{"ID":72,"f":"ኁ","b":"ḫu"},{"ID":73,"f":"ኂ","b":"ḫi"},{"ID":74,"f":"ኃ","b":"ḫa"},{"ID":75,"f":"ኄ","b":"ḫe"},{"ID":76,"f":"ኅ","b":"ḫə"},{"ID":77,"f":"ኆ","b":"ḫo"}],"Variants of naḥs":[{"ID":78,"f":"ነ","b":"na"},{"ID":79,"f":"ኑ","b":"nu"},{"ID":80,"f":"ኒ","b":"ni"},{"ID":81,"f":"ና","b":"nā"},{"ID":82,"f":"ኔ","b":"ne"},{"ID":83,"f":"ን","b":"nə"},{"ID":84,"f":"ኖ","b":"no"}],"Variants of ʾalf":[{"ID":85,"f":"አ","b":"ʾa"},{"ID":86,"f":"ኡ","b":"ʾu"},{"ID":87,"f":"ኢ","b":"ʾi"},{"ID":88,"f":"ኣ","b":"ʾa"},{"ID":89,"f":"ኤ","b":"ʾe"},{"ID":90,"f":"እ","b":"ʾə"},{"ID":91,"f":"ኦ","b":"ʾo"}],"Variants of kāf":[{"ID":92,"f":"ከ","b":"ka"},{"ID":93,"f":"ኩ","b":"ku"},{"ID":94,"f":"ኪ","b":"ki"},{"ID":95,"f":"ካ","b":"kā"},{"ID":96,"f":"ኬ","b":"ke"},{"ID":97,"f":"ክ","b":"kə"},{"ID":98,"f":"ኮ","b":"ko"}],"Variants of wawe":[{"ID":99,"f":"ወ","b":"wa"},{"ID":100,"f":"ዉ","b":"wu"},{"ID":101,"f":"ዊ","b":"wi"},{"ID":102,"f":"ዋ","b":"wā"},{"ID":103,"f":"ዌ","b":"we"},{"ID":104,"f":"ው","b":"wə"},{"ID":105,"f":"ዎ","b":"wo"}],"Variants of ʿayn":[{"ID":106,"f":"ዐ","b":"ʿa"},{"ID":107,"f":"ዑ","b":"ʿu"},{"ID":108,"f":"ዒ","b":"ʿi"},{"ID":109,"f":"ዓ","b":"ʿa"},{"ID":110,"f":"ዔ","b":"ʿe"},{"ID":111,"f":"ዕ","b":"ʿə"},{"ID":112,"f":"ዖ","b":"ʿo"}],"Variants of zay":[{"ID":113,"f":"ዘ","b":"za"},{"ID":114,"f":"ዙ","b":"zu"},{"ID":115,"f":"ዚ","b":"zi"},{"ID":116,"f":"ዛ","b":"zā"},{"ID":117,"f":"ዜ","b":"ze"},{"ID":118,"f":"ዝ","b":"zə"},{"ID":119,"f":"ዞ","b":"zo"}],"Variants of yaman":[{"ID":120,"f":"የ","b":"ya"},{"ID":121,"f":"ዩ","b":"yu"},{"ID":122,"f":"ዪ","b":"yi"},{"ID":123,"f":"ያ","b":"yā"},{"ID":124,"f":"ዬ","b":"ye"},{"ID":125,"f":"ይ","b":"yə"},{"ID":126,"f":"ዮ","b":"yo"}],"Variants of dənt":[{"ID":127,"f":"ደ","b":"da"},{"ID":128,"f":"ዱ","b":"du"},{"ID":129,"f":"ዲ","b":"di"},{"ID":130,"f":"ዳ","b":"dā"},{"ID":131,"f":"ዴ","b":"de"},{"ID":132,"f":"ድ","b":"də"},{"ID":133,"f":"ዶ","b":"do"}],"Variants of gaml":[{"ID":134,"f":"ገ","b":"ga"},{"ID":135,"f":"ጉ","b":"gu"},{"ID":136,"f":"ጊ","b":"gi"},{"ID":137,"f":"ጋ","b":"gā"},{"ID":138,"f":"ጌ","b":"ge"},{"ID":139,"f":"ግ","b":"gə"},{"ID":140,"f":"ጎ","b":"go"}],"Variants of ṭayt":[{"ID":141,"f":"ጠ","b":"ṭa"},{"ID":142,"f":"ጡ","b":"ṭu"},{"ID":143,"f":"ጢ","b":"ṭi"},{"ID":144,"f":"ጣ","b":"ṭā"},{"ID":145,"f":"ጤ","b":"ṭe"},{"ID":146,"f":"ጥ","b":"ṭə"},{"ID":147,"f":"ጦ","b":"ṭo"}],"Variants of p̣ayt":[{"ID":148,"f":"ጰ","b":"p̣a"},{"ID":149,"f":"ጱ","b":"p̣u"},{"ID":150,"f":"ጲ","b":"p̣i"},{"ID":151,"f":"ጳ","b":"p̣ā"},{"ID":152,"f":"ጴ","b":"p̣e"},{"ID":153,"f":"ጵ","b":"p̣ə"},{"ID":154,"f":"ጶ","b":"p̣o"}],"Variants of ṣaday":[{"ID":155,"f":"ጸ","b":"ṣa"},{"ID":156,"f":"ጹ","b":"ṣu"},{"ID":157,"f":"ጺ","b":"ṣi"},{"ID":158,"f":"ጻ","b":"ṣā"},{"ID":159,"f":"ጼ","b":"ṣe"},{"ID":160,"f":"ጽ","b":"ṣə"},{"ID":161,"f":"ጾ","b":"ṣo"}],"Variants of ḍappa":[{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":163,"f":"ፁ","b":"ḍu"},{"ID":164,"f":"ፂ","b":"ḍi"},{"ID":165,"f":"ፃ","b":"ḍā"},{"ID":166,"f":"ፄ","b":"ḍe"},{"ID":167,"f":"ፅ","b":"ḍə"},{"ID":168,"f":"ፆ","b":"ḍo"}],"Variants of ʾaf":[{"ID":169,"f":"ፈ","b":"fa"},{"ID":170,"f":"ፉ","b":"fu"},{"ID":171,"f":"ፊ","b":"fi"},{"ID":172,"f":"ፋ","b":"fā"},{"ID":173,"f":"ፌ","b":"fe"},{"ID":174,"f":"ፍ","b":"fə"},{"ID":175,"f":"ፎ","b":"fo"}],"Variants of pəs":[{"ID":176,"f":"ፐ","b":"pa"},{"ID":177,"f":"ፑ","b":"pu"},{"ID":178,"f":"ፒ","b":"pi"},{"ID":179,"f":"ፓ","b":"pā"},{"ID":180,"f":"ፔ","b":"pe"},{"ID":181,"f":"ፕ","b":"pə"},{"ID":182,"f":"ፖ","b":"po"}],"Punctuation":[{"ID":183,"f":"፡","b":"word break"},{"ID":184,"f":"።","b":"sent. break"},{"ID":185,"f":"፨","b":"para. break"}],"Numerals":[{"ID":186,"f":"፩","b":"1"},{"ID":187,"f":"፪","b":"2"},{"ID":188,"f":"፫","b":"3"},{"ID":189,"f":"፬","b":"4"},{"ID":190,"f":"፭","b":"5"},{"ID":191,"f":"፮","b":"6"},{"ID":192,"f":"፯","b":"7"},{"ID":193,"f":"፰","b":"8"},{"ID":194,"f":"፱","b":"9"},{"ID":195,"f":"፲","b":"10"},{"ID":196,"f":"፳","b":"20"},{"ID":197,"f":"፴","b":"30"},{"ID":198,"f":"፵","b":"40"},{"ID":199,"f":"፶","b":"50"},{"ID":200,"f":"፷","b":"60"},{"ID":201,"f":"፸","b":"70"},{"ID":202,"f":"፹","b":"80"},{"ID":203,"f":"፺","b":"90"},{"ID":204,"f":"፻","b":"100"},{"ID":205,"f":"፼","b":"10000"}]};
+  var current_set = 'All';
+  </script>
 
   <script src="/ethiopic-alphabet/assets/js/flashcards.js"></script>
+  
+ 
 
 </head>
 <body>
-  
- 
   <div id="flashcards">
     <div id="mydiv">
       <div class="top">
@@ -53,7 +59,7 @@
     <nav class="navbar">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/ethiopic-alphabet/" style="font-weight:bold;color:black;text-transform:uppercase;letter-spacing:4px;">Ge'ez alphabet</a>
+          <a class="navbar-brand" href="/ethiopic-alphabet/" style="font-weight:bold;color:black;text-transform:uppercase;letter-spacing:4px;">THE GE'EZ SCRIPT</a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -67,31 +73,30 @@
         <div id="navbar" class="navbar-collapse collapse">
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="/ethiopic-alphabet/index.html">Home</a></li>
+            <li><a href="/ethiopic-alphabet/letters.html">The Letters</a></li>
+            <li><a href="/ethiopic-alphabet/syllabary.html">The Syllabary</a></li>
+            <li><a href="/ethiopic-alphabet/numerals.html">The Numerals</a></li>
+            <li><a href="/ethiopic-alphabet/history.html">The History</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 </section>
 
+
 <main class="container main-content" aria-label="Content">
 
 
 
-<div class='row' style='margin-top:2em;'>
 
-    <div class='col-sm-12' id="nextprev">
-<a href='161.html'>Previous</a><a href='163'>Next</a>
-    </div>
 
-</div>
 
 
 <div class='row'>
 
     <div class='col-sm-3'>
-	<h2 class='page-title'>ፀ ḍa</h2>
+	<h2 class='page-title'>ፀ <span style='font-size:0.5em;'>ḍa</span></h2>
     </div>
     
     <div class='col-sm-9'>
@@ -428,78 +433,32 @@
 
    
      
-      <h2 class='variants'><a href='163'>ፁ</a></h2>
+      <h2 class='variants'><a href='163.html'>ፁ</a></h2>
    
 
    
      
-      <h2 class='variants'><a href='164'>ፂ</a></h2>
+      <h2 class='variants'><a href='164.html'>ፂ</a></h2>
    
 
    
      
-      <h2 class='variants'><a href='165'>ፃ</a></h2>
+      <h2 class='variants'><a href='165.html'>ፃ</a></h2>
    
 
    
      
-      <h2 class='variants'><a href='166'>ፄ</a></h2>
+      <h2 class='variants'><a href='166.html'>ፄ</a></h2>
    
 
    
      
-      <h2 class='variants'><a href='167'>ፅ</a></h2>
+      <h2 class='variants'><a href='167.html'>ፅ</a></h2>
    
 
    
      
-      <h2 class='variants'><a href='168'>ፆ</a></h2>
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
+      <h2 class='variants'><a href='168.html'>ፆ</a></h2>
    
 
    
@@ -543,92 +502,38 @@
     <div class='col-sm-6'>
 	<div id="animation-viewer">
 	<div class="toolbar">
-	  <a href='#' class='set_hand btn active' rel='script'>Script</a>
-	  <a href='#' class='set_hand btn' rel='cursive'>Cursive</a>
+	  <a href='#' class='set_hand script btn active' rel='scribal' data-id='162'>Script</a>
+	  <a href='#' class='set_hand cursive btn' rel='cursive' data-id='162'>Cursive</a>
 	  <a href='#' class="replay"><img src="../assets/images/arrow-repeat.svg" class='icon'/></a>
 	</div>
-	<div class="animation"><img src="../assets/images/animations/10-ሊ.gif" title='Sabaic, "inscriptional" precursor' alt='Sabaic, "inscriptional" precursor'/></div>
+	<div class="animation"><img src="../assets/images/animations/scribal/162.gif" title='' alt=''/></div>
 	</div>
     </div>
     
     <div class='col-sm-6'>
 
     	<div id='image-gallery'>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/01.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/02.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/03.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/04.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/05.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/06.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/07.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/08.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/09.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/10.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/11.jpg"/></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src="../assets/images/letters/12.jpg"/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src='../assets/images/letters/01.jpg'/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src='../assets/images/letters/02.jpg'/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src='../assets/images/letters/03.jpg'/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src='../assets/images/letters/04.jpg'/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src='../assets/images/letters/05.jpg'/></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src='../assets/images/letters/06.jpg'/></div></div>
 	</div>
 
 
-<a href="#" class="flashcards-open">Flashcards</a>
-
-
 
     </div>
-   
-<div class='row' style='margin-top:2em;'>
-
-    <div class='col-sm-12'>
-
-     <h2>Groups</h2>
-     
-      <p>This letter appears in the following groups:</p>
-
-      <script>
-       var cards = [];
-       
-           cards['Consonants'] = [{"ID":1,"f":"ሀ","b":"ha"},{"ID":8,"f":"ለ","b":"la"},{"ID":15,"f":"ሐ","b":"ḥə"},{"ID":22,"f":"መ","b":"ma"},{"ID":29,"f":"ሠ","b":"ša"},{"ID":36,"f":"ረ","b":"ra"},{"ID":43,"f":"ሰ","b":"sa"},{"ID":50,"f":"ቀ","b":"qa"},{"ID":57,"f":"በ","b":"ba"},{"ID":64,"f":"ተ","b":"ta"},{"ID":71,"f":"ኀ","b":"ḫa"},{"ID":78,"f":"ነ","b":"na"},{"ID":85,"f":"አ","b":"ʾa"},{"ID":92,"f":"ከ","b":"ka"},{"ID":99,"f":"ወ","b":"wa"},{"ID":106,"f":"ዐ","b":"ʿa"},{"ID":113,"f":"ዘ","b":"za"},{"ID":120,"f":"የ","b":"ya"},{"ID":127,"f":"ደ","b":"da"},{"ID":134,"f":"ገ","b":"ga"},{"ID":141,"f":"ጠ","b":"ṭa"},{"ID":148,"f":"ጰ","b":"p̣a"},{"ID":155,"f":"ጸ","b":"ṣa"},{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":169,"f":"ፈ","b":"fa"},{"ID":176,"f":"ፐ","b":"pa"}]
-       
-           cards['Syllables'] = [{"ID":1,"f":"ሀ","b":"ha"},{"ID":2,"f":"ሁ","b":"hu"},{"ID":3,"f":"ሂ","b":"hi"},{"ID":4,"f":"ሃ","b":"hā"},{"ID":5,"f":"ሄ","b":"he"},{"ID":6,"f":"ህ","b":"hə"},{"ID":7,"f":"ሆ","b":"ho"},{"ID":8,"f":"ለ","b":"la"},{"ID":9,"f":"ሉ","b":"lu"},{"ID":10,"f":"ሊ","b":"li"},{"ID":11,"f":"ላ","b":"lā"},{"ID":12,"f":"ሌ","b":"le"},{"ID":13,"f":"ል","b":"lə"},{"ID":14,"f":"ሎ","b":"lo"},{"ID":15,"f":"ሐ","b":"ḥə"},{"ID":16,"f":"ሑ","b":"ḥu"},{"ID":17,"f":"ሒ","b":"ḥi"},{"ID":18,"f":"ሓ","b":"ḥā"},{"ID":19,"f":"ሔ","b":"ḥe"},{"ID":20,"f":"ሕ","b":"ḥə"},{"ID":21,"f":"ሖ","b":"ḥo"},{"ID":22,"f":"መ","b":"ma"},{"ID":23,"f":"ሙ","b":"mu"},{"ID":24,"f":"ሚ","b":"mi"},{"ID":25,"f":"ማ","b":"mā"},{"ID":26,"f":"ሜ","b":"me"},{"ID":27,"f":"ም","b":"mə"},{"ID":28,"f":"ሞ","b":"mo"},{"ID":29,"f":"ሠ","b":"ša"},{"ID":30,"f":"ሡ","b":"šu"},{"ID":31,"f":"ሢ","b":"ši"},{"ID":32,"f":"ሣ","b":"šā"},{"ID":33,"f":"ሤ","b":"še"},{"ID":34,"f":"ሥ","b":"šə"},{"ID":35,"f":"ሦ","b":"šo"},{"ID":36,"f":"ረ","b":"ra"},{"ID":37,"f":"ሩ","b":"ru"},{"ID":38,"f":"ሪ","b":"ri"},{"ID":39,"f":"ራ","b":"rā"},{"ID":40,"f":"ሬ","b":"re"},{"ID":41,"f":"ር","b":"rə"},{"ID":42,"f":"ሮ","b":"ro"},{"ID":43,"f":"ሰ","b":"sa"},{"ID":44,"f":"ሱ","b":"su"},{"ID":45,"f":"ሲ","b":"si"},{"ID":46,"f":"ሳ","b":"sā"},{"ID":47,"f":"ሴ","b":"se"},{"ID":48,"f":"ስ","b":"sə"},{"ID":49,"f":"ሶ","b":"so"},{"ID":50,"f":"ቀ","b":"qa"},{"ID":51,"f":"ቁ","b":"qu"},{"ID":52,"f":"ቂ","b":"qi"},{"ID":53,"f":"ቃ","b":"qā"},{"ID":54,"f":"ቄ","b":"qe"},{"ID":55,"f":"ቅ","b":"qə"},{"ID":56,"f":"ቆ","b":"qo"},{"ID":57,"f":"በ","b":"ba"},{"ID":58,"f":"ቡ","b":"bu"},{"ID":59,"f":"ቢ","b":"bi"},{"ID":60,"f":"ባ","b":"bā"},{"ID":61,"f":"ቤ","b":"be"},{"ID":62,"f":"ብ","b":"bə"},{"ID":63,"f":"ቦ","b":"bo"},{"ID":64,"f":"ተ","b":"ta"},{"ID":65,"f":"ቱ","b":"tu"},{"ID":66,"f":"ቲ","b":"ti"},{"ID":67,"f":"ታ","b":"tā"},{"ID":68,"f":"ቴ","b":"te"},{"ID":69,"f":"ት","b":"tə"},{"ID":70,"f":"ቶ","b":"to"},{"ID":71,"f":"ኀ","b":"ḫa"},{"ID":72,"f":"ኁ","b":"ḫu"},{"ID":73,"f":"ኂ","b":"ḫi"},{"ID":74,"f":"ኃ","b":"ḫa"},{"ID":75,"f":"ኄ","b":"ḫe"},{"ID":76,"f":"ኅ","b":"ḫə"},{"ID":77,"f":"ኆ","b":"ḫo"},{"ID":78,"f":"ነ","b":"na"},{"ID":79,"f":"ኑ","b":"nu"},{"ID":80,"f":"ኒ","b":"ni"},{"ID":81,"f":"ና","b":"nā"},{"ID":82,"f":"ኔ","b":"ne"},{"ID":83,"f":"ን","b":"nə"},{"ID":84,"f":"ኖ","b":"no"},{"ID":85,"f":"አ","b":"ʾa"},{"ID":86,"f":"ኡ","b":"ʾu"},{"ID":87,"f":"ኢ","b":"ʾi"},{"ID":88,"f":"ኣ","b":"ʾa"},{"ID":89,"f":"ኤ","b":"ʾe"},{"ID":90,"f":"እ","b":"ʾə"},{"ID":91,"f":"ኦ","b":"ʾo"},{"ID":92,"f":"ከ","b":"ka"},{"ID":93,"f":"ኩ","b":"ku"},{"ID":94,"f":"ኪ","b":"ki"},{"ID":95,"f":"ካ","b":"kā"},{"ID":96,"f":"ኬ","b":"ke"},{"ID":97,"f":"ክ","b":"kə"},{"ID":98,"f":"ኮ","b":"ko"},{"ID":99,"f":"ወ","b":"wa"},{"ID":100,"f":"ዉ","b":"wu"},{"ID":101,"f":"ዊ","b":"wi"},{"ID":102,"f":"ዋ","b":"wā"},{"ID":103,"f":"ዌ","b":"we"},{"ID":104,"f":"ው","b":"wə"},{"ID":105,"f":"ዎ","b":"wo"},{"ID":106,"f":"ዐ","b":"ʿa"},{"ID":107,"f":"ዑ","b":"ʿu"},{"ID":108,"f":"ዒ","b":"ʿi"},{"ID":109,"f":"ዓ","b":"ʿa"},{"ID":110,"f":"ዔ","b":"ʿe"},{"ID":111,"f":"ዕ","b":"ʿə"},{"ID":112,"f":"ዖ","b":"ʿo"},{"ID":113,"f":"ዘ","b":"za"},{"ID":114,"f":"ዙ","b":"zu"},{"ID":115,"f":"ዚ","b":"zi"},{"ID":116,"f":"ዛ","b":"zā"},{"ID":117,"f":"ዜ","b":"ze"},{"ID":118,"f":"ዝ","b":"zə"},{"ID":119,"f":"ዞ","b":"zo"},{"ID":120,"f":"የ","b":"ya"},{"ID":121,"f":"ዩ","b":"yu"},{"ID":122,"f":"ዪ","b":"yi"},{"ID":123,"f":"ያ","b":"yā"},{"ID":124,"f":"ዬ","b":"ye"},{"ID":125,"f":"ይ","b":"yə"},{"ID":126,"f":"ዮ","b":"yo"},{"ID":127,"f":"ደ","b":"da"},{"ID":128,"f":"ዱ","b":"du"},{"ID":129,"f":"ዲ","b":"di"},{"ID":130,"f":"ዳ","b":"dā"},{"ID":131,"f":"ዴ","b":"de"},{"ID":132,"f":"ድ","b":"də"},{"ID":133,"f":"ዶ","b":"do"},{"ID":134,"f":"ገ","b":"ga"},{"ID":135,"f":"ጉ","b":"gu"},{"ID":136,"f":"ጊ","b":"gi"},{"ID":137,"f":"ጋ","b":"gā"},{"ID":138,"f":"ጌ","b":"ge"},{"ID":139,"f":"ግ","b":"gə"},{"ID":140,"f":"ጎ","b":"go"},{"ID":141,"f":"ጠ","b":"ṭa"},{"ID":142,"f":"ጡ","b":"ṭu"},{"ID":143,"f":"ጢ","b":"ṭi"},{"ID":144,"f":"ጣ","b":"ṭā"},{"ID":145,"f":"ጤ","b":"ṭe"},{"ID":146,"f":"ጥ","b":"ṭə"},{"ID":147,"f":"ጦ","b":"ṭo"},{"ID":148,"f":"ጰ","b":"p̣a"},{"ID":149,"f":"ጱ","b":"p̣u"},{"ID":150,"f":"ጲ","b":"p̣i"},{"ID":151,"f":"ጳ","b":"p̣ā"},{"ID":152,"f":"ጴ","b":"p̣e"},{"ID":153,"f":"ጵ","b":"p̣ə"},{"ID":154,"f":"ጶ","b":"p̣o"},{"ID":155,"f":"ጸ","b":"ṣa"},{"ID":156,"f":"ጹ","b":"ṣu"},{"ID":157,"f":"ጺ","b":"ṣi"},{"ID":158,"f":"ጻ","b":"ṣā"},{"ID":159,"f":"ጼ","b":"ṣe"},{"ID":160,"f":"ጽ","b":"ṣə"},{"ID":161,"f":"ጾ","b":"ṣo"},{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":163,"f":"ፁ","b":"ḍu"},{"ID":164,"f":"ፂ","b":"ḍi"},{"ID":165,"f":"ፃ","b":"ḍā"},{"ID":166,"f":"ፄ","b":"ḍe"},{"ID":167,"f":"ፅ","b":"ḍə"},{"ID":168,"f":"ፆ","b":"ḍo"},{"ID":169,"f":"ፈ","b":"fa"},{"ID":170,"f":"ፉ","b":"fu"},{"ID":171,"f":"ፊ","b":"fi"},{"ID":172,"f":"ፋ","b":"fā"},{"ID":173,"f":"ፌ","b":"fe"},{"ID":174,"f":"ፍ","b":"fə"},{"ID":175,"f":"ፎ","b":"fo"},{"ID":176,"f":"ፐ","b":"pa"},{"ID":177,"f":"ፑ","b":"pu"},{"ID":178,"f":"ፒ","b":"pi"},{"ID":179,"f":"ፓ","b":"pā"},{"ID":180,"f":"ፔ","b":"pe"},{"ID":181,"f":"ፕ","b":"pə"},{"ID":182,"f":"ፖ","b":"po"}]
-       
-           cards['Sitting'] = [{"ID":1,"f":"ሀ","b":"ha"},{"ID":22,"f":"መ","b":"ma"},{"ID":29,"f":"ሠ","b":"ša"},{"ID":36,"f":"ረ","b":"ra"},{"ID":99,"f":"ወ","b":"wa"},{"ID":106,"f":"ዐ","b":"ʿa"},{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":169,"f":"ፈ","b":"fa"}]
-       
-           cards['Variants of ḍappa'] = [{"ID":162,"f":"ፀ","b":"ḍa"},{"ID":163,"f":"ፁ","b":"ḍu"},{"ID":164,"f":"ፂ","b":"ḍi"},{"ID":165,"f":"ፃ","b":"ḍā"},{"ID":166,"f":"ፄ","b":"ḍe"},{"ID":167,"f":"ፅ","b":"ḍə"},{"ID":168,"f":"ፆ","b":"ḍo"}]
-       
-      </script>
-
-       
-            <h3>Consonants (<a href="#" class="flashcards-open" rel="Consonants">flashcards</a>)</h3>
-       
-            <h3>Syllables (<a href="#" class="flashcards-open" rel="Syllables">flashcards</a>)</h3>
-       
-            <h3>Sitting (<a href="#" class="flashcards-open" rel="Sitting">flashcards</a>)</h3>
-       
-            <h3>Variants of ḍappa (<a href="#" class="flashcards-open" rel="Variants of ḍappa">flashcards</a>)</h3>
-       
-    </div>
-    
-    
 </div>
 
-<script>
+<div class='row' style='margin-top:1em;'>
 
-  var current_set = 'syllables';
-	
-  jQuery(".flashcards-open").click(function(e){
-    var rel = jQuery(this).attr('rel');
-    current_set = rel;
-    showNext();
-    window.scrollTo(0,0);
-    jQuery('#flashcards').show();
-    e.preventDefault();
-  }); 
-  
-  jQuery(".flashcards-close").click(function(e){
-    jQuery('#flashcards').hide();
-    e.preventDefault();
-  });	
-  	showNext();
-</script>
+    <div class='col-sm-12' id="nextprev">
+<a class='btn active' href='161.html'>Previous</a><a class='btn active' href='163.html'>Next</a>
+    </div>
+
+</div>
+
 
     </main><section id='footersection'>
  
