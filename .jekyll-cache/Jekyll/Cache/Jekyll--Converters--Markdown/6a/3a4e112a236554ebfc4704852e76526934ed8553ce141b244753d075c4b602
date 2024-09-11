@@ -1,0 +1,83 @@
+I"�<div class="row">
+
+  <div class="col-sm-12">
+
+      <h2 style="margin-bottom:1em;">The Numerals</h2>
+      
+      <p>Geʽez numerals, called ኍለቍ (ḫwəlaqwə), are an alphanumeric system likely derived from Coptic uncial letters. Numerals are always bracketed by strokes placed above and below.</p>
+
+<div class="gallery" style="margin-top:2em;">
+
+    <a class="tile group" data-hilite="" href="numerals/186.html">፩<div class="tile-title">ʾaḥādu (1)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/187.html">፪<div class="tile-title">kəlʾetu (2)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/188.html">፫<div class="tile-title">šalastu (3)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/189.html">፬<div class="tile-title">ʾarbāʿtu (4)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/190.html">፭<div class="tile-title">ḥaməstu (5)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/191.html">፮<div class="tile-title">sədəstu (6)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/192.html">፯<div class="tile-title">səbʿātu (7)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/193.html">፰<div class="tile-title">samantu (8)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/194.html">፱<div class="tile-title">tasʿātu (9)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/195.html">፲<div class="tile-title">ʿašartu (10)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/196.html">፳<div class="tile-title">ʿəšrā (20)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/197.html">፴<div class="tile-title">šalāsā (30)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/198.html">፵<div class="tile-title">ʾarbāʿā (40)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/199.html">፶<div class="tile-title">ḥāməsā (50)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/200.html">፷<div class="tile-title">səsā (60)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/201.html">፸<div class="tile-title">sabʿā (70)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/202.html">፹<div class="tile-title">samānya (80)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/203.html">፺<div class="tile-title">tasʿā (90)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/204.html">፻<div class="tile-title">məʾat (100)</div></a>
+
+    <a class="tile group" data-hilite="" href="numerals/205.html">፼<div class="tile-title">ʿašartu ʾalf (10000)</div></a>
+
+</div>
+
+
+	<h2>Flashcards</h2>
+	
+	<a href="#" class="setgroup flashcards-open btn active" rel="Numerals">Numerals</a>
+</div>
+</div>
+<script>
+
+
+jQuery(document).ready(function(){
+  
+  
+	
+  jQuery(".flashcards-open").click(function(e){
+    var rel = jQuery(this).attr('rel');
+    current_set = rel;
+    showNext();
+    jQuery('#flashcards').show();
+    e.preventDefault();
+  }); 
+  
+  jQuery(".flashcards-close").click(function(e){
+    jQuery('#flashcards').hide();
+    e.preventDefault();
+  });	
+  	showNext();
+
+});
+</script>
+
+:ET

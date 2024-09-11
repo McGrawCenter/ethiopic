@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+  
+  <body>
+  
+ 
+  <div id="flashcards">
+    <div id="mydiv">
+      <div class="top">
+        <div id="flashcards-title">Title</div>
+        <a href="#" class="flashcards-close">&times;</a>
+      </div>
+      <div class="deck">A</div>
+      <div class="tools">
+	<button>hi</button><button data-correct="true">ha</button><button>hu</button>      
+      </div>
+    </div>  
+  </div>
+ 
+  
+    {%- include header.html -%}
+    
+<main class="container main-content" aria-label="Content">
+  
+{% for c in site.data.numerals %}
+   {% assign temp = c.ID | plus:0 %}
+   {% if temp == page.id %}
+     {% assign char = c %}
+     {% assign groups = char.group | split: "," %} 
+   {% endif %}
+{% endfor %}
+
+
+
+
+<div class='row' style='margin-top:2em;'>
+
+    <div class='col-sm-9'>
+	<h2 class='page-title'>{{ char.character }} <span style='font-size:0.5em;'>{{ char.transliteration }}</span></h2>
+    </div>
+    <div class='col-sm-3' style='text-align:right;'>
+        <img src="../assets/images/sabaic/blank.gif" style="box-shadow: 0 .1em .2em rgba(0,0,0,0.05);"/>        
+    </div>
+
+</div>
+
+<div class='row'>
+
+    <div class='col-sm-12'>
+        <p style='margin-bottom:2em;'>{{char.description}}</p>
+        <!--<p><audio controls src="../assets/audio/15.mp3"/></p>-->
+    </div>
+
+</div>
+
+<div class='row'>
+
+    <div class='col-sm-6'>
+	<div id="animation-viewer">
+	<div class="toolbar">
+	  <a href='#' class='set_hand script btn active' rel='scribal' data-id='{{ char.ID | prepend: '0000' | slice: -3, 3 }}'>Script</a>
+	  <a href='#' class='set_hand cursive btn' rel='cursive' data-id='{{ char.ID | prepend: '0000' | slice: -3, 3 }}'>Cursive</a>
+	  <a href='#' class="replay"><img src="../assets/images/arrow-repeat.svg" class='icon'/></a>
+	</div>
+	<div class="animation"><img src="../assets/images/animations/scribal/{{ char.ID | prepend: '0000' | slice: -3, 3 }}.gif" title='' alt=''/></div>
+	</div>
+    </div>
+  
+    <div class='col-sm-6'>
+
+    	<div id='image-gallery'>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'></div></div>
+	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'></div></div>
+	</div>
+
+
+    <!--<a href="#" class="flashcards-open">Flashcards</a>-->
+
+
+
+    </div>
+  
+
+<div class='row' style='margin-top:1em;'>
+
+    <div class='col-sm-12'>
+
+       {% if page.prev == null %}
+	  <div id='nextprev'><a class='btn active' href='{{page.prev}}.html'></a><a class='btn active' href='{{page.next}}.html'>Next</a></div>
+       {% elsif page.next == null %}
+	  <div id='nextprev'><a class='btn active' href='{{page.prev}}.html'>Previous</a><a class='btn active' href='{{page.next}}.html'></a></div>	  
+	{% else %}
+	  <div id='nextprev'><a class='btn active' href='{{page.prev}}.html'>Previous</a><a class='btn active' href='{{page.next}}.html'>Next</a></div>
+	{% endif %}
+	
+    </div>
+
+</div>
+
+</main>
+
+<script>
+
+var current_set = 'consonants';
+	
+  jQuery(".flashcards-open").click(function(e){
+    var rel = jQuery(this).attr('rel');
+    current_set = rel;
+    showNext();
+    jQuery('#flashcards').show();
+    e.preventDefault();
+  }); 
+  
+  jQuery(".flashcards-close").click(function(e){
+    jQuery('#flashcards').hide();
+    e.preventDefault();
+  });	
+  
+  
+
+
+	
+   
+</script>
+
+    
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

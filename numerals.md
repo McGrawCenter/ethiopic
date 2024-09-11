@@ -12,11 +12,11 @@ banner: TheNumerals-wide.jpg
 
       <h2 style="margin-bottom:1em;">The Numerals</h2>
       
-      <p>Explanation of the syllable forms of the alphabet. Quisque vitae leo aliquet, varius dui sit amet, rhoncus leo. Sed purus urna, ultrices suscipit interdum vitae, dictum nec neque. Sed diam felis, hendrerit at elit vulputate, vestibulum ornare sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed quis leo id erat pretium fermentum et quis lacus. Proin convallis est ac neque dictum, nec pellentesque nisl auctor.</p>
+      <p>Geʽez numerals, called ኍለቍ (ḫwəlaqwə), are an alphanumeric system likely derived from Coptic uncial letters. Numerals are always bracketed by strokes placed above and below.</p>
 
-<div class='gallery'>
+<div class='gallery' style='margin-top:2em;'>
 {% for char in site.data.numerals %}
-    <a class="tile group{{ groups | join: " group" }}" data-hilite="{{ char.page }}" href="#">{{ char.character }}<div class='tile-title'>{{ char.transliteration }}</div></a>
+    <a class="tile group{{ groups | join: " group" }}" data-hilite="{{ char.page }}" href="numerals/{{char.ID}}.html">{{ char.character }}<div class='tile-title'>{{ char.transliteration }}</div></a>
 {% endfor %}
 </div>
 

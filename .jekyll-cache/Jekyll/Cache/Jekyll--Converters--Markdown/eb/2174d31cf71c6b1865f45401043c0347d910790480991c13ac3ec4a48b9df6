@@ -1,0 +1,239 @@
+I"*<div class="row">
+  <div class="col-sm-7"><h2 style="margin-bottom:1em;">The Letters</h2></div>
+  <div class="col-sm-5" style="text-align:right;padding-top:1em;"><a href="#" class="setletters traditional btn active" rel="traditional">Traditional</a> <a href="#" class="setletters modern btn" rel="modern">Modern</a></div>
+</div>
+
+<div class="row">
+
+  <div class="col-sm-9">
+  
+
+	 <div id="traditional" class="gallery">
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/1.html">ሀ<div class="tile-title"><i>hoy</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/8.html">ለ<div class="tile-title"><i>lāwi</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group3-legged" data-hilite="" href="letters/15.html">ሐ<div class="tile-title"><i>ḥawt</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/22.html">መ<div class="tile-title"><i>māy</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/29.html">ሠ<div class="tile-title"><i>šawt</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/36.html">ረ<div class="tile-title"><i>rəʾəs</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/43.html">ሰ<div class="tile-title"><i>sāt</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/50.html">ቀ<div class="tile-title"><i>qāf</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/57.html">በ<div class="tile-title"><i>bet</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/64.html">ተ<div class="tile-title"><i>tāw</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/71.html">ኀ<div class="tile-title"><i>ḫarm</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/78.html">ነ<div class="tile-title"><i>naḥs</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/85.html">አ<div class="tile-title"><i>ʾalf</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/92.html">ከ<div class="tile-title"><i>kāf</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/99.html">ወ<div class="tile-title"><i>wawe</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/106.html">ዐ<div class="tile-title"><i>ʿayn</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/113.html">ዘ<div class="tile-title"><i>zay</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/120.html">የ<div class="tile-title"><i>yaman</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/127.html">ደ<div class="tile-title"><i>dənt</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/134.html">ገ<div class="tile-title"><i>gaml</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group3-legged" data-hilite="" href="letters/141.html">ጠ<div class="tile-title"><i>ṭayt</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/148.html">ጰ<div class="tile-title"><i>p̣ayt</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/155.html">ጸ<div class="tile-title"><i>ṣaday</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/162.html">ፀ<div class="tile-title"><i>ḍappa</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/169.html">ፈ<div class="tile-title"><i>ʾaf</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/176.html">ፐ<div class="tile-title"><i>pəs</i></div></a>
+	  
+	       
+	      <a class="tile group Letters groupPunctuation" data-hilite="" href="letters/183.html">፡<div class="tile-title"><i>break</i></div></a>
+	  
+	       
+	      <a class="tile group Letters groupPunctuation" data-hilite="" href="letters/184.html">።<div class="tile-title"><i>break</i></div></a>
+	  
+	       
+	      <a class="tile group Letters groupPunctuation" data-hilite="" href="letters/185.html">፨<div class="tile-title"><i>break</i></div></a>
+	  
+	</div>
+
+
+	 <div id="modern" class="gallery" style="display:none;">
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/85.html">አ<div class="tile-title"><i>ʾalf</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/57.html">በ<div class="tile-title"><i>bet</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/134.html">ገ<div class="tile-title"><i>gaml</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/127.html">ደ<div class="tile-title"><i>dənt</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/1.html">ሀ<div class="tile-title"><i>hoy</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/99.html">ወ<div class="tile-title"><i>wawe</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/113.html">ዘ<div class="tile-title"><i>zay</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group3-legged" data-hilite="" href="letters/15.html">ሐ<div class="tile-title"><i>ḥawt</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group3-legged" data-hilite="" href="letters/141.html">ጠ<div class="tile-title"><i>ṭayt</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/120.html">የ<div class="tile-title"><i>yaman</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/92.html">ከ<div class="tile-title"><i>kāf</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/8.html">ለ<div class="tile-title"><i>lāwi</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/22.html">መ<div class="tile-title"><i>māy</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/78.html">ነ<div class="tile-title"><i>naḥs</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/43.html">ሰ<div class="tile-title"><i>sāt</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/106.html">ዐ<div class="tile-title"><i>ʿayn</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/169.html">ፈ<div class="tile-title"><i>ʾaf</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/155.html">ጸ<div class="tile-title"><i>ṣaday</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/50.html">ቀ<div class="tile-title"><i>qāf</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/36.html">ረ<div class="tile-title"><i>rəʾəs</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/29.html">ሠ<div class="tile-title"><i>šawt</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/64.html">ተ<div class="tile-title"><i>tāw</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/71.html">ኀ<div class="tile-title"><i>ḫarm</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group2-legged" data-hilite="" href="letters/148.html">ጰ<div class="tile-title"><i>p̣ayt</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group0-legged" data-hilite="" href="letters/162.html">ፀ<div class="tile-title"><i>ḍappa</i></div></a>
+	  
+	       
+	      <a class="tile group Letters group1-legged" data-hilite="" href="letters/176.html">ፐ<div class="tile-title"><i>pəs</i></div></a>
+	  
+	       
+	      <a class="tile group Letters groupPunctuation" data-hilite="" href="letters/183.html">፡<div class="tile-title"><i>break</i></div></a>
+	  
+	       
+	      <a class="tile group Letters groupPunctuation" data-hilite="" href="letters/184.html">።<div class="tile-title"><i>break</i></div></a>
+	  
+	       
+	      <a class="tile group Letters groupPunctuation" data-hilite="" href="letters/185.html">፨<div class="tile-title"><i>break</i></div></a>
+	  
+	</div>
+	
+	<h2>Flashcards</h2>
+	
+	<a href="#" class="flashcards-open btn active" rel="0-legged">Group 1: 0-legged</a> <a href="#" class="flashcards-open btn active" rel="1-legged">Group 2: 1-legged</a>	<a href="#" class="flashcards-open btn active" rel="2-legged">Group 3: 2-legged</a> <a href="#" class="flashcards-open btn active" rel="3-legged">Group 4: 3:legged</a> <a href="#" class="flashcards-open btn active" rel="Punctuation">Group 5: Punctuation</a> <a href="#" class="flashcards-open btn active" rel="Letters">All</a><br />
+  
+  </div>
+  
+  <div class="col-sm-3" style="text-align:right;">
+
+        <h3>Groupings</h3>
+	<a href="#" class="setgroup btn" rel="0-legged">0-legged</a><br />
+	<a href="#" class="setgroup btn" rel="1-legged">1-legged</a><br />
+	<a href="#" class="setgroup btn" rel="2-legged">2-legged</a><br />
+	<a href="#" class="setgroup btn" rel="3-legged">3:legged</a><br />
+	<a href="#" class="setgroup btn" rel="Punctuation">Punctuation</a><br />
+
+
+  </div>
+  
+</div>
+
+<script>
+
+
+jQuery(document).ready(function(){
+  
+  
+	
+  jQuery(".flashcards-open").click(function(e){
+    var rel = jQuery(this).attr('rel');
+    console.log(rel);
+    current_set = rel;
+    showNext();
+    jQuery('#flashcards').show();
+    e.preventDefault();
+  }); 
+  
+  jQuery(".flashcards-close").click(function(e){
+    jQuery('#flashcards').hide();
+    e.preventDefault();
+  });	
+  	showNext();
+
+});
+</script>
+
+:ET

@@ -13,18 +13,8 @@ banner: TheLetters-wide.jpg
 
 
 <div class='row'>
-  <div class='col-sm-2'>
 
-    
-	<a href="#" class="setgroup btn" rel="0-legged">Group 1: 0-legged</a><br />
-	<a href="#" class="setgroup btn" rel="1-legged">Group 2: 1-legged</a><br />
-	<a href="#" class="setgroup btn" rel="2-legged">Group 3: 2-legged</a><br />
-	<a href="#" class="setgroup btn" rel="3-legged">Group 4: 3:legged</a><br />
-	<a href="#" class="setgroup btn" rel="Punctuation">Group 5: Punctuation</a><br />
-
-
-  </div>
-  <div class='col-sm-10'>
+  <div class='col-sm-9'>
   
 
 	 <div id="traditional" class='gallery'>
@@ -47,6 +37,19 @@ banner: TheLetters-wide.jpg
 	<a href="#" class="flashcards-open btn active" rel="0-legged">Group 1: 0-legged</a> <a href="#" class="flashcards-open btn active" rel="1-legged">Group 2: 1-legged</a>	<a href="#" class="flashcards-open btn active" rel="2-legged">Group 3: 2-legged</a> <a href="#" class="flashcards-open btn active" rel="3-legged">Group 4: 3:legged</a> <a href="#" class="flashcards-open btn active" rel="Punctuation">Group 5: Punctuation</a> <a href="#" class="flashcards-open btn active" rel="Letters">All</a><br />
   
   </div>
+  
+  <div class='col-sm-3' style='text-align:right;'>
+
+        <h3>Groupings</h3>
+	<a href="#" class="setgroup btn" rel="0-legged">0-legged</a><br />
+	<a href="#" class="setgroup btn" rel="1-legged">1-legged</a><br />
+	<a href="#" class="setgroup btn" rel="2-legged">2-legged</a><br />
+	<a href="#" class="setgroup btn" rel="3-legged">3:legged</a><br />
+	<a href="#" class="setgroup btn" rel="Punctuation">Punctuation</a><br />
+
+
+  </div>
+  
 </div>
 
 <script>

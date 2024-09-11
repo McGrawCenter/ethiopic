@@ -52,6 +52,17 @@
         <p style='margin-bottom:2em;'>{{char.description}}</p>
         <!--<p><audio controls src="../assets/audio/15.mp3"/></p>-->
     </div>
+    
+    <div class="col-md-12">
+<div style='display:flex;flex-wrap:no-wrap;text-align:right;justify-content:right;margin-bottom:2em;'>
+{% for co in site.data.syllabary %}
+   {% if char.name == co.name %}
+     {% if char.character == co.character %} <h2 class='variants active'>{{co.character}}</h2>{% endif %}
+     {% if char.character != co.character %} <h2 class='variants'><a href='{{site.baseurl}}/syllables/{{co.ID}}.html'>{{co.character}}</a></h2>{% endif %}
+   {% endif %}
+{% endfor %}
+</div>    
+    </div>
 
 </div>
 

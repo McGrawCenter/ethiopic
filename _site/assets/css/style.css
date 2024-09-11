@@ -2,6 +2,15 @@
 a { color:black; }
 a:hover { color:#777; }
 
+
+.cinzel-900 {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight:900;
+  font-style: normal;
+}
+
+
 /*
 @font-face {
     font-family: 'Brana';
@@ -23,27 +32,32 @@ body {
     font-style: normal;
     font-size:14pt;
     position:relative;
-    background:#fafafa;
+    background:#FFFFF9;
 }
 
-#header { background:#EFEFEB; }
+p { line-height: 1.6em; }
 
-#footer {
-  margin:5em 0;
+li { margin-bottom: 0.2em; }
+
+#header { /* background:#EFEFEB; */ background:#c8c3ad;; }
+
+#footersection {
+  background:#c8c3ad;;
+  padding: 3em 0;
+  margin-top: 3em;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
 }
 
-
-h2.page-title { 
-  font-size:85px;
-  /*
-  margin:10px 0px;
-  background:#efefeb;
-  padding: 0.3em 0.6em 0.4em 0.6em;
-  border-radius:20px;
-  display:inline-block;
-  box-shadow: 0px 0px 14px #888;
-  */
+h1, h2, h3 {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight:900;
+  font-style: normal;  
 }
+
+h2.page-title { font-size:85px; }
+
+h2.page-title span { font-family: 'Arial', no-serif; }
 
 h2.variants { font-size:65px; color:grey;padding: 0em 0.2em;}
 h2.variants a { color:#DDD;}
@@ -85,11 +99,15 @@ audio { width:100%; margin:1em 0;border-radius: 10px; }
 
 
 .icon { height: 32px; }
-
 .gallery {
   display:flex;
   flex-direction: row;
   flex-wrap:wrap;
+}
+.gallery-nowrap {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
 }
 .collection {
   display:flex;
@@ -108,6 +126,7 @@ width: 600px;
 
 .tile {
   width: 160px;
+  min-width:160px;
   height: 160px;
   display:flex;
   flex-direction:column;
@@ -120,14 +139,10 @@ width: 600px;
   background:#ffffff;
   box-shadow: 0 .1em .2em rgba(0,0,0,0.05);
 }
-.tile-title{
-  font-size: 0.4em;
-  color: #AAA;
-}
+a.tile { color: darkblue; }
+.tile-title{ font-size: 0.28em; color: #AAA; }
 .tile:hover { background:#EEE;text-decoration:none; }
 .tile.hilite { background:#DDD; }
-
-
 .tile-alt { font-size:5em; }
 
 
@@ -177,4 +192,31 @@ width: 600px;
 
 }
 
+
+/********************* homepage ****************/
+
+  #big-menu h2 {
+    color:white;
+    font-weight:bold;
+    text-shadow: 0 0 10px black;
+    font-size:2.6vw;
+  }
+  .big-menu-block {
+  width:100%;
+  height:600px;
+  padding:1em 1.6em;
+  background-position:center;
+  background-size:cover;
+  box-shadow: 0 .1em .2em rgba(0,0,0,0.5);
+  
+  }
+  @media only screen and (max-width: 770px) {
+    .big-menu-block { height:200px; }
+  }  
+
+
+/******************* syllabary page ***************/
+.scroll-window {
+  overflow-y: scroll;
+}
 
