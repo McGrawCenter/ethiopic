@@ -40,11 +40,11 @@
     </div>
     
     <div class='col-sm-9'>
-<div style='display:flex;flex-wrap:no-wrap;text-align:right;justify-content:right;margin-bottom:2em;'>
+<div id="variant-menu">
 {% for co in site.data.syllabary %}
    {% if char.name == co.name %}
-     {% if char.character == co.character %} <h2 class='variants active'>{{co.character}}</h2>{% endif %}
-     {% if char.character != co.character %} <h2 class='variants'><a href='{{co.ID}}.html'>{{co.character}}</a></h2>{% endif %}
+     {% if char.character == co.character %} <a href='{{co.ID}}.html' class='active'>{{co.character}}</a>{% endif %}
+     {% if char.character != co.character %} <a href='{{co.ID}}.html'>{{co.character}}</a>{% endif %}
    {% endif %}
 {% endfor %}
 </div>
@@ -57,18 +57,18 @@
 
 <div class='row'>
 
-    <div class='col-sm-6'>
+    <div class='col-sm-5'>
 	<div id="animation-viewer">
 	<div class="toolbar">
 	  <a href='#' class='set_hand script btn active' rel='scribal' data-id='{{ char.ID | prepend: '0000' | slice: -3, 3 }}'>Script</a>
 	  <a href='#' class='set_hand cursive btn' rel='cursive' data-id='{{ char.ID | prepend: '0000' | slice: -3, 3 }}'>Cursive</a>
 	  <a href='#' class="replay"><img src="../assets/images/arrow-repeat.svg" class='icon'/></a>
 	</div>
-	<div class="animation"><img src="../assets/images/animations/scribal/{{ char.ID | prepend: '0000' | slice: -3, 3 }}.gif" title='' alt='' style="box-shadow: 0 .1em .2em rgba(0,0,0,0.05);"/></div>
+	<div class="animation"><img src="../assets/images/animations/scribal/{{ char.ID | prepend: '0000' | slice: -3, 3 }}.gif" title='' alt='' style="box-shadow: 0 .1em .2em rgba(0,0,0,0.05);width:100%"/></div>
 	</div>
     </div>
     
-    <div class='col-sm-6'>
+    <div class='col-sm-7'>
 
     	<div id='image-gallery'>
 	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'></div></div>

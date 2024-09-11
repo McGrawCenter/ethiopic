@@ -219,4 +219,17 @@ a.tile { color: darkblue; }
 .scroll-window {
   overflow-y: scroll;
 }
-
+#variant-menu {
+  display:flex;
+  flex-wrap:wrap;
+  text-align:right;
+  justify-content:right;
+  font-size:3em;
+}
+#variant-menu a {
+  color: #DDD;
+  padding: 0.2em;
+}
+#variant-menu a.active {
+  color: #000;
+}

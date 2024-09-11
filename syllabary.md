@@ -19,7 +19,7 @@ banner: TheSyllables-wide.jpg
 	<div class='scroll-window'>
 	<div class='gallery-nowrap' style='margin-top:0px;'>
 	{% for char in site.data.syllabary %}
-	    {% if char.group != group %}<a class="tile" href="#">fl</a></div></div><div class='scroll-window'><div class='gallery-nowrap' style='margin-top:0px;'>{% endif %}
+	    {% if char.group != group %}<a class="" href="#">fl</a></div></div><div class='scroll-window'><div class='gallery-nowrap' style='margin-top:0px;'>{% endif %}
 	    <a class="tile group{{ groups | join: " group" }}" data-hilite="{{ char.page }}" href="syllables/{{char.ID}}.html">{{ char.character }}<div class='tile-title'>{{ char.transliteration }}</div></a>
 	    {% assign group = char.group %}
 	{% endfor %}
