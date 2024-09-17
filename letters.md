@@ -41,11 +41,11 @@ banner: TheLetters-wide.jpg
   <div class='col-sm-3' style='text-align:right;'>
 
         <h3>Groupings</h3>
-	<a href="#" class="setgroup btn" rel="0-legged">0-legged</a><a class="flashcards-open" href="#" rel="0-legged"><img class='flashcard-icon' src="{{site.baseurl}}/assets/images/question-square-fill.svg"/></a><br />
-	<a href="#" class="setgroup btn" rel="1-legged">1-legged</a><a class="flashcards-open" href="#" rel="1-legged"><img class='flashcard-icon' src="{{site.baseurl}}/assets/images/question-square-fill.svg"/></a><br />
-	<a href="#" class="setgroup btn" rel="2-legged">2-legged</a><a class="flashcards-open" href="#" rel="2-legged"><img class='flashcard-icon' src="{{site.baseurl}}/assets/images/question-square-fill.svg"/></a><br />
-	<a href="#" class="setgroup btn" rel="3-legged">3:legged</a><a class="flashcards-open" href="#" rel="3-legged"><img class='flashcard-icon' src="{{site.baseurl}}/assets/images/question-square-fill.svg"/></a><br />
-	<a href="#" class="setgroup btn" rel="Punctuation">Punctuation</a><a class="flashcards-open" href="#" rel="Punctuation"><img class='flashcard-icon' src="{{site.baseurl}}/assets/images/question-square-fill.svg"/></a><br />
+	<a href="#" class="setgroup btn" rel="0-legged">0-legged</a><a class="flashcards-open" href="#" rel="0-legged"><img class='flashcard-icon' src="{{site.baseurl}}/assets/images/flashcards.svg"/></a><br />
+	<a href="#" class="setgroup btn" rel="1-legged">1-legged</a><a class="flashcards-open" href="#" rel="1-legged"><img class='flashcard-icon' src="{{site.baseurl}}/assets/images/flashcards.svg"/></a><br />
+	<a href="#" class="setgroup btn" rel="2-legged">2-legged</a><a class="flashcards-open" href="#" rel="2-legged"><img class='flashcard-icon' src="{{site.baseurl}}/assets/images/flashcards.svg"/></a><br />
+	<a href="#" class="setgroup btn" rel="3-legged">3:legged</a><a class="flashcards-open" href="#" rel="3-legged"><img class='flashcard-icon' src="{{site.baseurl}}/assets/images/flashcards.svg"/></a><br />
+	<a href="#" class="setgroup btn" rel="Punctuation">Punctuation</a><a class="flashcards-open" href="#" rel="Punctuation"><img class='flashcard-icon' src="{{site.baseurl}}/assets/images/flashcards.svg"/></a><br />
 
 
   </div>
@@ -55,14 +55,30 @@ banner: TheLetters-wide.jpg
 <script>
 
 
+
+
 jQuery(document).ready(function(){
-  
-  
+
+ 	
+
+	jQuery( ".setgroup" ).on( "mouseover", function() {
+	    jQuery('.tile').removeClass('hilite');
+	    var rel = jQuery(this).attr('rel');
+	    console.log(rel);
+	    jQuery('.group'+rel).addClass('hilite');
+	});
 	
+	jQuery( ".setgroup" ).on( "mouseout", function() {
+	    console.log('mouseout');
+	    jQuery('.tile').removeClass('hilite');
+	});	
+
+
+
   jQuery(".flashcards-open").click(function(e){
     var rel = jQuery(this).attr('rel');
-    console.log(rel);
     current_set = rel;
+    console.log(cards);
     showNext();
     jQuery('#flashcards').show();
     e.preventDefault();
@@ -72,7 +88,7 @@ jQuery(document).ready(function(){
     jQuery('#flashcards').hide();
     e.preventDefault();
   });	
-  	showNext();
+
 
 });
 </script>

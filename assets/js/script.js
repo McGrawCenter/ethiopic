@@ -1,15 +1,6 @@
 jQuery(document).ready(function(){
 
-	jQuery(".setgroup").mouseover(function(){
-	    jQuery('.tile').removeClass('hilite');
-	    var rel = jQuery(this).attr('rel');
-	    console.log(rel);
-	    jQuery('.group'+rel).addClass('hilite');
-	});
 
-	jQuery(".setgroup").mouseout(function(){
-	    jQuery('.tile').removeClass('hilite');
-	});
 
 	jQuery(".tile").mouseover(function(){
 	    //var d = jQuery(this).attr('data-hilite');

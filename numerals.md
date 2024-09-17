@@ -18,7 +18,7 @@ banner: TheNumerals-wide.jpg
 {% for char in site.data.numerals %}
     <a class="tile group{{ groups | join: " group" }}" data-hilite="{{ char.page }}" href="numerals/{{char.ID}}.html">{{ char.character }}<div class='tile-title'>{{ char.transliteration }}</div></a>
 {% endfor %}
-    <a class="flashcards-open" href="#" rel="Numerals"><img class='flashcard-icon' src="{{site.baseurl}}/assets/images/question-square-fill.svg"/></a>
+    <a class="flashcards-open" href="#" rel="Numerals"><img class='flashcard-icon' src="{{site.baseurl}}/assets/images/flashcards.svg"/></a>
 </div>
 
 <!--

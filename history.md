@@ -35,6 +35,8 @@ banner: TheHistory-wide.jpg
     <li><strong>AARB 00202</strong>, Hill Museum & Manuscript Library (HMML).<br /><a href="https://www.vhmml.org/readingRoom/view/534303" target="_blank">https://www.vhmml.org/readingRoom/view/534303</a></li>
     <li><strong>Stamp.Ross.5349</strong>, The Vatican Library.<br /><a href="https://digi.vatlib.it/view/STP_Stamp.Ross.5349" target="_blank">https://digi.vatlib.it/view/STP_Stamp.Ross.5349</a></li>
     <li><strong>PJ9087.W455 1638</strong>, Hill Museum & Manuscript Library (HMML).<br /><a href="https://www.vhmml.org/readingRoom/view/816727" target="_blank">https://www.vhmml.org/readingRoom/view/816727</a></li>
+    <li><strong>EMML 6977</strong>, Hill Museum & Manuscript Library (HMML).<br /><a href="https://www.vhmml.org/readingRoom/view/200602" target="_blank">https://www.vhmml.org/readingRoom/view/200602</a></li>
+    <li><strong>EMML 1832</strong>, Hill Museum & Manuscript Library (HMML).<br /><a href="https://www.vhmml.org/readingRoom/view/203663" target="_blank">https://www.vhmml.org/readingRoom/view/203663</a></li>
   </ul>
 
 

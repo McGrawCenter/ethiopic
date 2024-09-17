@@ -42,7 +42,6 @@ var delay = 800;
   function showNext() {
   
     console.log(current_set);
-    console.log(cards[current_set]);
     jQuery(".deck").html(cards[current_set][0].f);
     
     jQuery("#flashcards-title").text(current_set);
