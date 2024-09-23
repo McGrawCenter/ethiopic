@@ -71,12 +71,11 @@
     <div class='col-sm-7'>
 
     	<div id='image-gallery'>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'></div></div>
-	  <div class='image-gallery-tile'><div class='image-gallery-tile-inner'></div></div>
+	  {% for ex in site.data.examples %}
+	     {% if ex.Tags == char.character %} 
+	     <div class='image-gallery-tile'><div class='image-gallery-tile-inner'><img src='{{ex.Image}}'/></div></div>
+	     {% endif %}
+	  {% endfor %}
 	</div>
 
 
