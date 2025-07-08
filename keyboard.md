@@ -12,7 +12,7 @@ banner: TheHistory-wide.jpg
 
   <div class='col-sm-12'>
 
- <textarea id="keyboard" style="width:800px;height:200px;"></textarea>
+ <textarea id="keyboard" style="width:100%;height:200px;"></textarea>
 
   </div>
 
