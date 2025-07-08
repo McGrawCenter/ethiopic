@@ -1,0 +1,16 @@
+I"õ<style>
+ #keyboard { font-size:3em;margin-top:2em; }
+</style>
+
+<div class="row">
+
+  <div class="col-sm-12">
+
+ <textarea id="keyboard" style="width:800px;height:200px;"></textarea>
+
+  </div>
+
+</div>
+<script src="assets/js/keyboard.js"></script>
+
+:ET
