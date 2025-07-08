@@ -7,7 +7,7 @@ banner: TheLetters-wide.jpg
 ---
 
 <div class='row'>
-  <div class='col-sm-7'><h2 style="margin-bottom:1em;">The Letters</h2></div>
+  <div class='col-sm-7'><h2 style="margin:2em 0 1.6em;">The Letters</h2></div>
   <div class='col-sm-5' style='text-align:right;padding-top:1em;'><a href="#" class="setletters traditional btn active" rel="traditional">Traditional</a> <a href="#" class="setletters modern btn" rel="modern">Modern</a></div>
 </div>
 

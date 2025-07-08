@@ -10,7 +10,7 @@ banner: TheHistory-wide.jpg
 
   <div class='col-sm-12'>
 
-      <h2 style="margin-bottom:1em;">A Brief History of the Ge’ez Script</h2>
+      <h2 style="margin:2em 0 1.6em;">A Brief History of the Ge’ez Script</h2>
       
  
 
