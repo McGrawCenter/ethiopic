@@ -1,0 +1,42 @@
+I"<style>
+ #keyboard { font-size:2em;margin-top:2em; }
+</style>
+
+<div class="row">
+
+  <div class="col-sm-12">
+
+ <textarea id="keyboard" style="width:100%;height:200px;"></textarea>
+  <table>
+  <tr>
+    <th>ma</th>
+    <th>mu</th>
+    <th>mi</th>
+<th>maa</th>
+<th>me</th>
+<th>m</th>
+<th>mo</th>
+<th>mua</th>
+<th>mya</th>
+  </tr>
+  <tr>
+<td>መ</td>
+<td>ሙ</td>
+<td>ሚ</td>
+<td>ማ</td>
+<td>ሜ</td>
+<td>ም</td>
+<td>ሞ</td>
+<td>ሟ</td>
+<td>ፙ</td>
+  </tr>
+
+</table> 
+ 
+
+  </div>
+
+</div>
+<script src="assets/js/keyboard.js"></script>
+
+:ET

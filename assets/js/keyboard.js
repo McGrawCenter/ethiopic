@@ -385,5 +385,29 @@ obj.focus();
 obj.scrollTop = obj.scrollHeight;
 }
 
+var copybutton = document.getElementById("copybutton");
+copybutton.addEventListener("click", copytext); 
+var keybutton = document.getElementById("keybutton");
+var keycontainer = document.getElementById("key-container");
+keybutton.addEventListener("click", showkey); 
+
+function copytext() {
+    var copytext = document.getElementById("keyboard");
+    copytext.select();
+    copytext.setSelectionRange(0, 99999); // For mobile devices
+    navigator.clipboard.writeText(copytext.value);
+    copybutton.innerText="Copied";
+    const myTimeout = setTimeout(function(){ copybutton.innerText="Copy"; }, 2000);
+}
+
+function showkey() {
+  if(keycontainer.classList.contains('shown')) {
+    keycontainer.classList.remove('shown');
+  }
+  else {
+    keycontainer.classList.add('shown');
+  }
+}
+
 
 

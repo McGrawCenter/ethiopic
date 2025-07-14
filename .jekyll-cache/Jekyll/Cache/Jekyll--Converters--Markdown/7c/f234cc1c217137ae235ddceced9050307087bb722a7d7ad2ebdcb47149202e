@@ -1,22 +1,15 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: secondary
-banner: TheHistory-wide.jpg
----
-<style>
+I"/<style>
  #keyboard { font-size:2em;margin-top:2em; }
  th, td { text-align:center; }
  #keyboard-container { position:relative; }
  #copybutton { position:absolute;bottom:3px;right:0;border-radius:4px; }
  #keybutton { position:absolute;bottom:3px;left:0;border-radius:4px; }
- #key-container { height: 200px;overflow-y:auto;display:none; }
- #key-container.shown { display:block; }
+ #key-container { height: 200px;overflow-y:auto; }
 </style>
-<div class='row'>
 
-  <div class='col-sm-12'>
+<div class="row">
+
+  <div class="col-sm-12">
 
   <div id="keyboard-container">
     <textarea id="keyboard" style="width:100%;height:200px;"></textarea>
@@ -24,7 +17,7 @@ banner: TheHistory-wide.jpg
     <button id="copybutton" class="btn-primary">Copy</button>
    </div>
  
-  <table style='margin:1em auto;width:80%'>
+  <table style="margin:1em auto;width:80%">
   <tr>
     <th>ma</th>
     <th>mu</th>
@@ -53,8 +46,8 @@ banner: TheHistory-wide.jpg
 
 
 
-<div id="key-container" class="">
-<table style='margin:1em auto;width:100%;table-layout: fixed;'>
+<div id="key-container">
+<table style="margin:1em auto;width:100%;table-layout: fixed;">
 <tr><th></th><th>a</th><th>u</th><th>i</th><th>aa</th><th>e</th><th>🛇</th><th>o</th><th>ua</th><th>ya</th></tr>
 <tr><th>h</th><td>ሀ</td><td>ሁ</td><td>ሂ</td><td>ሃ</td><td>ሄ</td><td>ህ</td><td>ሆ</td><td>ሇ</td><td></td></tr>
 <tr><th>l</th><td>ለ</td><td>ሉ</td><td>ሊ</td><td>ላ</td><td>ሌ</td><td>ል</td><td>ሎ</td><td>ሏ</td><td></td></tr>
@@ -79,7 +72,7 @@ banner: TheHistory-wide.jpg
 <tr><th>n</th><td>ነ</td><td>ኑ</td><td>ኒ</td><td>ና</td><td>ኔ</td><td>ን</td><td>ኖ</td><td>ኗ</td><td></td></tr>
 <tr><th>ny</th><td>ኘ</td><td>ኙ</td><td>ኚ</td><td>ኛ</td><td>ኜ</td><td>ኝ</td><td>ኞ</td><td>ኟ</td><td></td></tr>
 </table>
-<table style='margin:1em auto;width:100%;table-layout: fixed;'>
+<table style="margin:1em auto;width:100%;table-layout: fixed;">
 <tr><th></th><th>a</th><th>u</th><th>i</th><th>aa</th><th>e</th><th>🛇</th><th>o</th><th>ua</th><th>ya</th></tr>
 <tr><th>‘</th><td>አ</td><td>ኡ</td><td>ኢ</td><td>ኣ</td><td>ኤ</td><td>እ</td><td>ኦ</td><td>ኧ</td><td></td></tr>
 <tr><th>k</th><td>ከ</td><td>ኩ</td><td>ኪ</td><td>ካ</td><td>ኬ</td><td>ክ</td><td>ኮ</td><td>ኳ</td><td></td></tr>
@@ -110,3 +103,5 @@ banner: TheHistory-wide.jpg
 
 </div>
 <script src="assets/js/keyboard.js"></script>
+
+:ET
