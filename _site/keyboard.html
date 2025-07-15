@@ -97,10 +97,14 @@
  #keyboard-container { position:relative; }
  #copybutton { position:absolute;bottom:3px;right:0;border-radius:4px; }
  #keybutton { position:absolute;bottom:3px;left:0;border-radius:4px; }
- #key-container { height: 200px;overflow-y:auto;display:none; }
- #key-container.shown { display:block; }
+ #vowelbar { height: 340px;overflow-y:auto;display:none; }
+ #key-container { height: 400px;overflow-y:auto;display:none; }
+ #key-container.shown,#vowelbar.shown { display:block; }
 </style>
 
+<div class="row">
+  <div class="col-sm-12"><h2 style="margin:2em 0 0;">Ethiopic Keyboard</h2></div>
+</div>
 <div class="row">
 
   <div class="col-sm-12">
@@ -110,6 +114,9 @@
     <button id="keybutton" class="btn-primary">Key</button>
     <button id="copybutton" class="btn-primary">Copy</button>
    </div>
+   
+   
+   <div id="vowelbar" class="shown">
  
   <table style="margin:1em auto;width:80%">
   <tr>
@@ -136,7 +143,7 @@
   </tr>
 
 </table> 
-
+  </div>
 
 
 
