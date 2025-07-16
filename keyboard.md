@@ -70,7 +70,7 @@ banner: TheHistory-wide.jpg
 <tr><th>ss</th><td>ሠ</td><td>ሡ</td><td>ሢ</td><td>ሣ</td><td>ሤ</td><td>ሥ</td><td>ሦ</td><td>ሧ</td><td></td></tr>
 
 <tr><th> r</th><td>ረ</td><td>ሩ</td><td>ሪ</td><td>ራ</td><td>ሬ</td><td>ር</td><td>ሮ</td><td>ሯ</td><td>ፘ</td></tr>
-<tr><th>S</th><td>ሰ</td><td>ሱ</td><td>ሲ</td><td>ሳ</td><td>ሴ</td><td>ስ</td><td>ሶ</td><td>ሷ</td><td></td></tr>
+<tr><th>s</th><td>ሰ</td><td>ሱ</td><td>ሲ</td><td>ሳ</td><td>ሴ</td><td>ስ</td><td>ሶ</td><td>ሷ</td><td></td></tr>
 <tr><th>sh</th><td>ሸ</td><td>ሹ</td><td>ሺ</td><td>ሻ</td><td>ሼ</td><td>ሽ</td><td>ሾ</td><td>ሿ</td><td></td></tr>
 <tr><th>q</th><td>ቀ</td><td>ቁ</td><td>ቂ</td><td>ቃ</td><td>ቄ</td><td>ቅ</td><td>ቆ</td><td>ቇ</td><td></td></tr>
 <tr><th>qw</th><td>ቈ</td><td></td><td>ቊ</td><td>ቋ</td><td>ቌ</td><td>ቍ</td><td></td><td></td><td></td></tr>
@@ -88,12 +88,12 @@ banner: TheHistory-wide.jpg
 </table>
 <table style='margin:1em auto;width:100%;table-layout: fixed;'>
 <tr><th></th><th>a</th><th>u</th><th>i</th><th>aa</th><th>e</th><th>🛇</th><th>o</th><th>ua</th><th>ya</th></tr>
-<tr><th>‘</th><td>አ</td><td>ኡ</td><td>ኢ</td><td>ኣ</td><td>ኤ</td><td>እ</td><td>ኦ</td><td>ኧ</td><td></td></tr>
+<tr><th>'</th><td>አ</td><td>ኡ</td><td>ኢ</td><td>ኣ</td><td>ኤ</td><td>እ</td><td>ኦ</td><td>ኧ</td><td></td></tr>
 <tr><th>k</th><td>ከ</td><td>ኩ</td><td>ኪ</td><td>ካ</td><td>ኬ</td><td>ክ</td><td>ኮ</td><td>ኳ</td><td></td></tr>
 <tr><th>kk</th><td>ኸ</td><td>ኹ</td><td>ኺ</td><td>ኻ</td><td>ኼ</td><td>ኽ</td><td>ኾ</td><td>ዃ</td><td></td></tr>
 <tr><th>kkw</th><td>ዀ</td><td></td><td>ዂ</td><td>ዃ</td><td>ዄ</td><td>ዅ</td><td></td><td></td><td></td></tr>
 <tr><th>w</th><td>ወ</td><td>ዉ</td><td>ዊ</td><td>ዋ</td><td>ዌ</td><td>ው</td><td>ዎ</td><td></td><td></td></tr>
-<tr><th>“</th><td>ዐ</td><td>ዑ</td><td>ዒ</td><td>ዓ</td><td>ዔ</td><td>ዕ</td><td>ዖ</td><td></td><td></td></tr>
+<tr><th>''</th><td>ዐ</td><td>ዑ</td><td>ዒ</td><td>ዓ</td><td>ዔ</td><td>ዕ</td><td>ዖ</td><td></td><td></td></tr>
 <tr><th>z</th><td>ዘ</td><td>ዙ</td><td>ዚ</td><td>ዛ</td><td>ዜ</td><td>ዝ</td><td>ዞ</td><td>ዟ</td><td></td></tr>
 <tr><th>zz</th><td>ዠ</td><td>ዡ</td><td>ዢ</td><td>ዣ</td><td>ዤ</td><td>ዥ</td><td>ዦ</td><td>ዧ</td><td></td></tr>
 <tr><th>y</th><td>የ</td><td>ዩ</td><td>ዪ</td><td>ያ</td><td>ዬ</td><td>ይ</td><td>ዮ</td><td></td><td></td></tr>
