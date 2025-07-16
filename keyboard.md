@@ -116,4 +116,4 @@ banner: TheHistory-wide.jpg
   </div>
 
 </div>
-<script src="assets/js/keyboard.js"></script>
+<script src="assets/js/keyboard.js?v=0.0.1"></script>
