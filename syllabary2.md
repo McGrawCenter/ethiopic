@@ -5,6 +5,27 @@
 layout: secondary-narrow
 banner: TheSyllables-wide.jpg
 ---
+
+<style>
+#syllabary thead th { text-align:center;font-size:1.3em;padding-bottom:1em;}
+#syllabary tbody th { text-align:center;font-size:1.3em;}
+#syllabary td { 
+   text-align:center;
+   height:4em;
+   min-width:108px;
+ }
+.newtile { 
+   padding:1em;
+   font-size:1.8em;
+   background:white;
+   border:solid 1px #c8c3ad;
+   display:block;
+   text-decoration:none;
+   margin:2px;
+   min-width:108px;
+ }
+.newtile:hover { background:#EEE; text-decoration:none;color:black; }
+</style>
 <div class='row'>
 
   <div class='col-sm-12'>
@@ -12,25 +33,46 @@ banner: TheSyllables-wide.jpg
       <h2 style="margin:2em 0 1.6em;">The Syllabary</h2>
       
       
-           
+         <div class='scroll-window'>  
     
 	{% assign current = 'h' %}
-	<div class='scroll-window'>
-	<div class='gallery-nowrap' style='margin-top:0px;'>
+	<table id="syllabary" style="table-layout:fixed;">
+	  <thead>
+	  <tr>
+	    <th></th>
+	    <th>a</th>
+	    <th>u</th>
+	    <th>i</th>
+	    <th>ā</th>
+	    <th>e</th>
+	    <th>ə </th>
+	    <th>o</th>
+	    <th><sup>w</sup>ā</th>
+	    <th><sup>y</sup>a</th>
+	  </tr>
+	  </thead>
+	  <tbody>
+	  <tr>
+	    <th>{{current}}</th>
 	{% for char in site.data.syllabary_revised %}
-	    <a class="tile group{{ consonant }}" href="syllables/{{char.ID}}.html">{{ char.kletter }}</a>
-	    {% assign current = char.consonant %}
+	   {% if current != char.consonant %}
+	     </tr><tr><th>{{current}}</th>{% assign current = char.consonant %}
+	   {% endif %}
+	   {% if char.letter == null %}
+	   <td>&nbsp;</td>
+	   {% else %}
+	   <td><a class="newtile group{{ consonant }}" title="{{ char.consonant }}{{ char.vowel }}" alt="{{ char.consonant }}{{ char.vowel }}" href="syllables/{{char.ID}}.html">{{ char.letter }}</a></td>
+	   {% endif %}
+	    
+	    
 	{% endfor %}
-	</div>
-
-        </div>       
-      
-	      
+	  </tr>
+	 </tbody>
+	</table>
+	
+	</div> <!-- /.scroll-window -->
 
   </div> <!-- /.col -->
-
-
-
 </div>
 
 <script>
