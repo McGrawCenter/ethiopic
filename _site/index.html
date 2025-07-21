@@ -77,7 +77,23 @@
 
 <main class="container main-content" aria-label="Content">   
 
-        <div class="row">
+        <style>
+.bg_gradient {
+  background:linear-gradient(0deg,rgb(255, 255, 255,0.5) 0%, rgb(0, 0, 0,0.5) 100%);
+  position:absolute;top:0;bottom:0;left:0;right:0;padding:1em 2em;
+}
+
+.frontblock {
+  width: 45%;
+  display: block;
+  position: relative;
+  margin: 0 1em 1em 0;
+  color: white;
+}
+.frontblock:hover { color:#c8c3ad;  }
+</style>
+
+<div class="row">
 
     <div class="col-sm-12" style="text-align:center;">
 
@@ -87,36 +103,44 @@
 
 </div>
 
-<div class="row" id="big-menu" style="position:relative">
-    <div class="col-sm-6" style="padding:10px;">
-      <a href="letters.html">
+<div class="row" style="margin-top:2em;">
+    <div class="col-sm-12" style="display:flex;flex-wrap:wrap;">
+
+      <a href="letters.html" class="frontblock">
        <div class="big-menu-block cinzel-900" style="background-image:url(assets/images/TheLetters-bg.jpg);">
-         <div style="background:rgba(255,255,255,0.4);position:absolute;top:0;bottom:0;left:0;right:0;padding:1em 2em;">
+         <div class="bg_gradient">
          <h2>The Letters</h2>
          </div>
        </div>
-       
       </a>
-    </div>
-    <div class="col-sm-6" style="padding:10px;">
-      <a href="syllabary.html">
-      <div class="big-menu-block cinzel-900" style="background-image:url(assets/images/TheSyllables-bg.jpg);">
-        <h2>The Syllabary</h2>
-      </div></a>
-    </div>
-    <div class="col-sm-6" style="padding:10px;">
-      <a href="numerals.html">
-      <div class="big-menu-block cinzel-900" style="background-image:url(assets/images/TheNumerals-bg.jpg);">
-        <h2>The Numerals</h2>
-      </div></a>
-    </div>
-    <div class="col-sm-6" style="padding:10px;">
-      <a href="history.html">
-      <div class="big-menu-block cinzel-900" style="background-image:url(assets/images/TheHistory-bg.jpg);">
-        <h2>The History</h2>
-      </div></a>
-    </div>
 
+
+      <a href="syllabary.html" class="frontblock">
+       <div class="big-menu-block cinzel-900" style="background-image:url(assets/images/TheSyllables-bg.jpg);">
+         <div class="bg_gradient">
+         <h2>The Syllabary</h2>
+         </div>
+       </div>
+      </a>
+
+
+      <a href="numerals.html" class="frontblock">
+       <div class="big-menu-block cinzel-900" style="background-image:url(assets/images/TheNumerals-bg.jpg);">
+         <div class="bg_gradient">
+         <h2>The Numerals</h2>
+         </div>
+       </div>
+      </a>
+      
+      <a href="history.html" class="frontblock">
+       <div class="big-menu-block cinzel-900" style="background-image:url(assets/images/TheHistory-bg.jpg);">
+         <div class="bg_gradient">
+         <h2>The History</h2>
+         </div>
+       </div>
+      </a>
+
+   </div>
 </div>
 
 
