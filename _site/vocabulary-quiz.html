@@ -98,6 +98,7 @@
  #card { text-align:center; background:black;color:white;font-size:3.4em;padding:2em 1em; }
  #card img { height: 200px; width:auto; }
  #nav { text-align:right; }
+ #nav label { font-size:0.9em;color:#999;margin-right:0.5em; }
  #choices { width:100%; display:flex; flex-wrap:wrap; justify-content:center;margin-top:1em;}
  .choice { width:25%;text-decoration:none; }
  .choice-inner { margin:0.2em;padding:1em; background:#777;text-align:center; color:white; font-size:1em}
@@ -115,7 +116,7 @@
       
       
       <div id="quiz">
-      <div id="nav">Mode: <a href="#" class="mode btn btn-primary" rel="ethiopic">Ethiopic</a><a href="#" class="mode btn" rel="english">English</a></div>
+      <div id="nav"><label>Mode:</label> <a href="#" class="mode btn active" rel="ethiopic">Ethiopic</a><a href="#" class="mode btn" rel="english">English</a></div>
       <div id="progress"><div id="progress-bar"></div></div>
      <div id="card"></div>
      <div id="choices"></div>
@@ -225,8 +226,8 @@ deal(0);
 
 	jQuery(document).on("click",".mode",function(e){
 	  mode = jQuery(this).attr('rel');
-	  jQuery(".mode").removeClass('btn-primary');
-	  jQuery(this).addClass('btn-primary');
+	  jQuery(".mode").removeClass('active');
+	  jQuery(this).addClass('active');
 	  deal(0);
 	  
 	});
