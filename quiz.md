@@ -6,7 +6,7 @@ layout: secondary-narrow
 banner: TheSyllables-wide.jpg
 ---
 <style>
- #quiz {  margin:1em auto;width:600px; }
+ #quiz {  max-width:700px; width:100%;	 }
  #progress { width:100%;  }
  #progress-bar { width:0%;height:10px;background:crimson; }
  #card { text-align:center; background:black;color:white;font-size:3.4em;padding:2em; }
@@ -19,10 +19,21 @@ banner: TheSyllables-wide.jpg
  a.correct > .choice-inner { background:#474;} 
 </style>
 <div class='row'>
-
   <div class='col-sm-12'>
 
-      <h2 style="margin:2em 0 1.6em;">Quiz</h2>
+      <h2 style="margin:2em 0 1.6em;">Character Quiz</h2>
+  </div> <!-- /.col -->
+</div>
+<div class='row'>
+
+  <div class='col-sm-3'>
+      
+      <a href="quiz.html" class="btn active">Character Quiz</a><br />
+      <a href="vocabularyquiz.html" class="btn active">Vocabulary Quiz</a><br />
+      <a href="scribalhandquiz.html" class="btn active">Scribal Hand Quiz</a><br />
+
+  </div> <!-- /.col -->
+  <div class='col-sm-9'>
       
       
       <div id="quiz">
@@ -32,8 +43,6 @@ banner: TheSyllables-wide.jpg
       </div>
 
   </div> <!-- /.col -->
-
-
 
 </div>
 
@@ -46,12 +55,12 @@ banner: TheSyllables-wide.jpg
 
 jQuery(document).ready(function(){
   
-var deck = shuffle(sy).slice(0,10);
-var remainder = [];
-var current = 0;
-var answer = 0;
-var choices = [];
-deal(0);
+	var deck = shuffle(sy).slice(0,10);
+	var remainder = [];
+	var current = 0;
+	var answer = 0;
+	var choices = [];
+	deal(0);
   
 	function shuffle(array) {
 	  let currentIndex = array.length;

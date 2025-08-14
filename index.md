@@ -11,13 +11,25 @@ layout: home
 }
 
 .frontblock {
-  width: 45%;
+  width: 48%;
   display: block;
   position: relative;
   margin: 0 1em 1em 0;
   color: white;
+  border-radius:40px;
+  overflow:hidden;
 }
-.frontblock:hover { color:#c8c3ad;  }
+.frontblock-wide:hover, .frontblock:hover { color:#c8c3ad;  }
+.frontblock-wide {
+  width: 98%;
+  display: block;
+  position: relative;
+  margin: 0 1em 1em 0;
+  color: white;
+  border-radius:30px;
+  overflow:hidden;
+}
+
 </style>
 <div class='row'>
 
@@ -33,6 +45,11 @@ layout: home
 
 <div class="row" style='margin-top:2em;'>
     <div class='col-sm-12' style='display:flex;flex-wrap:wrap;'>
+    
+    
+
+
+
 
       <a href="letters.html" class='frontblock'>
        <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheLetters-bg.jpg);'>
@@ -67,6 +84,21 @@ layout: home
          </div>
        </div>
       </a>
+      
+      <a href="quiz.html" class='frontblock-wide'>
+       <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheLetters-bg.jpg);height:20vh;'>
+         <div class="bg_gradient">
+         <h2>Quiz</h2>
+         </div>
+       </div>
+      </a>
+
+   </div>
+</div>
+<div class="row" style='margin-top:2em;'>
+    <div class='col-sm-12'>
+
+
 
    </div>
 </div>
