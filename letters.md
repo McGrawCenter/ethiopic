@@ -7,7 +7,7 @@ banner: TheLetters-wide.jpg
 ---
 
 <div class='row'>
-  <div class='col-sm-7'><h2 style="margin:2em 0 1.6em;">The Letters</h2></div>
+  <div class='col-sm-7'><h2 style="margin:2em 0 1.6em;">Letters</h2></div>
   <div class='col-sm-5' style='text-align:right;padding-top:1em;'><a href="#" class="setletters traditional btn active" rel="traditional">Traditional</a> <a href="#" class="setletters modern btn" rel="modern">Modern</a></div>
 </div>
 
@@ -20,7 +20,7 @@ banner: TheLetters-wide.jpg
 	 <div id="traditional" class='gallery'>
 	  {% for char in site.data.letters %}
 	      {% assign groups = char.group | split: "," %} 
-	      <a class="tile group {{ groups | join: " group" }}" data-hilite="" href="letters/{{char.ID}}.html">{{ char.character }}<div class='tile-title'><i>{{ char.name }}</i></div></a>
+	      <a class="tile group {{ groups | join: " group" }}" data-hilite="" href="syllables/{{char.ID}}.html">{{ char.character }}<div class='tile-title'><i>{{ char.name }}</i></div></a>
 	  {% endfor %}
 	</div>
 
@@ -28,7 +28,7 @@ banner: TheLetters-wide.jpg
 	 <div id="modern" class='gallery' style='display:none;'>
 	  {% for char in site.data.letters-modern %}
 	      {% assign groups = char.group | split: "," %} 
-	      <a class="tile group {{ groups | join: " group" }}" data-hilite="" href="letters/{{char.ID}}.html">{{ char.character }}<div class='tile-title'><i>{{ char.name }}</i></div></a>
+	      <a class="tile group {{ groups | join: " group" }}" data-hilite="" href="syllables/{{char.ID}}.html">{{ char.character }}<div class='tile-title'><i>{{ char.name }}</i></div></a>
 	  {% endfor %}
 	</div>
 	

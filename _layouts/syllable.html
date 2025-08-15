@@ -31,26 +31,37 @@
 {% endfor %}
 
 
+<div class='row' style='margin-top:2em;'>
 
+    <div class='col-sm-3'>
+	<h2 class='page-title'>{{ char.character }} <span style='font-size:0.5em;'>({{ char.transliteration }})</span></h2>
+    </div>
+    <div class='col-sm-9' style='text-align:right;'>
+        <img src="../assets/images/sabaic/{{ char.sabaic_image }}" style="box-shadow: 0 .1em .2em rgba(0,0,0,0.05);"/>        
+    </div>
+
+</div>
 
 <div class='row'>
 
-    <div class='col-sm-3'>
-	<h2 class='page-title'>{{ char.character }} <span style='font-size:0.5em;'>{{ char.transliteration }}</span></h2>
+    <div class='col-sm-12'>
+        <p style='margin-bottom:2em;'>{{char.description}}</p>
+        <!--<p><audio controls src="../assets/audio/15.mp3"/></p>-->
     </div>
     
-    <div class='col-sm-9'>
+    <div class="col-md-12">
 <div id="variant-menu">
 {% for co in site.data.syllabary %}
    {% if char.name == co.name %}
-     {% if char.character == co.character %} <a href='{{co.ID}}.html' class='active'>{{co.character}}</a>{% endif %}
-     {% if char.character != co.character %} <a href='{{co.ID}}.html'>{{co.character}}</a>{% endif %}
+     {% if char.character == co.character %} <a href='{{site.baseurl}}/syllables/{{co.ID}}.html' class='active'>{{co.character}}</a>{% endif %}
+     {% if char.character != co.character %} <a href='{{site.baseurl}}/syllables/{{co.ID}}.html'>{{co.character}}</a>{% endif %}
    {% endif %}
 {% endfor %}
-</div>
-    </div>    
+</div>   
+    </div>
 
 </div>
+
 
 
 

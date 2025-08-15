@@ -9,7 +9,7 @@ banner: TheSyllables-wide.jpg
 
   <div class='col-sm-12'>
 
-      <h2 style="margin:2em 0 1.6em;">The Syllabary</h2>
+      <h2 style="margin:2em 0 1.6em;">Syllabary</h2>
       
       
            

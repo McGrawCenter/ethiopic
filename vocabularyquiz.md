@@ -6,7 +6,7 @@ layout: secondary-narrow
 banner: TheSyllables-wide.jpg
 ---
 <style>
- #quiz {  max-width:700px; width:100%;	 }
+ #quiz {  max-width:700px; width:100%;position:relative; }
  #progress { width:100%;  }
  #progress-bar { width:0%;height:10px;background:crimson; }
  #card { text-align:center; background:black;color:white;font-size:3.4em;padding:2em 1em; }
@@ -14,6 +14,7 @@ banner: TheSyllables-wide.jpg
  #nav { text-align:right; }
  #nav label { font-size:0.9em;color:#999;margin-right:0.5em; }
  #choices { width:100%; display:flex; flex-wrap:wrap; justify-content:center;margin-top:1em;}
+ #counter { position:absolute; top:55px;right:5px; color:white;padding:10px; }
  .choice { width:25%;text-decoration:none; }
  .choice-inner { margin:0.2em;padding:1em; background:#777;text-align:center; color:white; font-size:1em}
  a.incorrect { pointer-events: none;text-decoration:none; }
@@ -41,10 +42,11 @@ banner: TheSyllables-wide.jpg
      
       
       <div id="quiz">
-      <div id="nav"><label>Mode:</label> <a href='#' class='mode btn active' rel='ethiopic'>Ethiopic</a><a href='#' class='mode btn' rel='english'>English</a></div>
-      <div id="progress"><div id="progress-bar"></div></div>
-     <div id="card"></div>
-     <div id="choices"></div>
+         <div id="nav"><label>Mode:</label> <a href='#' class='mode btn active' rel='ethiopic'>Ethiopic</a><a href='#' class='mode btn' rel='english'>English</a></div>
+         <div id="progress"><div id="progress-bar"></div></div>
+         <div id="card"></div>
+         <div id="choices"></div>
+         <div id="counter"><span id="current">1</span> of 10</div>
       </div>
 
   </div> <!-- /.col -->
@@ -109,6 +111,9 @@ deal(0);
 	  choices.push(remainder[1]);
 	  choices.push(remainder[2]);
 	  choices = shuffle(choices); // finally, shuffle
+	  
+	  jQuery("#current").text(current+1);
+	  
 	  if(mode == 'ethiopic') {
 	  
 	     for(var x= 0;x<=3;x++) {

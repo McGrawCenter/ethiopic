@@ -6,13 +6,14 @@ layout: secondary-narrow
 banner: TheSyllables-wide.jpg
 ---
 <style>
- #quiz {  max-width:700px; width:100%;	 }
+ #quiz {  max-width:700px; width:100%;position:relative; }
  #progress { width:100%;  }
  #progress-bar { width:0%;height:10px;background:crimson; }
- #card { text-align:center; background:black;color:white;font-size:3.4em;padding:2em; }
+ #card { text-align:center; background:black;color:white;font-size:150px;padding:0.5em; }
  #choices { width:100%; display:flex; flex-wrap:wrap; justify-content:center;margin-top:1em;}
+ #counter { position:absolute; top:5px;right:0px; color:white;padding:10px; }
  .choice { width:25%;text-decoration:none; }
- .choice-inner { margin:0.2em;padding:1em; background:#777;text-align:center; color:white; font-size:1.5em}
+ .choice-inner { margin:0.2em;padding:1em; background:#777;text-align:center; color:white; font-size:1.5em; font-style:italic;}
  a.incorrect { pointer-events: none;text-decoration:none; }
  a.incorrect > .choice-inner { background:#EEE;}
  a.correct { text-decoration:none; }
@@ -37,9 +38,10 @@ banner: TheSyllables-wide.jpg
       
       
       <div id="quiz">
-      <div id="progress"><div id="progress-bar"></div></div>
-     <div id="card"></div>
-     <div id="choices"></div>
+         <div id="progress"><div id="progress-bar"></div></div>
+         <div id="card"></div>
+         <div id="choices"></div>
+         <div id="counter"><span id="current">1</span> of 10</div>
       </div>
 
   </div> <!-- /.col -->
@@ -93,6 +95,8 @@ jQuery(document).ready(function(){
 	  choices.push(remainder[1]);
 	  choices.push(remainder[2]);
 	  choices = shuffle(choices); // finally, shuffle
+	  
+	  jQuery("#current").text(current+1);
 	  
 	  for(var x= 0;x<=3;x++) {
 	    jQuery("#choices").append("<a class='choice' href='#' rel='"+choices[x].ID+"'><div class='choice-inner'>"+choices[x].transliteration+"</div></a>");

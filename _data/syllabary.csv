@@ -1,183 +1,183 @@
 ID,character,transliteration,name,scribal,cursive,sabaic,sabaic_image,grouping,group,previous,next,description
-1,ሀ,ha,hoy,,,𐩠,1.gif,1,Variants of hoy,,2,"The Ge'ez letter ሀ is called ሆይ (hoy). It represents a “voiceless glottal fricative”, which is the sounds of <h> in the English words home, horse, and happy. ¶ Its shape ሀ is derived from the epigraphic character: 𐩠. It correlates to the Arabic letter ہ, the Syriac letter ܗ, and the Hebrew letter ה. ¶ Ge’ez words starting with ሀ include ሀገር (hagar) “city”, ሀላዌ (həllāwe) “existence”, and ሃይማኖት (hāymānot) “faith”."
-2,ሁ,hu,hoy,,,,,1,Variants of hoy,1,3,
-3,ሂ,hi,hoy,,,,,1,Variants of hoy,2,4,
-4,ሃ,hā,hoy,,,,,1,Variants of hoy,3,5,
-5,ሄ,he,hoy,,,,,1,Variants of hoy,4,6,
-6,ህ,hə,hoy,,,,,1,Variants of hoy,5,7,
-7,ሆ,ho,hoy,,,,,1,Variants of hoy,6,8,
-8,ለ,la,lāwi,,,𐩡,8.gif,2,Variants of lāwi,7,9,"The Ge'ez letter ለ is called ላዊ (lāwi). It represents a “voiced alveolar lateral approximant”, which is the sounds of <l> in the English words love, lake, and lyric. ¶ Its shape ለ is derived from the epigraphic character: 𐩡. It correlates to the Arabic letter ل, the Syriac letter ܠ, and the Hebrew letter ל‎. ¶ Ge’ez words starting with ለ include ሌሊት (lelit) “night”, ልብ (ləbb) “heart”, and ልሳን (ləssān) “language”."
-9,ሉ,lu,lāwi,,,,,2,Variants of lāwi,8,10,
-10,ሊ,li,lāwi,,,,,2,Variants of lāwi,9,11,
-11,ላ,lā,lāwi,,,,,2,Variants of lāwi,10,12,
-12,ሌ,le,lāwi,,,,,2,Variants of lāwi,11,13,
-13,ል,lə,lāwi,,,,,2,Variants of lāwi,12,14,
-14,ሎ,lo,lāwi,,,,,2,Variants of lāwi,13,15,
-15,ሐ,ḥə,ḥawt,,,𐩢,15.gif,3,Variants of ḥawt,14,16,"The Ge'ez letter ሐ is called ሐውት (ḥawt). It represents a “voiceless pharyngeal fricative”, which is a throaty <h> sound. ¶ Its shape ሐ is derived from the epigraphic character: 𐩢. It correlates to the Arabic letter ح‎. ¶ Ge’ez words starting with ሐ include ሕይወት (ḥəywat) “night”, ሐዋርያ (ḥawārəyā) “apostle”, and ሕዝብ (ḥəzb) “people”."
-16,ሑ,ḥu,ḥawt,,,,,3,Variants of ḥawt,15,17,
-17,ሒ,ḥi,ḥawt,,,,,3,Variants of ḥawt,16,18,
-18,ሓ,ḥā,ḥawt,,,,,3,Variants of ḥawt,17,19,
-19,ሔ,ḥe,ḥawt,,,,,3,Variants of ḥawt,18,20,
-20,ሕ,ḥə,ḥawt,,,,,3,Variants of ḥawt,19,21,
-21,ሖ,ḥo,ḥawt,,,,,3,Variants of ḥawt,20,22,
-22,መ,ma,māy,,,𐩦,22.gif,4,Variants of māy,21,23,"The Ge'ez letter መ is called ማይ (māy). It represents a “voiced bilabial nasal”, which is the sound of m in the English words mother, mark, and meet. ¶ Its shape መ is derived from the epigraphic character: 𐩣. It correlates to the Arabic letter م, the Syriac letter ܡ, and the Hebrew letter מ‎‎. ¶ Ge’ez words starting with መ include ሞግስ (mogəs) “grace”, መምህር (mamhər) “teacher”, and ምሕረት (məḥrat) “mercy”."
-23,ሙ,mu,māy,,,,,4,Variants of māy,22,24,
-24,ሚ,mi,māy,,,,,4,Variants of māy,23,25,
-25,ማ,mā,māy,,,,,4,Variants of māy,24,26,
-26,ሜ,me,māy,,,,,4,Variants of māy,25,27,
-27,ም,mə,māy,,,,,4,Variants of māy,26,28,
-28,ሞ,mo,māy,,,,,4,Variants of māy,27,29,
-29,ሠ,ša,šawt,,,𐩧,29.gif,5,Variants of šawt,28,30,"The Ge'ez letter ሠ is called ሠውት (šawt). It originally represented a “voiceless alveolar lateral fricative”, which is a cross between the sounds of <l> and <sh> in English. Nowadays, it is pronounced like <s> in the English words sun, sea, and sweet. It is sometimes called ሠ ንጉሥ (ša nəguš) ""the 's' [in the word] king"" to distinguish it from the other s sound. ¶ Its shape ሠ is derived from the epigraphic character: 𐩦. It correlates to the Arabic letter ش, the Syriac letter ܫ, and the Hebrew letter ש. ¶ Ge’ez words starting with ሠ include ሥላሴ (šəllase) “Trinity”, ሥምረት (šəmrat) “benevolence”, and ሠናይ (šannay) “beautiful”."
-30,ሡ,šu,šawt,,,,,5,Variants of šawt,29,31,
-31,ሢ,ši,šawt,,,,,5,Variants of šawt,30,32,
-32,ሣ,šā,šawt,,,,,5,Variants of šawt,31,33,
-33,ሤ,še,šawt,,,,,5,Variants of šawt,32,34,
-34,ሥ,šə,šawt,,,,,5,Variants of šawt,33,35,
-35,ሦ,šo,šawt,,,,,5,Variants of šawt,34,36,
-36,ረ,ra,rəʾəs,,,𐩤,36.gif,6,Variants of rəʾəs,35,37,"The Ge'ez letter ረ is called ርእስ (rəʾəs). It originally represented a “voiced alveolar trill”, which is the r sound in the English words radio, road, and reach.¶ Its shape ረ is derived from the epigraphic character: 𐩧. It correlates to the Arabic letter ر, the Syriac letter ܪ, and the Hebrew letter ר. ¶ Ge’ez words starting with ረ include ራእይ (rāʾəy) “vision”, ርክበት (rəkbat) “discovery”, and ረድኤት (radʾet) “help”."
-37,ሩ,ru,rəʾəs,,,,,6,Variants of rəʾəs,36,38,
-38,ሪ,ri,rəʾəs,,,,,6,Variants of rəʾəs,37,39,
-39,ራ,rā,rəʾəs,,,,,6,Variants of rəʾəs,38,40,
-40,ሬ,re,rəʾəs,,,,,6,Variants of rəʾəs,39,41,
-41,ር,rə,rəʾəs,,,,,6,Variants of rəʾəs,40,42,
-42,ሮ,ro,rəʾəs,,,,,6,Variants of rəʾəs,41,43,
-43,ሰ,sa,sāt,,,𐩨,43.gif,7,Variants of sāt,42,44,"The Ge'ez letter ሰ is called ሳት (sāt). It represents a “voiceless alveolar sibilant”, which is the sound s in the English words sea, sky, and soul. ¶ Its shape ሰ is derived from the epigraphic character: 𐩪. It correlates to the Arabic letter س, the Syriac letter ܣ, and the Hebrew letter ס. ¶ Ge’ez words starting with ረ include ሰማይ (samāy) “sky”, ሰላም (salām) “peace”, and ሰማዕት (samāʿt) “martyr”."
-44,ሱ,su,sāt,,,,,7,Variants of sāt,43,45,
-45,ሲ,si,sāt,,,,,7,Variants of sāt,44,46,
-46,ሳ,sā,sāt,,,,,7,Variants of sāt,45,47,
-47,ሴ,se,sāt,,,,,7,Variants of sāt,46,48,
-48,ስ,sə,sāt,,,,,7,Variants of sāt,47,49,
-49,ሶ,so,sāt,,,,,7,Variants of sāt,48,50,
-50,ቀ,qa,qāf,,,𐩩,50.gif,8,Variants of qāf,49,51,"The Ge'ez letter ቀ is called ቃፍ (qāf). It represents an “ejective velar”, which sounds like a forceful <k> in English. The sound is rare but it appears in languages like Georgian, e.g. კი (k’i) “yes”, and and Navajo, e.g. “k’é” (friendship). ¶ Its shape ቀ is derived from the epigraphic character: 𐩤. It correlates to the Arabic letter ق, the Syriac letter ܩ, and the Hebrew letter ק. ¶ Ge’ez words starting with ቀ include ቅዱስ (qəddus) “saint”, ቃል (qāl) “word”, and ቍርባን (qwərbān) “offering”."
-51,ቁ,qu,qāf,,,,,8,Variants of qāf,50,52,
-52,ቂ,qi,qāf,,,,,8,Variants of qāf,51,53,
-53,ቃ,qā,qāf,,,,,8,Variants of qāf,52,54,
-54,ቄ,qe,qāf,,,,,8,Variants of qāf,53,55,
-55,ቅ,qə,qāf,,,,,8,Variants of qāf,54,56,
-56,ቆ,qo,qāf,,,,,8,Variants of qāf,55,57,
-57,በ,ba,bet,,,𐩭,57.gif,9,Variants of bet,56,58,"The Ge'ez letter በ is called ቤት (bet). It represents an “voiced bilabial plosive”, which is the <b> sound in the English words boy, big, and ball. ¶ Its shape በ is derived from the epigraphic character: 𐩨. It correlates to the Arabic letter ب, the Syriac letter ܒ, and the Hebrew letter ב. ¶ Ge’ez words starting with በ include ብርሃን (bərhan) “light”, ቤዛ (beza) “redemption”, and ብሥረት (bəšrat) “good news”."
-58,ቡ,bu,bet,,,,,9,Variants of bet,57,59,
-59,ቢ,bi,bet,,,,,9,Variants of bet,58,60,
-60,ባ,bā,bet,,,,,9,Variants of bet,59,61,
-61,ቤ,be,bet,,,,,9,Variants of bet,60,62,
-62,ብ,bə,bet,,,,,9,Variants of bet,61,63,
-63,ቦ,bo,bet,,,,,9,Variants of bet,62,64,
-64,ተ,ta,tāw,,,𐩬,64.gif,10,Variants of tāw,63,65,"The Ge'ez letter ተ is called ታው (tāw). It represents an “voiceless denti-alveolar plosive”, which is the unaspirated <t> sound in the English words tall, teal, and tech. ¶ Its shape ተ is derived from the epigraphic character: 𐩩. It correlates to the Arabic letter ت‎, the Syriac letter ܬ, and the Hebrew letter ת. ¶ Ge’ez words starting with ተ include ተስፋ (tasfā) “hope”, ትእግሥት (təʾəgəšt) “patience”, and ትርጓሜ (tərgwāme) “translation”."
-65,ቱ,tu,tāw,,,,,10,Variants of tāw,64,66,
-66,ቲ,ti,tāw,,,,,10,Variants of tāw,65,67,
-67,ታ,tā,tāw,,,,,10,Variants of tāw,66,68,
-68,ቴ,te,tāw,,,,,10,Variants of tāw,67,69,
-69,ት,tə,tāw,,,,,10,Variants of tāw,68,70,
-70,ቶ,to,tāw,,,,,10,Variants of tāw,69,71,
-71,ኀ,ḫa,ḫarm,,,𐩱,71.gif,11,Variants of ḫarm,70,72,"The Ge'ez letter ኀ is called ኀርም (ḫarm). It represents an “voiceless velar fricative”, which is a very throaty <h> sound, like <j> in the Spanish word jardin, or <ch> in the German word buch. ¶ Its shape ኀ is derived from the epigraphic character: 𐩭. It correlates to the Arabic letter خ‎, the Syriac letter ܚ, and the Hebrew letter ח. ¶ Ge’ez words starting with ኀ include ኀይል (ḫayl) “power”, ኂሩት (ḫirut) “goodness”, and ኅብረት (ḫəbrat) “union”.  "
-72,ኁ,ḫu,ḫarm,,,,,11,Variants of ḫarm,71,73,
-73,ኂ,ḫi,ḫarm,,,,,11,Variants of ḫarm,72,74,
-74,ኃ,ḫa,ḫarm,,,,,11,Variants of ḫarm,73,75,
-75,ኄ,ḫe,ḫarm,,,,,11,Variants of ḫarm,74,76,
-76,ኅ,ḫə,ḫarm,,,,,11,Variants of ḫarm,75,77,
-77,ኆ,ḫo,ḫarm,,,,,11,Variants of ḫarm,76,78,
-78,ነ,na,naḥs,,,𐩫,78.gif,12,Variants of naḥs,77,79,"The Ge'ez letter ነ is called ነሕስ (naḥs). It represents a “alveolar nasal”, which is the sounds of <n> in the English words nest, north, and neat. ¶ Its shape ነ is derived from the epigraphic character: 𐩬. It correlates to the Arabic letter ن, the Syriac letter ܢ, and the Hebrew letter נ‎‎. ¶ Ge’ez words starting with ነ include ነጋሢ (nagāši) “monarch”, ንዋይ (nəway) “wealth”, and ንጽሐት (nəṣḥat) “purity”."
-79,ኑ,nu,naḥs,,,,,12,Variants of naḥs,78,80,
-80,ኒ,ni,naḥs,,,,,12,Variants of naḥs,79,81,
-81,ና,nā,naḥs,,,,,12,Variants of naḥs,80,82,
-82,ኔ,ne,naḥs,,,,,12,Variants of naḥs,81,83,
-83,ን,nə,naḥs,,,,,12,Variants of naḥs,82,84,
-84,ኖ,no,naḥs,,,,,12,Variants of naḥs,83,85,
-85,አ,ʾa,ʾalf,,,𐩥,85.gif,13,Variants of ʾalf,84,86,"The Ge'ez letter አ is called አልፍ (ʾalf). It represents a “glottal stop”, which is a break in a vowel sound like in the middle of the English expression uh oh. ¶ Its shape አ is derived from the epigraphic character: 𐩱. It correlates to the Arabic letter أ‎, the Syriac letter ܐ, and the Hebrew letter א‎‎. ¶ Ge’ez words starting with አ include አበው (ʾabaw) “ancestors”, አኰቴት (ʾakkwatet) “gratitude”, and ኢየሩሳሌም (ʾiyarusālem) “Jerusalem”."
-86,ኡ,ʾu,ʾalf,,,,,13,Variants of ʾalf,85,87,
-87,ኢ,ʾi,ʾalf,,,,,13,Variants of ʾalf,86,88,
-88,ኣ,ʾa,ʾalf,,,,,13,Variants of ʾalf,87,89,
-89,ኤ,ʾe,ʾalf,,,,,13,Variants of ʾalf,88,90,
-90,እ,ʾə,ʾalf,,,,,13,Variants of ʾalf,89,91,
-91,ኦ,ʾo,ʾalf,,,,,13,Variants of ʾalf,90,92,
-92,ከ,ka,kāf,,,𐩲,92.gif,14,Variants of kāf,91,93,"The Ge'ez letter ከ is called ካፍ (kāf). It represents a “voiceless velar plosive”, which is like <k> in the English words kite, keep, and kettle. ¶ Its shape ከ is derived from the epigraphic character: 𐩫. It correlates to the Arabic letter ك‎‎, the Syriac letter ܟ, and the Hebrew letter כ‎‎. ¶ Ge’ez words starting with ከ include ኮከብ (kokab) “star”, ክብር (kəbr) “glory”, and  ኪዳን (kidan) “testament”."
-93,ኩ,ku,kāf,,,,,14,Variants of kāf,92,94,
-94,ኪ,ki,kāf,,,,,14,Variants of kāf,93,95,
-95,ካ,kā,kāf,,,,,14,Variants of kāf,94,96,
-96,ኬ,ke,kāf,,,,,14,Variants of kāf,95,97,
-97,ክ,kə,kāf,,,,,14,Variants of kāf,96,98,
-98,ኮ,ko,kāf,,,,,14,Variants of kāf,97,99,
+1,ሀ,ha,hoy,,,𐩠,1.gif,1,Variants of hoy,,2,"<p>The Ge'ez letter ሀ is called ሆይ (hoy). It represents a “voiceless glottal fricative”, which is the sounds of <h> in the English words home, horse, and happy.</p><p>Its shape ሀ is derived from the epigraphic character: 𐩠. It correlates to the Arabic letter ہ, the Syriac letter ܗ, and the Hebrew letter ה.</p><p>Ge’ez words starting with ሀ include ሀገር (hagar) “city”, ሀላዌ (həllāwe) “existence”, and ሃይማኖት (hāymānot) “faith”.</p>"
+2,ሁ,hu,hoy,,,𐩠,1.gif,1,Variants of hoy,1,3,"<p>The Ge'ez letter ሀ is called ሆይ (hoy). It represents a “voiceless glottal fricative”, which is the sounds of <h> in the English words home, horse, and happy.</p><p>Its shape ሀ is derived from the epigraphic character: 𐩠. It correlates to the Arabic letter ہ, the Syriac letter ܗ, and the Hebrew letter ה.</p><p>Ge’ez words starting with ሀ include ሀገር (hagar) “city”, ሀላዌ (həllāwe) “existence”, and ሃይማኖት (hāymānot) “faith”.</p>"
+3,ሂ,hi,hoy,,,𐩠,1.gif,1,Variants of hoy,2,4,"<p>The Ge'ez letter ሀ is called ሆይ (hoy). It represents a “voiceless glottal fricative”, which is the sounds of <h> in the English words home, horse, and happy.</p><p>Its shape ሀ is derived from the epigraphic character: 𐩠. It correlates to the Arabic letter ہ, the Syriac letter ܗ, and the Hebrew letter ה.</p><p>Ge’ez words starting with ሀ include ሀገር (hagar) “city”, ሀላዌ (həllāwe) “existence”, and ሃይማኖት (hāymānot) “faith”.</p>"
+4,ሃ,hā,hoy,,,𐩠,1.gif,1,Variants of hoy,3,5,"<p>The Ge'ez letter ሀ is called ሆይ (hoy). It represents a “voiceless glottal fricative”, which is the sounds of <h> in the English words home, horse, and happy.</p><p>Its shape ሀ is derived from the epigraphic character: 𐩠. It correlates to the Arabic letter ہ, the Syriac letter ܗ, and the Hebrew letter ה.</p><p>Ge’ez words starting with ሀ include ሀገር (hagar) “city”, ሀላዌ (həllāwe) “existence”, and ሃይማኖት (hāymānot) “faith”.</p>"
+5,ሄ,he,hoy,,,𐩠,1.gif,1,Variants of hoy,4,6,"<p>The Ge'ez letter ሀ is called ሆይ (hoy). It represents a “voiceless glottal fricative”, which is the sounds of <h> in the English words home, horse, and happy.</p><p>Its shape ሀ is derived from the epigraphic character: 𐩠. It correlates to the Arabic letter ہ, the Syriac letter ܗ, and the Hebrew letter ה.</p><p>Ge’ez words starting with ሀ include ሀገር (hagar) “city”, ሀላዌ (həllāwe) “existence”, and ሃይማኖት (hāymānot) “faith”.</p>"
+6,ህ,hə,hoy,,,𐩠,1.gif,1,Variants of hoy,5,7,"<p>The Ge'ez letter ሀ is called ሆይ (hoy). It represents a “voiceless glottal fricative”, which is the sounds of <h> in the English words home, horse, and happy.</p><p>Its shape ሀ is derived from the epigraphic character: 𐩠. It correlates to the Arabic letter ہ, the Syriac letter ܗ, and the Hebrew letter ה.</p><p>Ge’ez words starting with ሀ include ሀገር (hagar) “city”, ሀላዌ (həllāwe) “existence”, and ሃይማኖት (hāymānot) “faith”.</p>"
+7,ሆ,ho,hoy,,,𐩠,1.gif,1,Variants of hoy,6,8,"<p>The Ge'ez letter ሀ is called ሆይ (hoy). It represents a “voiceless glottal fricative”, which is the sounds of <h> in the English words home, horse, and happy.</p><p>Its shape ሀ is derived from the epigraphic character: 𐩠. It correlates to the Arabic letter ہ, the Syriac letter ܗ, and the Hebrew letter ה.</p><p>Ge’ez words starting with ሀ include ሀገር (hagar) “city”, ሀላዌ (həllāwe) “existence”, and ሃይማኖት (hāymānot) “faith”.</p>"
+8,ለ,la,lāwi,,,𐩡,8.gif,2,Variants of lāwi,7,9,"<p>The Ge'ez letter ለ is called ላዊ (lāwi). It represents a “voiced alveolar lateral approximant”, which is the sounds of <l> in the English words love, lake, and lyric.</p><p>Its shape ለ is derived from the epigraphic character: 𐩡. It correlates to the Arabic letter ل, the Syriac letter ܠ, and the Hebrew letter ל‎.</p><p>Ge’ez words starting with ለ include ሌሊት (lelit) “night”, ልብ (ləbb) “heart”, and ልሳን (ləssān) “language”.</p>"
+9,ሉ,lu,lāwi,,,𐩡,8.gif,2,Variants of lāwi,8,10,"<p>The Ge'ez letter ለ is called ላዊ (lāwi). It represents a “voiced alveolar lateral approximant”, which is the sounds of <l> in the English words love, lake, and lyric.</p><p>Its shape ለ is derived from the epigraphic character: 𐩡. It correlates to the Arabic letter ل, the Syriac letter ܠ, and the Hebrew letter ל‎.</p><p>Ge’ez words starting with ለ include ሌሊት (lelit) “night”, ልብ (ləbb) “heart”, and ልሳን (ləssān) “language”.</p>"
+10,ሊ,li,lāwi,,,𐩡,8.gif,2,Variants of lāwi,9,11,"<p>The Ge'ez letter ለ is called ላዊ (lāwi). It represents a “voiced alveolar lateral approximant”, which is the sounds of <l> in the English words love, lake, and lyric.</p><p>Its shape ለ is derived from the epigraphic character: 𐩡. It correlates to the Arabic letter ل, the Syriac letter ܠ, and the Hebrew letter ל‎.</p><p>Ge’ez words starting with ለ include ሌሊት (lelit) “night”, ልብ (ləbb) “heart”, and ልሳን (ləssān) “language”.</p>"
+11,ላ,lā,lāwi,,,𐩡,8.gif,2,Variants of lāwi,10,12,"<p>The Ge'ez letter ለ is called ላዊ (lāwi). It represents a “voiced alveolar lateral approximant”, which is the sounds of <l> in the English words love, lake, and lyric.</p><p>Its shape ለ is derived from the epigraphic character: 𐩡. It correlates to the Arabic letter ل, the Syriac letter ܠ, and the Hebrew letter ל‎.</p><p>Ge’ez words starting with ለ include ሌሊት (lelit) “night”, ልብ (ləbb) “heart”, and ልሳን (ləssān) “language”.</p>"
+12,ሌ,le,lāwi,,,𐩡,8.gif,2,Variants of lāwi,11,13,"<p>The Ge'ez letter ለ is called ላዊ (lāwi). It represents a “voiced alveolar lateral approximant”, which is the sounds of <l> in the English words love, lake, and lyric.</p><p>Its shape ለ is derived from the epigraphic character: 𐩡. It correlates to the Arabic letter ل, the Syriac letter ܠ, and the Hebrew letter ל‎.</p><p>Ge’ez words starting with ለ include ሌሊት (lelit) “night”, ልብ (ləbb) “heart”, and ልሳን (ləssān) “language”.</p>"
+13,ል,lə,lāwi,,,𐩡,8.gif,2,Variants of lāwi,12,14,"<p>The Ge'ez letter ለ is called ላዊ (lāwi). It represents a “voiced alveolar lateral approximant”, which is the sounds of <l> in the English words love, lake, and lyric.</p><p>Its shape ለ is derived from the epigraphic character: 𐩡. It correlates to the Arabic letter ل, the Syriac letter ܠ, and the Hebrew letter ל‎.</p><p>Ge’ez words starting with ለ include ሌሊት (lelit) “night”, ልብ (ləbb) “heart”, and ልሳን (ləssān) “language”.</p>"
+14,ሎ,lo,lāwi,,,𐩡,8.gif,2,Variants of lāwi,13,15,"<p>The Ge'ez letter ለ is called ላዊ (lāwi). It represents a “voiced alveolar lateral approximant”, which is the sounds of <l> in the English words love, lake, and lyric.</p><p>Its shape ለ is derived from the epigraphic character: 𐩡. It correlates to the Arabic letter ل, the Syriac letter ܠ, and the Hebrew letter ל‎.</p><p>Ge’ez words starting with ለ include ሌሊት (lelit) “night”, ልብ (ləbb) “heart”, and ልሳን (ləssān) “language”.</p>"
+15,ሐ,ḥə,ḥawt,,,𐩢,15.gif,3,Variants of ḥawt,14,16,"<p>The Ge'ez letter ሐ is called ሐውት (ḥawt). It represents a “voiceless pharyngeal fricative”, which is a throaty <h> sound.</p><p>Its shape ሐ is derived from the epigraphic character: 𐩢. It correlates to the Arabic letter ح‎.</p><p>Ge’ez words starting with ሐ include ሕይወት (ḥəywat) “night”, ሐዋርያ (ḥawārəyā) “apostle”, and ሕዝብ (ḥəzb) “people”.</p>"
+16,ሑ,ḥu,ḥawt,,,𐩢,15.gif,3,Variants of ḥawt,15,17,"<p>The Ge'ez letter ሐ is called ሐውት (ḥawt). It represents a “voiceless pharyngeal fricative”, which is a throaty <h> sound.</p><p>Its shape ሐ is derived from the epigraphic character: 𐩢. It correlates to the Arabic letter ح‎.</p><p>Ge’ez words starting with ሐ include ሕይወት (ḥəywat) “night”, ሐዋርያ (ḥawārəyā) “apostle”, and ሕዝብ (ḥəzb) “people”.</p>"
+17,ሒ,ḥi,ḥawt,,,𐩢,15.gif,3,Variants of ḥawt,16,18,"<p>The Ge'ez letter ሐ is called ሐውት (ḥawt). It represents a “voiceless pharyngeal fricative”, which is a throaty <h> sound.</p><p>Its shape ሐ is derived from the epigraphic character: 𐩢. It correlates to the Arabic letter ح‎.</p><p>Ge’ez words starting with ሐ include ሕይወት (ḥəywat) “night”, ሐዋርያ (ḥawārəyā) “apostle”, and ሕዝብ (ḥəzb) “people”.</p>"
+18,ሓ,ḥā,ḥawt,,,𐩢,15.gif,3,Variants of ḥawt,17,19,"<p>The Ge'ez letter ሐ is called ሐውት (ḥawt). It represents a “voiceless pharyngeal fricative”, which is a throaty <h> sound.</p><p>Its shape ሐ is derived from the epigraphic character: 𐩢. It correlates to the Arabic letter ح‎.</p><p>Ge’ez words starting with ሐ include ሕይወት (ḥəywat) “night”, ሐዋርያ (ḥawārəyā) “apostle”, and ሕዝብ (ḥəzb) “people”.</p>"
+19,ሔ,ḥe,ḥawt,,,𐩢,15.gif,3,Variants of ḥawt,18,20,"<p>The Ge'ez letter ሐ is called ሐውት (ḥawt). It represents a “voiceless pharyngeal fricative”, which is a throaty <h> sound.</p><p>Its shape ሐ is derived from the epigraphic character: 𐩢. It correlates to the Arabic letter ح‎.</p><p>Ge’ez words starting with ሐ include ሕይወት (ḥəywat) “night”, ሐዋርያ (ḥawārəyā) “apostle”, and ሕዝብ (ḥəzb) “people”.</p>"
+20,ሕ,ḥə,ḥawt,,,𐩢,15.gif,3,Variants of ḥawt,19,21,"<p>The Ge'ez letter ሐ is called ሐውት (ḥawt). It represents a “voiceless pharyngeal fricative”, which is a throaty <h> sound.</p><p>Its shape ሐ is derived from the epigraphic character: 𐩢. It correlates to the Arabic letter ح‎.</p><p>Ge’ez words starting with ሐ include ሕይወት (ḥəywat) “night”, ሐዋርያ (ḥawārəyā) “apostle”, and ሕዝብ (ḥəzb) “people”.</p>"
+21,ሖ,ḥo,ḥawt,,,𐩢,15.gif,3,Variants of ḥawt,20,22,"<p>The Ge'ez letter ሐ is called ሐውት (ḥawt). It represents a “voiceless pharyngeal fricative”, which is a throaty <h> sound.</p><p>Its shape ሐ is derived from the epigraphic character: 𐩢. It correlates to the Arabic letter ح‎.</p><p>Ge’ez words starting with ሐ include ሕይወት (ḥəywat) “night”, ሐዋርያ (ḥawārəyā) “apostle”, and ሕዝብ (ḥəzb) “people”.</p>"
+22,መ,ma,māy,,,𐩦,22.gif,4,Variants of māy,21,23,"<p>The Ge'ez letter መ is called ማይ (māy). It represents a “voiced bilabial nasal”, which is the sound of m in the English words mother, mark, and meet.</p><p>Its shape መ is derived from the epigraphic character: 𐩣. It correlates to the Arabic letter م, the Syriac letter ܡ, and the Hebrew letter מ‎‎.</p><p>Ge’ez words starting with መ include ሞግስ (mogəs) “grace”, መምህር (mamhər) “teacher”, and ምሕረት (məḥrat) “mercy”.</p>"
+23,ሙ,mu,māy,,,𐩦,22.gif,4,Variants of māy,22,24,"<p>The Ge'ez letter መ is called ማይ (māy). It represents a “voiced bilabial nasal”, which is the sound of m in the English words mother, mark, and meet.</p><p>Its shape መ is derived from the epigraphic character: 𐩣. It correlates to the Arabic letter م, the Syriac letter ܡ, and the Hebrew letter מ‎‎.</p><p>Ge’ez words starting with መ include ሞግስ (mogəs) “grace”, መምህር (mamhər) “teacher”, and ምሕረት (məḥrat) “mercy”.</p>"
+24,ሚ,mi,māy,,,𐩦,22.gif,4,Variants of māy,23,25,"<p>The Ge'ez letter መ is called ማይ (māy). It represents a “voiced bilabial nasal”, which is the sound of m in the English words mother, mark, and meet.</p><p>Its shape መ is derived from the epigraphic character: 𐩣. It correlates to the Arabic letter م, the Syriac letter ܡ, and the Hebrew letter מ‎‎.</p><p>Ge’ez words starting with መ include ሞግስ (mogəs) “grace”, መምህር (mamhər) “teacher”, and ምሕረት (məḥrat) “mercy”.</p>"
+25,ማ,mā,māy,,,𐩦,22.gif,4,Variants of māy,24,26,"<p>The Ge'ez letter መ is called ማይ (māy). It represents a “voiced bilabial nasal”, which is the sound of m in the English words mother, mark, and meet.</p><p>Its shape መ is derived from the epigraphic character: 𐩣. It correlates to the Arabic letter م, the Syriac letter ܡ, and the Hebrew letter מ‎‎.</p><p>Ge’ez words starting with መ include ሞግስ (mogəs) “grace”, መምህር (mamhər) “teacher”, and ምሕረት (məḥrat) “mercy”.</p>"
+26,ሜ,me,māy,,,𐩦,22.gif,4,Variants of māy,25,27,"<p>The Ge'ez letter መ is called ማይ (māy). It represents a “voiced bilabial nasal”, which is the sound of m in the English words mother, mark, and meet.</p><p>Its shape መ is derived from the epigraphic character: 𐩣. It correlates to the Arabic letter م, the Syriac letter ܡ, and the Hebrew letter מ‎‎.</p><p>Ge’ez words starting with መ include ሞግስ (mogəs) “grace”, መምህር (mamhər) “teacher”, and ምሕረት (məḥrat) “mercy”.</p>"
+27,ም,mə,māy,,,𐩦,22.gif,4,Variants of māy,26,28,"<p>The Ge'ez letter መ is called ማይ (māy). It represents a “voiced bilabial nasal”, which is the sound of m in the English words mother, mark, and meet.</p><p>Its shape መ is derived from the epigraphic character: 𐩣. It correlates to the Arabic letter م, the Syriac letter ܡ, and the Hebrew letter מ‎‎.</p><p>Ge’ez words starting with መ include ሞግስ (mogəs) “grace”, መምህር (mamhər) “teacher”, and ምሕረት (məḥrat) “mercy”.</p>"
+28,ሞ,mo,māy,,,𐩦,22.gif,4,Variants of māy,27,29,"<p>The Ge'ez letter መ is called ማይ (māy). It represents a “voiced bilabial nasal”, which is the sound of m in the English words mother, mark, and meet.</p><p>Its shape መ is derived from the epigraphic character: 𐩣. It correlates to the Arabic letter م, the Syriac letter ܡ, and the Hebrew letter מ‎‎.</p><p>Ge’ez words starting with መ include ሞግስ (mogəs) “grace”, መምህር (mamhər) “teacher”, and ምሕረት (məḥrat) “mercy”.</p>"
+29,ሠ,ša,šawt,,,𐩧,29.gif,5,Variants of šawt,28,30,"<p>The Ge'ez letter ሠ is called ሠውት (šawt). It originally represented a “voiceless alveolar lateral fricative”, which is a cross between the sounds of <l> and <sh> in English. Nowadays, it is pronounced like <s> in the English words sun, sea, and sweet. It is sometimes called ሠ ንጉሥ (ša nəguš) ""the 's' [in the word] king"" to distinguish it from the other s sound.</p><p>Its shape ሠ is derived from the epigraphic character: 𐩦. It correlates to the Arabic letter ش, the Syriac letter ܫ, and the Hebrew letter ש.</p><p>Ge’ez words starting with ሠ include ሥላሴ (šəllase) “Trinity”, ሥምረት (šəmrat) “benevolence”, and ሠናይ (šannay) “beautiful”.</p>"
+30,ሡ,šu,šawt,,,𐩧,29.gif,5,Variants of šawt,29,31,"<p>The Ge'ez letter ሠ is called ሠውት (šawt). It originally represented a “voiceless alveolar lateral fricative”, which is a cross between the sounds of <l> and <sh> in English. Nowadays, it is pronounced like <s> in the English words sun, sea, and sweet. It is sometimes called ሠ ንጉሥ (ša nəguš) ""the 's' [in the word] king"" to distinguish it from the other s sound.</p><p>Its shape ሠ is derived from the epigraphic character: 𐩦. It correlates to the Arabic letter ش, the Syriac letter ܫ, and the Hebrew letter ש.</p><p>Ge’ez words starting with ሠ include ሥላሴ (šəllase) “Trinity”, ሥምረት (šəmrat) “benevolence”, and ሠናይ (šannay) “beautiful”.</p>"
+31,ሢ,ši,šawt,,,𐩧,29.gif,5,Variants of šawt,30,32,"<p>The Ge'ez letter ሠ is called ሠውት (šawt). It originally represented a “voiceless alveolar lateral fricative”, which is a cross between the sounds of <l> and <sh> in English. Nowadays, it is pronounced like <s> in the English words sun, sea, and sweet. It is sometimes called ሠ ንጉሥ (ša nəguš) ""the 's' [in the word] king"" to distinguish it from the other s sound.</p><p>Its shape ሠ is derived from the epigraphic character: 𐩦. It correlates to the Arabic letter ش, the Syriac letter ܫ, and the Hebrew letter ש.</p><p>Ge’ez words starting with ሠ include ሥላሴ (šəllase) “Trinity”, ሥምረት (šəmrat) “benevolence”, and ሠናይ (šannay) “beautiful”.</p>"
+32,ሣ,šā,šawt,,,𐩧,29.gif,5,Variants of šawt,31,33,"<p>The Ge'ez letter ሠ is called ሠውት (šawt). It originally represented a “voiceless alveolar lateral fricative”, which is a cross between the sounds of <l> and <sh> in English. Nowadays, it is pronounced like <s> in the English words sun, sea, and sweet. It is sometimes called ሠ ንጉሥ (ša nəguš) ""the 's' [in the word] king"" to distinguish it from the other s sound.</p><p>Its shape ሠ is derived from the epigraphic character: 𐩦. It correlates to the Arabic letter ش, the Syriac letter ܫ, and the Hebrew letter ש.</p><p>Ge’ez words starting with ሠ include ሥላሴ (šəllase) “Trinity”, ሥምረት (šəmrat) “benevolence”, and ሠናይ (šannay) “beautiful”.</p>"
+33,ሤ,še,šawt,,,𐩧,29.gif,5,Variants of šawt,32,34,"<p>The Ge'ez letter ሠ is called ሠውት (šawt). It originally represented a “voiceless alveolar lateral fricative”, which is a cross between the sounds of <l> and <sh> in English. Nowadays, it is pronounced like <s> in the English words sun, sea, and sweet. It is sometimes called ሠ ንጉሥ (ša nəguš) ""the 's' [in the word] king"" to distinguish it from the other s sound.</p><p>Its shape ሠ is derived from the epigraphic character: 𐩦. It correlates to the Arabic letter ش, the Syriac letter ܫ, and the Hebrew letter ש.</p><p>Ge’ez words starting with ሠ include ሥላሴ (šəllase) “Trinity”, ሥምረት (šəmrat) “benevolence”, and ሠናይ (šannay) “beautiful”.</p>"
+34,ሥ,šə,šawt,,,𐩧,29.gif,5,Variants of šawt,33,35,"<p>The Ge'ez letter ሠ is called ሠውት (šawt). It originally represented a “voiceless alveolar lateral fricative”, which is a cross between the sounds of <l> and <sh> in English. Nowadays, it is pronounced like <s> in the English words sun, sea, and sweet. It is sometimes called ሠ ንጉሥ (ša nəguš) ""the 's' [in the word] king"" to distinguish it from the other s sound.</p><p>Its shape ሠ is derived from the epigraphic character: 𐩦. It correlates to the Arabic letter ش, the Syriac letter ܫ, and the Hebrew letter ש.</p><p>Ge’ez words starting with ሠ include ሥላሴ (šəllase) “Trinity”, ሥምረት (šəmrat) “benevolence”, and ሠናይ (šannay) “beautiful”.</p>"
+35,ሦ,šo,šawt,,,𐩧,29.gif,5,Variants of šawt,34,36,"<p>The Ge'ez letter ሠ is called ሠውት (šawt). It originally represented a “voiceless alveolar lateral fricative”, which is a cross between the sounds of <l> and <sh> in English. Nowadays, it is pronounced like <s> in the English words sun, sea, and sweet. It is sometimes called ሠ ንጉሥ (ša nəguš) ""the 's' [in the word] king"" to distinguish it from the other s sound.</p><p>Its shape ሠ is derived from the epigraphic character: 𐩦. It correlates to the Arabic letter ش, the Syriac letter ܫ, and the Hebrew letter ש.</p><p>Ge’ez words starting with ሠ include ሥላሴ (šəllase) “Trinity”, ሥምረት (šəmrat) “benevolence”, and ሠናይ (šannay) “beautiful”.</p>"
+36,ረ,ra,rəʾəs,,,𐩤,36.gif,6,Variants of rəʾəs,35,37,"<p>The Ge'ez letter ረ is called ርእስ (rəʾəs). It originally represented a “voiced alveolar trill”, which is the r sound in the English words radio, road, and reach.¶ Its shape ረ is derived from the epigraphic character: 𐩧. It correlates to the Arabic letter ر, the Syriac letter ܪ, and the Hebrew letter ר.</p>Ge’ez words starting with ረ include ራእይ (rāʾəy) “vision”, ርክበት (rəkbat) “discovery”, and ረድኤት (radʾet) “help”."
+37,ሩ,ru,rəʾəs,,,𐩤,36.gif,6,Variants of rəʾəs,36,38,"<p>The Ge'ez letter ረ is called ርእስ (rəʾəs). It originally represented a “voiced alveolar trill”, which is the r sound in the English words radio, road, and reach.¶ Its shape ረ is derived from the epigraphic character: 𐩧. It correlates to the Arabic letter ر, the Syriac letter ܪ, and the Hebrew letter ר.</p>Ge’ez words starting with ረ include ራእይ (rāʾəy) “vision”, ርክበት (rəkbat) “discovery”, and ረድኤት (radʾet) “help”."
+38,ሪ,ri,rəʾəs,,,𐩤,36.gif,6,Variants of rəʾəs,37,39,"<p>The Ge'ez letter ረ is called ርእስ (rəʾəs). It originally represented a “voiced alveolar trill”, which is the r sound in the English words radio, road, and reach.¶ Its shape ረ is derived from the epigraphic character: 𐩧. It correlates to the Arabic letter ر, the Syriac letter ܪ, and the Hebrew letter ר.</p>Ge’ez words starting with ረ include ራእይ (rāʾəy) “vision”, ርክበት (rəkbat) “discovery”, and ረድኤት (radʾet) “help”."
+39,ራ,rā,rəʾəs,,,𐩤,36.gif,6,Variants of rəʾəs,38,40,"<p>The Ge'ez letter ረ is called ርእስ (rəʾəs). It originally represented a “voiced alveolar trill”, which is the r sound in the English words radio, road, and reach.¶ Its shape ረ is derived from the epigraphic character: 𐩧. It correlates to the Arabic letter ر, the Syriac letter ܪ, and the Hebrew letter ר.</p>Ge’ez words starting with ረ include ራእይ (rāʾəy) “vision”, ርክበት (rəkbat) “discovery”, and ረድኤት (radʾet) “help”."
+40,ሬ,re,rəʾəs,,,𐩤,36.gif,6,Variants of rəʾəs,39,41,"<p>The Ge'ez letter ረ is called ርእስ (rəʾəs). It originally represented a “voiced alveolar trill”, which is the r sound in the English words radio, road, and reach.¶ Its shape ረ is derived from the epigraphic character: 𐩧. It correlates to the Arabic letter ر, the Syriac letter ܪ, and the Hebrew letter ר.</p>Ge’ez words starting with ረ include ራእይ (rāʾəy) “vision”, ርክበት (rəkbat) “discovery”, and ረድኤት (radʾet) “help”."
+41,ር,rə,rəʾəs,,,𐩤,36.gif,6,Variants of rəʾəs,40,42,"<p>The Ge'ez letter ረ is called ርእስ (rəʾəs). It originally represented a “voiced alveolar trill”, which is the r sound in the English words radio, road, and reach.¶ Its shape ረ is derived from the epigraphic character: 𐩧. It correlates to the Arabic letter ر, the Syriac letter ܪ, and the Hebrew letter ר.</p>Ge’ez words starting with ረ include ራእይ (rāʾəy) “vision”, ርክበት (rəkbat) “discovery”, and ረድኤት (radʾet) “help”."
+42,ሮ,ro,rəʾəs,,,𐩤,36.gif,6,Variants of rəʾəs,41,43,"<p>The Ge'ez letter ረ is called ርእስ (rəʾəs). It originally represented a “voiced alveolar trill”, which is the r sound in the English words radio, road, and reach.¶ Its shape ረ is derived from the epigraphic character: 𐩧. It correlates to the Arabic letter ر, the Syriac letter ܪ, and the Hebrew letter ר.</p>Ge’ez words starting with ረ include ራእይ (rāʾəy) “vision”, ርክበት (rəkbat) “discovery”, and ረድኤት (radʾet) “help”."
+43,ሰ,sa,sāt,,,𐩨,43.gif,7,Variants of sāt,42,44,"<p>The Ge'ez letter ሰ is called ሳት (sāt). It represents a “voiceless alveolar sibilant”, which is the sound s in the English words sea, sky, and soul.</p><p>Its shape ሰ is derived from the epigraphic character: 𐩪. It correlates to the Arabic letter س, the Syriac letter ܣ, and the Hebrew letter ס.</p><p>Ge’ez words starting with ረ include ሰማይ (samāy) “sky”, ሰላም (salām) “peace”, and ሰማዕት (samāʿt) “martyr”.</p>"
+44,ሱ,su,sāt,,,𐩨,43.gif,7,Variants of sāt,43,45,"<p>The Ge'ez letter ሰ is called ሳት (sāt). It represents a “voiceless alveolar sibilant”, which is the sound s in the English words sea, sky, and soul.</p><p>Its shape ሰ is derived from the epigraphic character: 𐩪. It correlates to the Arabic letter س, the Syriac letter ܣ, and the Hebrew letter ס.</p><p>Ge’ez words starting with ረ include ሰማይ (samāy) “sky”, ሰላም (salām) “peace”, and ሰማዕት (samāʿt) “martyr”.</p>"
+45,ሲ,si,sāt,,,𐩨,43.gif,7,Variants of sāt,44,46,"<p>The Ge'ez letter ሰ is called ሳት (sāt). It represents a “voiceless alveolar sibilant”, which is the sound s in the English words sea, sky, and soul.</p><p>Its shape ሰ is derived from the epigraphic character: 𐩪. It correlates to the Arabic letter س, the Syriac letter ܣ, and the Hebrew letter ס.</p><p>Ge’ez words starting with ረ include ሰማይ (samāy) “sky”, ሰላም (salām) “peace”, and ሰማዕት (samāʿt) “martyr”.</p>"
+46,ሳ,sā,sāt,,,𐩨,43.gif,7,Variants of sāt,45,47,"<p>The Ge'ez letter ሰ is called ሳት (sāt). It represents a “voiceless alveolar sibilant”, which is the sound s in the English words sea, sky, and soul.</p><p>Its shape ሰ is derived from the epigraphic character: 𐩪. It correlates to the Arabic letter س, the Syriac letter ܣ, and the Hebrew letter ס.</p><p>Ge’ez words starting with ረ include ሰማይ (samāy) “sky”, ሰላም (salām) “peace”, and ሰማዕት (samāʿt) “martyr”.</p>"
+47,ሴ,se,sāt,,,𐩨,43.gif,7,Variants of sāt,46,48,"<p>The Ge'ez letter ሰ is called ሳት (sāt). It represents a “voiceless alveolar sibilant”, which is the sound s in the English words sea, sky, and soul.</p><p>Its shape ሰ is derived from the epigraphic character: 𐩪. It correlates to the Arabic letter س, the Syriac letter ܣ, and the Hebrew letter ס.</p><p>Ge’ez words starting with ረ include ሰማይ (samāy) “sky”, ሰላም (salām) “peace”, and ሰማዕት (samāʿt) “martyr”.</p>"
+48,ስ,sə,sāt,,,𐩨,43.gif,7,Variants of sāt,47,49,"<p>The Ge'ez letter ሰ is called ሳት (sāt). It represents a “voiceless alveolar sibilant”, which is the sound s in the English words sea, sky, and soul.</p><p>Its shape ሰ is derived from the epigraphic character: 𐩪. It correlates to the Arabic letter س, the Syriac letter ܣ, and the Hebrew letter ס.</p><p>Ge’ez words starting with ረ include ሰማይ (samāy) “sky”, ሰላም (salām) “peace”, and ሰማዕት (samāʿt) “martyr”.</p>"
+49,ሶ,so,sāt,,,𐩨,43.gif,7,Variants of sāt,48,50,"<p>The Ge'ez letter ሰ is called ሳት (sāt). It represents a “voiceless alveolar sibilant”, which is the sound s in the English words sea, sky, and soul.</p><p>Its shape ሰ is derived from the epigraphic character: 𐩪. It correlates to the Arabic letter س, the Syriac letter ܣ, and the Hebrew letter ס.</p><p>Ge’ez words starting with ረ include ሰማይ (samāy) “sky”, ሰላም (salām) “peace”, and ሰማዕት (samāʿt) “martyr”.</p>"
+50,ቀ,qa,qāf,,,𐩩,50.gif,8,Variants of qāf,49,51,"<p>The Ge'ez letter ቀ is called ቃፍ (qāf). It represents an “ejective velar”, which sounds like a forceful <k> in English. The sound is rare but it appears in languages like Georgian, e.g. კი (k’i) “yes”, and and Navajo, e.g. “k’é” (friendship).</p><p>Its shape ቀ is derived from the epigraphic character: 𐩤. It correlates to the Arabic letter ق, the Syriac letter ܩ, and the Hebrew letter ק.</p><p>Ge’ez words starting with ቀ include ቅዱስ (qəddus) “saint”, ቃል (qāl) “word”, and ቍርባን (qwərbān) “offering”.</p>"
+51,ቁ,qu,qāf,,,𐩩,50.gif,8,Variants of qāf,50,52,"<p>The Ge'ez letter ቀ is called ቃፍ (qāf). It represents an “ejective velar”, which sounds like a forceful <k> in English. The sound is rare but it appears in languages like Georgian, e.g. კი (k’i) “yes”, and and Navajo, e.g. “k’é” (friendship).</p><p>Its shape ቀ is derived from the epigraphic character: 𐩤. It correlates to the Arabic letter ق, the Syriac letter ܩ, and the Hebrew letter ק.</p><p>Ge’ez words starting with ቀ include ቅዱስ (qəddus) “saint”, ቃል (qāl) “word”, and ቍርባን (qwərbān) “offering”.</p>"
+52,ቂ,qi,qāf,,,𐩩,50.gif,8,Variants of qāf,51,53,"<p>The Ge'ez letter ቀ is called ቃፍ (qāf). It represents an “ejective velar”, which sounds like a forceful <k> in English. The sound is rare but it appears in languages like Georgian, e.g. კი (k’i) “yes”, and and Navajo, e.g. “k’é” (friendship).</p><p>Its shape ቀ is derived from the epigraphic character: 𐩤. It correlates to the Arabic letter ق, the Syriac letter ܩ, and the Hebrew letter ק.</p><p>Ge’ez words starting with ቀ include ቅዱስ (qəddus) “saint”, ቃል (qāl) “word”, and ቍርባን (qwərbān) “offering”.</p>"
+53,ቃ,qā,qāf,,,𐩩,50.gif,8,Variants of qāf,52,54,"<p>The Ge'ez letter ቀ is called ቃፍ (qāf). It represents an “ejective velar”, which sounds like a forceful <k> in English. The sound is rare but it appears in languages like Georgian, e.g. კი (k’i) “yes”, and and Navajo, e.g. “k’é” (friendship).</p><p>Its shape ቀ is derived from the epigraphic character: 𐩤. It correlates to the Arabic letter ق, the Syriac letter ܩ, and the Hebrew letter ק.</p><p>Ge’ez words starting with ቀ include ቅዱስ (qəddus) “saint”, ቃል (qāl) “word”, and ቍርባን (qwərbān) “offering”.</p>"
+54,ቄ,qe,qāf,,,𐩩,50.gif,8,Variants of qāf,53,55,"<p>The Ge'ez letter ቀ is called ቃፍ (qāf). It represents an “ejective velar”, which sounds like a forceful <k> in English. The sound is rare but it appears in languages like Georgian, e.g. კი (k’i) “yes”, and and Navajo, e.g. “k’é” (friendship).</p><p>Its shape ቀ is derived from the epigraphic character: 𐩤. It correlates to the Arabic letter ق, the Syriac letter ܩ, and the Hebrew letter ק.</p><p>Ge’ez words starting with ቀ include ቅዱስ (qəddus) “saint”, ቃል (qāl) “word”, and ቍርባን (qwərbān) “offering”.</p>"
+55,ቅ,qə,qāf,,,𐩩,50.gif,8,Variants of qāf,54,56,"<p>The Ge'ez letter ቀ is called ቃፍ (qāf). It represents an “ejective velar”, which sounds like a forceful <k> in English. The sound is rare but it appears in languages like Georgian, e.g. კი (k’i) “yes”, and and Navajo, e.g. “k’é” (friendship).</p><p>Its shape ቀ is derived from the epigraphic character: 𐩤. It correlates to the Arabic letter ق, the Syriac letter ܩ, and the Hebrew letter ק.</p><p>Ge’ez words starting with ቀ include ቅዱስ (qəddus) “saint”, ቃል (qāl) “word”, and ቍርባን (qwərbān) “offering”.</p>"
+56,ቆ,qo,qāf,,,𐩩,50.gif,8,Variants of qāf,55,57,"<p>The Ge'ez letter ቀ is called ቃፍ (qāf). It represents an “ejective velar”, which sounds like a forceful <k> in English. The sound is rare but it appears in languages like Georgian, e.g. კი (k’i) “yes”, and and Navajo, e.g. “k’é” (friendship).</p><p>Its shape ቀ is derived from the epigraphic character: 𐩤. It correlates to the Arabic letter ق, the Syriac letter ܩ, and the Hebrew letter ק.</p><p>Ge’ez words starting with ቀ include ቅዱስ (qəddus) “saint”, ቃል (qāl) “word”, and ቍርባን (qwərbān) “offering”.</p>"
+57,በ,ba,bet,,,𐩭,57.gif,9,Variants of bet,56,58,"<p>The Ge'ez letter በ is called ቤት (bet). It represents an “voiced bilabial plosive”, which is the <b> sound in the English words boy, big, and ball.</p><p>Its shape በ is derived from the epigraphic character: 𐩨. It correlates to the Arabic letter ب, the Syriac letter ܒ, and the Hebrew letter ב.</p><p>Ge’ez words starting with በ include ብርሃን (bərhan) “light”, ቤዛ (beza) “redemption”, and ብሥረት (bəšrat) “good news”.</p>"
+58,ቡ,bu,bet,,,𐩭,57.gif,9,Variants of bet,57,59,"<p>The Ge'ez letter በ is called ቤት (bet). It represents an “voiced bilabial plosive”, which is the <b> sound in the English words boy, big, and ball.</p><p>Its shape በ is derived from the epigraphic character: 𐩨. It correlates to the Arabic letter ب, the Syriac letter ܒ, and the Hebrew letter ב.</p><p>Ge’ez words starting with በ include ብርሃን (bərhan) “light”, ቤዛ (beza) “redemption”, and ብሥረት (bəšrat) “good news”.</p>"
+59,ቢ,bi,bet,,,𐩭,57.gif,9,Variants of bet,58,60,"<p>The Ge'ez letter በ is called ቤት (bet). It represents an “voiced bilabial plosive”, which is the <b> sound in the English words boy, big, and ball.</p><p>Its shape በ is derived from the epigraphic character: 𐩨. It correlates to the Arabic letter ب, the Syriac letter ܒ, and the Hebrew letter ב.</p><p>Ge’ez words starting with በ include ብርሃን (bərhan) “light”, ቤዛ (beza) “redemption”, and ብሥረት (bəšrat) “good news”.</p>"
+60,ባ,bā,bet,,,𐩭,57.gif,9,Variants of bet,59,61,"<p>The Ge'ez letter በ is called ቤት (bet). It represents an “voiced bilabial plosive”, which is the <b> sound in the English words boy, big, and ball.</p><p>Its shape በ is derived from the epigraphic character: 𐩨. It correlates to the Arabic letter ب, the Syriac letter ܒ, and the Hebrew letter ב.</p><p>Ge’ez words starting with በ include ብርሃን (bərhan) “light”, ቤዛ (beza) “redemption”, and ብሥረት (bəšrat) “good news”.</p>"
+61,ቤ,be,bet,,,𐩭,57.gif,9,Variants of bet,60,62,"<p>The Ge'ez letter በ is called ቤት (bet). It represents an “voiced bilabial plosive”, which is the <b> sound in the English words boy, big, and ball.</p><p>Its shape በ is derived from the epigraphic character: 𐩨. It correlates to the Arabic letter ب, the Syriac letter ܒ, and the Hebrew letter ב.</p><p>Ge’ez words starting with በ include ብርሃን (bərhan) “light”, ቤዛ (beza) “redemption”, and ብሥረት (bəšrat) “good news”.</p>"
+62,ብ,bə,bet,,,𐩭,57.gif,9,Variants of bet,61,63,"<p>The Ge'ez letter በ is called ቤት (bet). It represents an “voiced bilabial plosive”, which is the <b> sound in the English words boy, big, and ball.</p><p>Its shape በ is derived from the epigraphic character: 𐩨. It correlates to the Arabic letter ب, the Syriac letter ܒ, and the Hebrew letter ב.</p><p>Ge’ez words starting with በ include ብርሃን (bərhan) “light”, ቤዛ (beza) “redemption”, and ብሥረት (bəšrat) “good news”.</p>"
+63,ቦ,bo,bet,,,𐩭,57.gif,9,Variants of bet,62,64,"<p>The Ge'ez letter በ is called ቤት (bet). It represents an “voiced bilabial plosive”, which is the <b> sound in the English words boy, big, and ball.</p><p>Its shape በ is derived from the epigraphic character: 𐩨. It correlates to the Arabic letter ب, the Syriac letter ܒ, and the Hebrew letter ב.</p><p>Ge’ez words starting with በ include ብርሃን (bərhan) “light”, ቤዛ (beza) “redemption”, and ብሥረት (bəšrat) “good news”.</p>"
+64,ተ,ta,tāw,,,𐩬,64.gif,10,Variants of tāw,63,65,"<p>The Ge'ez letter ተ is called ታው (tāw). It represents an “voiceless denti-alveolar plosive”, which is the unaspirated <t> sound in the English words tall, teal, and tech.</p><p>Its shape ተ is derived from the epigraphic character: 𐩩. It correlates to the Arabic letter ت‎, the Syriac letter ܬ, and the Hebrew letter ת.</p><p>Ge’ez words starting with ተ include ተስፋ (tasfā) “hope”, ትእግሥት (təʾəgəšt) “patience”, and ትርጓሜ (tərgwāme) “translation”.</p>"
+65,ቱ,tu,tāw,,,𐩬,64.gif,10,Variants of tāw,64,66,"<p>The Ge'ez letter ተ is called ታው (tāw). It represents an “voiceless denti-alveolar plosive”, which is the unaspirated <t> sound in the English words tall, teal, and tech.</p><p>Its shape ተ is derived from the epigraphic character: 𐩩. It correlates to the Arabic letter ت‎, the Syriac letter ܬ, and the Hebrew letter ת.</p><p>Ge’ez words starting with ተ include ተስፋ (tasfā) “hope”, ትእግሥት (təʾəgəšt) “patience”, and ትርጓሜ (tərgwāme) “translation”.</p>"
+66,ቲ,ti,tāw,,,𐩬,64.gif,10,Variants of tāw,65,67,"<p>The Ge'ez letter ተ is called ታው (tāw). It represents an “voiceless denti-alveolar plosive”, which is the unaspirated <t> sound in the English words tall, teal, and tech.</p><p>Its shape ተ is derived from the epigraphic character: 𐩩. It correlates to the Arabic letter ت‎, the Syriac letter ܬ, and the Hebrew letter ת.</p><p>Ge’ez words starting with ተ include ተስፋ (tasfā) “hope”, ትእግሥት (təʾəgəšt) “patience”, and ትርጓሜ (tərgwāme) “translation”.</p>"
+67,ታ,tā,tāw,,,𐩬,64.gif,10,Variants of tāw,66,68,"<p>The Ge'ez letter ተ is called ታው (tāw). It represents an “voiceless denti-alveolar plosive”, which is the unaspirated <t> sound in the English words tall, teal, and tech.</p><p>Its shape ተ is derived from the epigraphic character: 𐩩. It correlates to the Arabic letter ت‎, the Syriac letter ܬ, and the Hebrew letter ת.</p><p>Ge’ez words starting with ተ include ተስፋ (tasfā) “hope”, ትእግሥት (təʾəgəšt) “patience”, and ትርጓሜ (tərgwāme) “translation”.</p>"
+68,ቴ,te,tāw,,,𐩬,64.gif,10,Variants of tāw,67,69,"<p>The Ge'ez letter ተ is called ታው (tāw). It represents an “voiceless denti-alveolar plosive”, which is the unaspirated <t> sound in the English words tall, teal, and tech.</p><p>Its shape ተ is derived from the epigraphic character: 𐩩. It correlates to the Arabic letter ت‎, the Syriac letter ܬ, and the Hebrew letter ת.</p><p>Ge’ez words starting with ተ include ተስፋ (tasfā) “hope”, ትእግሥት (təʾəgəšt) “patience”, and ትርጓሜ (tərgwāme) “translation”.</p>"
+69,ት,tə,tāw,,,𐩬,64.gif,10,Variants of tāw,68,70,"<p>The Ge'ez letter ተ is called ታው (tāw). It represents an “voiceless denti-alveolar plosive”, which is the unaspirated <t> sound in the English words tall, teal, and tech.</p><p>Its shape ተ is derived from the epigraphic character: 𐩩. It correlates to the Arabic letter ت‎, the Syriac letter ܬ, and the Hebrew letter ת.</p><p>Ge’ez words starting with ተ include ተስፋ (tasfā) “hope”, ትእግሥት (təʾəgəšt) “patience”, and ትርጓሜ (tərgwāme) “translation”.</p>"
+70,ቶ,to,tāw,,,𐩬,64.gif,10,Variants of tāw,69,71,"<p>The Ge'ez letter ተ is called ታው (tāw). It represents an “voiceless denti-alveolar plosive”, which is the unaspirated <t> sound in the English words tall, teal, and tech.</p><p>Its shape ተ is derived from the epigraphic character: 𐩩. It correlates to the Arabic letter ت‎, the Syriac letter ܬ, and the Hebrew letter ת.</p><p>Ge’ez words starting with ተ include ተስፋ (tasfā) “hope”, ትእግሥት (təʾəgəšt) “patience”, and ትርጓሜ (tərgwāme) “translation”.</p>"
+71,ኀ,ḫa,ḫarm,,,𐩱,71.gif,11,Variants of ḫarm,70,72,"<p>The Ge'ez letter ኀ is called ኀርም (ḫarm). It represents an “voiceless velar fricative”, which is a very throaty <h> sound, like <j> in the Spanish word jardin, or <ch> in the German word buch.</p><p>Its shape ኀ is derived from the epigraphic character: 𐩭. It correlates to the Arabic letter خ‎, the Syriac letter ܚ, and the Hebrew letter ח.</p><p>Ge’ez words starting with ኀ include ኀይል (ḫayl) “power”, ኂሩት (ḫirut) “goodness”, and ኅብረት (ḫəbrat) “union”.  </p>"
+72,ኁ,ḫu,ḫarm,,,𐩱,71.gif,11,Variants of ḫarm,71,73,"<p>The Ge'ez letter ኀ is called ኀርም (ḫarm). It represents an “voiceless velar fricative”, which is a very throaty <h> sound, like <j> in the Spanish word jardin, or <ch> in the German word buch.</p><p>Its shape ኀ is derived from the epigraphic character: 𐩭. It correlates to the Arabic letter خ‎, the Syriac letter ܚ, and the Hebrew letter ח.</p><p>Ge’ez words starting with ኀ include ኀይል (ḫayl) “power”, ኂሩት (ḫirut) “goodness”, and ኅብረት (ḫəbrat) “union”.  </p>"
+73,ኂ,ḫi,ḫarm,,,𐩱,71.gif,11,Variants of ḫarm,72,74,"<p>The Ge'ez letter ኀ is called ኀርም (ḫarm). It represents an “voiceless velar fricative”, which is a very throaty <h> sound, like <j> in the Spanish word jardin, or <ch> in the German word buch.</p><p>Its shape ኀ is derived from the epigraphic character: 𐩭. It correlates to the Arabic letter خ‎, the Syriac letter ܚ, and the Hebrew letter ח.</p><p>Ge’ez words starting with ኀ include ኀይል (ḫayl) “power”, ኂሩት (ḫirut) “goodness”, and ኅብረት (ḫəbrat) “union”.  </p>"
+74,ኃ,ḫa,ḫarm,,,𐩱,71.gif,11,Variants of ḫarm,73,75,"<p>The Ge'ez letter ኀ is called ኀርም (ḫarm). It represents an “voiceless velar fricative”, which is a very throaty <h> sound, like <j> in the Spanish word jardin, or <ch> in the German word buch.</p><p>Its shape ኀ is derived from the epigraphic character: 𐩭. It correlates to the Arabic letter خ‎, the Syriac letter ܚ, and the Hebrew letter ח.</p><p>Ge’ez words starting with ኀ include ኀይል (ḫayl) “power”, ኂሩት (ḫirut) “goodness”, and ኅብረት (ḫəbrat) “union”.  </p>"
+75,ኄ,ḫe,ḫarm,,,𐩱,71.gif,11,Variants of ḫarm,74,76,"<p>The Ge'ez letter ኀ is called ኀርም (ḫarm). It represents an “voiceless velar fricative”, which is a very throaty <h> sound, like <j> in the Spanish word jardin, or <ch> in the German word buch.</p><p>Its shape ኀ is derived from the epigraphic character: 𐩭. It correlates to the Arabic letter خ‎, the Syriac letter ܚ, and the Hebrew letter ח.</p><p>Ge’ez words starting with ኀ include ኀይል (ḫayl) “power”, ኂሩት (ḫirut) “goodness”, and ኅብረት (ḫəbrat) “union”.  </p>"
+76,ኅ,ḫə,ḫarm,,,𐩱,71.gif,11,Variants of ḫarm,75,77,"<p>The Ge'ez letter ኀ is called ኀርም (ḫarm). It represents an “voiceless velar fricative”, which is a very throaty <h> sound, like <j> in the Spanish word jardin, or <ch> in the German word buch.</p><p>Its shape ኀ is derived from the epigraphic character: 𐩭. It correlates to the Arabic letter خ‎, the Syriac letter ܚ, and the Hebrew letter ח.</p><p>Ge’ez words starting with ኀ include ኀይል (ḫayl) “power”, ኂሩት (ḫirut) “goodness”, and ኅብረት (ḫəbrat) “union”.  </p>"
+77,ኆ,ḫo,ḫarm,,,𐩱,71.gif,11,Variants of ḫarm,76,78,"<p>The Ge'ez letter ኀ is called ኀርም (ḫarm). It represents an “voiceless velar fricative”, which is a very throaty <h> sound, like <j> in the Spanish word jardin, or <ch> in the German word buch.</p><p>Its shape ኀ is derived from the epigraphic character: 𐩭. It correlates to the Arabic letter خ‎, the Syriac letter ܚ, and the Hebrew letter ח.</p><p>Ge’ez words starting with ኀ include ኀይል (ḫayl) “power”, ኂሩት (ḫirut) “goodness”, and ኅብረት (ḫəbrat) “union”.  </p>"
+78,ነ,na,naḥs,,,𐩫,78.gif,12,Variants of naḥs,77,79,"<p>The Ge'ez letter ነ is called ነሕስ (naḥs). It represents a “alveolar nasal”, which is the sounds of <n> in the English words nest, north, and neat.</p><p>Its shape ነ is derived from the epigraphic character: 𐩬. It correlates to the Arabic letter ن, the Syriac letter ܢ, and the Hebrew letter נ‎‎.</p><p>Ge’ez words starting with ነ include ነጋሢ (nagāši) “monarch”, ንዋይ (nəway) “wealth”, and ንጽሐት (nəṣḥat) “purity”.</p>"
+79,ኑ,nu,naḥs,,,𐩫,78.gif,12,Variants of naḥs,78,80,"<p>The Ge'ez letter ነ is called ነሕስ (naḥs). It represents a “alveolar nasal”, which is the sounds of <n> in the English words nest, north, and neat.</p><p>Its shape ነ is derived from the epigraphic character: 𐩬. It correlates to the Arabic letter ن, the Syriac letter ܢ, and the Hebrew letter נ‎‎.</p><p>Ge’ez words starting with ነ include ነጋሢ (nagāši) “monarch”, ንዋይ (nəway) “wealth”, and ንጽሐት (nəṣḥat) “purity”.</p>"
+80,ኒ,ni,naḥs,,,𐩫,78.gif,12,Variants of naḥs,79,81,"<p>The Ge'ez letter ነ is called ነሕስ (naḥs). It represents a “alveolar nasal”, which is the sounds of <n> in the English words nest, north, and neat.</p><p>Its shape ነ is derived from the epigraphic character: 𐩬. It correlates to the Arabic letter ن, the Syriac letter ܢ, and the Hebrew letter נ‎‎.</p><p>Ge’ez words starting with ነ include ነጋሢ (nagāši) “monarch”, ንዋይ (nəway) “wealth”, and ንጽሐት (nəṣḥat) “purity”.</p>"
+81,ና,nā,naḥs,,,𐩫,78.gif,12,Variants of naḥs,80,82,"<p>The Ge'ez letter ነ is called ነሕስ (naḥs). It represents a “alveolar nasal”, which is the sounds of <n> in the English words nest, north, and neat.</p><p>Its shape ነ is derived from the epigraphic character: 𐩬. It correlates to the Arabic letter ن, the Syriac letter ܢ, and the Hebrew letter נ‎‎.</p><p>Ge’ez words starting with ነ include ነጋሢ (nagāši) “monarch”, ንዋይ (nəway) “wealth”, and ንጽሐት (nəṣḥat) “purity”.</p>"
+82,ኔ,ne,naḥs,,,𐩫,78.gif,12,Variants of naḥs,81,83,"<p>The Ge'ez letter ነ is called ነሕስ (naḥs). It represents a “alveolar nasal”, which is the sounds of <n> in the English words nest, north, and neat.</p><p>Its shape ነ is derived from the epigraphic character: 𐩬. It correlates to the Arabic letter ن, the Syriac letter ܢ, and the Hebrew letter נ‎‎.</p><p>Ge’ez words starting with ነ include ነጋሢ (nagāši) “monarch”, ንዋይ (nəway) “wealth”, and ንጽሐት (nəṣḥat) “purity”.</p>"
+83,ን,nə,naḥs,,,𐩫,78.gif,12,Variants of naḥs,82,84,"<p>The Ge'ez letter ነ is called ነሕስ (naḥs). It represents a “alveolar nasal”, which is the sounds of <n> in the English words nest, north, and neat.</p><p>Its shape ነ is derived from the epigraphic character: 𐩬. It correlates to the Arabic letter ن, the Syriac letter ܢ, and the Hebrew letter נ‎‎.</p><p>Ge’ez words starting with ነ include ነጋሢ (nagāši) “monarch”, ንዋይ (nəway) “wealth”, and ንጽሐት (nəṣḥat) “purity”.</p>"
+84,ኖ,no,naḥs,,,𐩫,78.gif,12,Variants of naḥs,83,85,"<p>The Ge'ez letter ነ is called ነሕስ (naḥs). It represents a “alveolar nasal”, which is the sounds of <n> in the English words nest, north, and neat.</p><p>Its shape ነ is derived from the epigraphic character: 𐩬. It correlates to the Arabic letter ن, the Syriac letter ܢ, and the Hebrew letter נ‎‎.</p><p>Ge’ez words starting with ነ include ነጋሢ (nagāši) “monarch”, ንዋይ (nəway) “wealth”, and ንጽሐት (nəṣḥat) “purity”.</p>"
+85,አ,ʾa,ʾalf,,,𐩥,85.gif,13,Variants of ʾalf,84,86,"<p>The Ge'ez letter አ is called አልፍ (ʾalf). It represents a “glottal stop”, which is a break in a vowel sound like in the middle of the English expression uh oh.</p><p>Its shape አ is derived from the epigraphic character: 𐩱. It correlates to the Arabic letter أ‎, the Syriac letter ܐ, and the Hebrew letter א‎‎.</p><p>Ge’ez words starting with አ include አበው (ʾabaw) “ancestors”, አኰቴት (ʾakkwatet) “gratitude”, and ኢየሩሳሌም (ʾiyarusālem) “Jerusalem”.</p>"
+86,ኡ,ʾu,ʾalf,,,𐩥,85.gif,13,Variants of ʾalf,85,87,"<p>The Ge'ez letter አ is called አልፍ (ʾalf). It represents a “glottal stop”, which is a break in a vowel sound like in the middle of the English expression uh oh.</p><p>Its shape አ is derived from the epigraphic character: 𐩱. It correlates to the Arabic letter أ‎, the Syriac letter ܐ, and the Hebrew letter א‎‎.</p><p>Ge’ez words starting with አ include አበው (ʾabaw) “ancestors”, አኰቴት (ʾakkwatet) “gratitude”, and ኢየሩሳሌም (ʾiyarusālem) “Jerusalem”.</p>"
+87,ኢ,ʾi,ʾalf,,,𐩥,85.gif,13,Variants of ʾalf,86,88,"<p>The Ge'ez letter አ is called አልፍ (ʾalf). It represents a “glottal stop”, which is a break in a vowel sound like in the middle of the English expression uh oh.</p><p>Its shape አ is derived from the epigraphic character: 𐩱. It correlates to the Arabic letter أ‎, the Syriac letter ܐ, and the Hebrew letter א‎‎.</p><p>Ge’ez words starting with አ include አበው (ʾabaw) “ancestors”, አኰቴት (ʾakkwatet) “gratitude”, and ኢየሩሳሌም (ʾiyarusālem) “Jerusalem”.</p>"
+88,ኣ,ʾa,ʾalf,,,𐩥,85.gif,13,Variants of ʾalf,87,89,"<p>The Ge'ez letter አ is called አልፍ (ʾalf). It represents a “glottal stop”, which is a break in a vowel sound like in the middle of the English expression uh oh.</p><p>Its shape አ is derived from the epigraphic character: 𐩱. It correlates to the Arabic letter أ‎, the Syriac letter ܐ, and the Hebrew letter א‎‎.</p><p>Ge’ez words starting with አ include አበው (ʾabaw) “ancestors”, አኰቴት (ʾakkwatet) “gratitude”, and ኢየሩሳሌም (ʾiyarusālem) “Jerusalem”.</p>"
+89,ኤ,ʾe,ʾalf,,,𐩥,85.gif,13,Variants of ʾalf,88,90,"<p>The Ge'ez letter አ is called አልፍ (ʾalf). It represents a “glottal stop”, which is a break in a vowel sound like in the middle of the English expression uh oh.</p><p>Its shape አ is derived from the epigraphic character: 𐩱. It correlates to the Arabic letter أ‎, the Syriac letter ܐ, and the Hebrew letter א‎‎.</p><p>Ge’ez words starting with አ include አበው (ʾabaw) “ancestors”, አኰቴት (ʾakkwatet) “gratitude”, and ኢየሩሳሌም (ʾiyarusālem) “Jerusalem”.</p>"
+90,እ,ʾə,ʾalf,,,𐩥,85.gif,13,Variants of ʾalf,89,91,"<p>The Ge'ez letter አ is called አልፍ (ʾalf). It represents a “glottal stop”, which is a break in a vowel sound like in the middle of the English expression uh oh.</p><p>Its shape አ is derived from the epigraphic character: 𐩱. It correlates to the Arabic letter أ‎, the Syriac letter ܐ, and the Hebrew letter א‎‎.</p><p>Ge’ez words starting with አ include አበው (ʾabaw) “ancestors”, አኰቴት (ʾakkwatet) “gratitude”, and ኢየሩሳሌም (ʾiyarusālem) “Jerusalem”.</p>"
+91,ኦ,ʾo,ʾalf,,,𐩥,85.gif,13,Variants of ʾalf,90,92,"<p>The Ge'ez letter አ is called አልፍ (ʾalf). It represents a “glottal stop”, which is a break in a vowel sound like in the middle of the English expression uh oh.</p><p>Its shape አ is derived from the epigraphic character: 𐩱. It correlates to the Arabic letter أ‎, the Syriac letter ܐ, and the Hebrew letter א‎‎.</p><p>Ge’ez words starting with አ include አበው (ʾabaw) “ancestors”, አኰቴት (ʾakkwatet) “gratitude”, and ኢየሩሳሌም (ʾiyarusālem) “Jerusalem”.</p>"
+92,ከ,ka,kāf,,,𐩲,92.gif,14,Variants of kāf,91,93,"<p>The Ge'ez letter ከ is called ካፍ (kāf). It represents a “voiceless velar plosive”, which is like <k> in the English words kite, keep, and kettle.</p><p>Its shape ከ is derived from the epigraphic character: 𐩫. It correlates to the Arabic letter ك‎‎, the Syriac letter ܟ, and the Hebrew letter כ‎‎.</p><p>Ge’ez words starting with ከ include ኮከብ (kokab) “star”, ክብር (kəbr) “glory”, and  ኪዳን (kidan) “testament”.</p>"
+93,ኩ,ku,kāf,,,𐩲,92.gif,14,Variants of kāf,92,94,"<p>The Ge'ez letter ከ is called ካፍ (kāf). It represents a “voiceless velar plosive”, which is like <k> in the English words kite, keep, and kettle.</p><p>Its shape ከ is derived from the epigraphic character: 𐩫. It correlates to the Arabic letter ك‎‎, the Syriac letter ܟ, and the Hebrew letter כ‎‎.</p><p>Ge’ez words starting with ከ include ኮከብ (kokab) “star”, ክብር (kəbr) “glory”, and  ኪዳን (kidan) “testament”.</p>"
+94,ኪ,ki,kāf,,,𐩲,92.gif,14,Variants of kāf,93,95,"<p>The Ge'ez letter ከ is called ካፍ (kāf). It represents a “voiceless velar plosive”, which is like <k> in the English words kite, keep, and kettle.</p><p>Its shape ከ is derived from the epigraphic character: 𐩫. It correlates to the Arabic letter ك‎‎, the Syriac letter ܟ, and the Hebrew letter כ‎‎.</p><p>Ge’ez words starting with ከ include ኮከብ (kokab) “star”, ክብር (kəbr) “glory”, and  ኪዳን (kidan) “testament”.</p>"
+95,ካ,kā,kāf,,,𐩲,92.gif,14,Variants of kāf,94,96,"<p>The Ge'ez letter ከ is called ካፍ (kāf). It represents a “voiceless velar plosive”, which is like <k> in the English words kite, keep, and kettle.</p><p>Its shape ከ is derived from the epigraphic character: 𐩫. It correlates to the Arabic letter ك‎‎, the Syriac letter ܟ, and the Hebrew letter כ‎‎.</p><p>Ge’ez words starting with ከ include ኮከብ (kokab) “star”, ክብር (kəbr) “glory”, and  ኪዳን (kidan) “testament”.</p>"
+96,ኬ,ke,kāf,,,𐩲,92.gif,14,Variants of kāf,95,97,"<p>The Ge'ez letter ከ is called ካፍ (kāf). It represents a “voiceless velar plosive”, which is like <k> in the English words kite, keep, and kettle.</p><p>Its shape ከ is derived from the epigraphic character: 𐩫. It correlates to the Arabic letter ك‎‎, the Syriac letter ܟ, and the Hebrew letter כ‎‎.</p><p>Ge’ez words starting with ከ include ኮከብ (kokab) “star”, ክብር (kəbr) “glory”, and  ኪዳን (kidan) “testament”.</p>"
+97,ክ,kə,kāf,,,𐩲,92.gif,14,Variants of kāf,96,98,"<p>The Ge'ez letter ከ is called ካፍ (kāf). It represents a “voiceless velar plosive”, which is like <k> in the English words kite, keep, and kettle.</p><p>Its shape ከ is derived from the epigraphic character: 𐩫. It correlates to the Arabic letter ك‎‎, the Syriac letter ܟ, and the Hebrew letter כ‎‎.</p><p>Ge’ez words starting with ከ include ኮከብ (kokab) “star”, ክብር (kəbr) “glory”, and  ኪዳን (kidan) “testament”.</p>"
+98,ኮ,ko,kāf,,,𐩲,92.gif,14,Variants of kāf,97,99,"<p>The Ge'ez letter ከ is called ካፍ (kāf). It represents a “voiceless velar plosive”, which is like <k> in the English words kite, keep, and kettle.</p><p>Its shape ከ is derived from the epigraphic character: 𐩫. It correlates to the Arabic letter ك‎‎, the Syriac letter ܟ, and the Hebrew letter כ‎‎.</p><p>Ge’ez words starting with ከ include ኮከብ (kokab) “star”, ክብር (kəbr) “glory”, and  ኪዳን (kidan) “testament”.</p>"
 99,ወ,wa,wawe,,,𐩹,99.gif,15,Variants of wawe,98,100,
-100,ዉ,wu,wawe,,,,,15,Variants of wawe,99,101,
-101,ዊ,wi,wawe,,,,,15,Variants of wawe,100,102,
-102,ዋ,wā,wawe,,,,,15,Variants of wawe,101,103,
-103,ዌ,we,wawe,,,,,15,Variants of wawe,102,104,
-104,ው,wə,wawe,,,,,15,Variants of wawe,103,105,
-105,ዎ,wo,wawe,,,,,15,Variants of wawe,104,106,
+100,ዉ,wu,wawe,,,𐩹,99.gif,15,Variants of wawe,99,101,
+101,ዊ,wi,wawe,,,𐩹,99.gif,15,Variants of wawe,100,102,
+102,ዋ,wā,wawe,,,𐩹,99.gif,15,Variants of wawe,101,103,
+103,ዌ,we,wawe,,,𐩹,99.gif,15,Variants of wawe,102,104,
+104,ው,wə,wawe,,,𐩹,99.gif,15,Variants of wawe,103,105,
+105,ዎ,wo,wawe,,,𐩹,99.gif,15,Variants of wawe,104,106,
 106,ዐ,ʿa,ʿayn,,,𐩺,106.gif,16,Variants of ʿayn,105,107,
-107,ዑ,ʿu,ʿayn,,,,,16,Variants of ʿayn,106,108,
-108,ዒ,ʿi,ʿayn,,,,,16,Variants of ʿayn,107,109,
-109,ዓ,ʿa,ʿayn,,,,,16,Variants of ʿayn,108,110,
-110,ዔ,ʿe,ʿayn,,,,,16,Variants of ʿayn,109,111,
-111,ዕ,ʿə,ʿayn,,,,,16,Variants of ʿayn,110,112,
-112,ዖ,ʿo,ʿayn,,,,,16,Variants of ʿayn,111,113,
+107,ዑ,ʿu,ʿayn,,,𐩺,106.gif,16,Variants of ʿayn,106,108,
+108,ዒ,ʿi,ʿayn,,,𐩺,106.gif,16,Variants of ʿayn,107,109,
+109,ዓ,ʿa,ʿayn,,,𐩺,106.gif,16,Variants of ʿayn,108,110,
+110,ዔ,ʿe,ʿayn,,,𐩺,106.gif,16,Variants of ʿayn,109,111,
+111,ዕ,ʿə,ʿayn,,,𐩺,106.gif,16,Variants of ʿayn,110,112,
+112,ዖ,ʿo,ʿayn,,,𐩺,106.gif,16,Variants of ʿayn,111,113,
 113,ዘ,za,zay,,,𐩵,113.gif,17,Variants of zay,112,114,
-114,ዙ,zu,zay,,,,,17,Variants of zay,113,115,
-115,ዚ,zi,zay,,,,,17,Variants of zay,114,116,
-116,ዛ,zā,zay,,,,,17,Variants of zay,115,117,
-117,ዜ,ze,zay,,,,,17,Variants of zay,116,118,
-118,ዝ,zə,zay,,,,,17,Variants of zay,117,119,
-119,ዞ,zo,zay,,,,,17,Variants of zay,118,120,
+114,ዙ,zu,zay,,,𐩵,113.gif,17,Variants of zay,113,115,
+115,ዚ,zi,zay,,,𐩵,113.gif,17,Variants of zay,114,116,
+116,ዛ,zā,zay,,,𐩵,113.gif,17,Variants of zay,115,117,
+117,ዜ,ze,zay,,,𐩵,113.gif,17,Variants of zay,116,118,
+118,ዝ,zə,zay,,,𐩵,113.gif,17,Variants of zay,117,119,
+119,ዞ,zo,zay,,,𐩵,113.gif,17,Variants of zay,118,120,
 120,የ,ya,yaman,,,𐩴,120.gif,18,Variants of yaman,119,121,
-121,ዩ,yu,yaman,,,,,18,Variants of yaman,120,122,
-122,ዪ,yi,yaman,,,,,18,Variants of yaman,121,123,
-123,ያ,yā,yaman,,,,,18,Variants of yaman,122,124,
-124,ዬ,ye,yaman,,,,,18,Variants of yaman,123,125,
-125,ይ,yə,yaman,,,,,18,Variants of yaman,124,126,
-126,ዮ,yo,yaman,,,,,18,Variants of yaman,125,127,
+121,ዩ,yu,yaman,,,𐩴,120.gif,18,Variants of yaman,120,122,
+122,ዪ,yi,yaman,,,𐩴,120.gif,18,Variants of yaman,121,123,
+123,ያ,yā,yaman,,,𐩴,120.gif,18,Variants of yaman,122,124,
+124,ዬ,ye,yaman,,,𐩴,120.gif,18,Variants of yaman,123,125,
+125,ይ,yə,yaman,,,𐩴,120.gif,18,Variants of yaman,124,126,
+126,ዮ,yo,yaman,,,𐩴,120.gif,18,Variants of yaman,125,127,
 127,ደ,da,dənt,,,𐩷,127.gif,,Variants of dənt,126,128,
-128,ዱ,du,dənt,,,,,,Variants of dənt,127,129,
-129,ዲ,di,dənt,,,,,,Variants of dənt,128,130,
-130,ዳ,dā,dənt,,,,,,Variants of dənt,129,131,
-131,ዴ,de,dənt,,,,,,Variants of dənt,130,132,
-132,ድ,də,dənt,,,,,,Variants of dənt,131,133,
-133,ዶ,do,dənt,,,,,,Variants of dənt,132,134,
+128,ዱ,du,dənt,,,𐩷,127.gif,,Variants of dənt,127,129,
+129,ዲ,di,dənt,,,𐩷,127.gif,,Variants of dənt,128,130,
+130,ዳ,dā,dənt,,,𐩷,127.gif,,Variants of dənt,129,131,
+131,ዴ,de,dənt,,,𐩷,127.gif,,Variants of dənt,130,132,
+132,ድ,də,dənt,,,𐩷,127.gif,,Variants of dənt,131,133,
+133,ዶ,do,dənt,,,𐩷,127.gif,,Variants of dənt,132,134,
 134,ገ,ga,gaml,,,𐩮,134.gif,,Variants of gaml,133,135,
-135,ጉ,gu,gaml,,,,,,Variants of gaml,134,136,
-136,ጊ,gi,gaml,,,,,,Variants of gaml,135,137,
-137,ጋ,gā,gaml,,,,,,Variants of gaml,136,138,
-138,ጌ,ge,gaml,,,,,,Variants of gaml,137,139,
-139,ግ,gə,gaml,,,,,,Variants of gaml,138,140,
-140,ጎ,go,gaml,,,,,,Variants of gaml,139,141,
+135,ጉ,gu,gaml,,,𐩮,134.gif,,Variants of gaml,134,136,
+136,ጊ,gi,gaml,,,𐩮,134.gif,,Variants of gaml,135,137,
+137,ጋ,gā,gaml,,,𐩮,134.gif,,Variants of gaml,136,138,
+138,ጌ,ge,gaml,,,𐩮,134.gif,,Variants of gaml,137,139,
+139,ግ,gə,gaml,,,𐩮,134.gif,,Variants of gaml,138,140,
+140,ጎ,go,gaml,,,𐩮,134.gif,,Variants of gaml,139,141,
 141,ጠ,ṭa,ṭayt,,,𐩳,141.gif,,Variants of ṭayt,140,142,
-142,ጡ,ṭu,ṭayt,,,,,,Variants of ṭayt,141,143,
-143,ጢ,ṭi,ṭayt,,,,,,Variants of ṭayt,142,144,
-144,ጣ,ṭā,ṭayt,,,,,,Variants of ṭayt,143,145,
-145,ጤ,ṭe,ṭayt,,,,,,Variants of ṭayt,144,146,
-146,ጥ,ṭə,ṭayt,,,,,,Variants of ṭayt,145,147,
-147,ጦ,ṭo,ṭayt,,,,,,Variants of ṭayt,146,148,
+142,ጡ,ṭu,ṭayt,,,𐩳,141.gif,,Variants of ṭayt,141,143,
+143,ጢ,ṭi,ṭayt,,,𐩳,141.gif,,Variants of ṭayt,142,144,
+144,ጣ,ṭā,ṭayt,,,𐩳,141.gif,,Variants of ṭayt,143,145,
+145,ጤ,ṭe,ṭayt,,,𐩳,141.gif,,Variants of ṭayt,144,146,
+146,ጥ,ṭə,ṭayt,,,𐩳,141.gif,,Variants of ṭayt,145,147,
+147,ጦ,ṭo,ṭayt,,,𐩳,141.gif,,Variants of ṭayt,146,148,
 148,ጰ,p̣a,p̣ayt,,,𐩳,148.gif,,Variants of p̣ayt,147,149,
-149,ጱ,p̣u,p̣ayt,,,,,,Variants of p̣ayt,148,150,
-150,ጲ,p̣i,p̣ayt,,,,,,Variants of p̣ayt,149,151,
-151,ጳ,p̣ā,p̣ayt,,,,,,Variants of p̣ayt,150,152,
-152,ጴ,p̣e,p̣ayt,,,,,,Variants of p̣ayt,151,153,
-153,ጵ,p̣ə,p̣ayt,,,,,,Variants of p̣ayt,152,154,
-154,ጶ,p̣o,p̣ayt,,,,,,Variants of p̣ayt,153,155,
+149,ጱ,p̣u,p̣ayt,,,𐩳,148.gif,,Variants of p̣ayt,148,150,
+150,ጲ,p̣i,p̣ayt,,,𐩳,148.gif,,Variants of p̣ayt,149,151,
+151,ጳ,p̣ā,p̣ayt,,,𐩳,148.gif,,Variants of p̣ayt,150,152,
+152,ጴ,p̣e,p̣ayt,,,𐩳,148.gif,,Variants of p̣ayt,151,153,
+153,ጵ,p̣ə,p̣ayt,,,𐩳,148.gif,,Variants of p̣ayt,152,154,
+154,ጶ,p̣o,p̣ayt,,,𐩳,148.gif,,Variants of p̣ayt,153,155,
 155,ጸ,ṣa,ṣaday,,,𐩰,155.gif,,Variants of ṣaday,154,156,
-156,ጹ,ṣu,ṣaday,,,,,,Variants of ṣaday,155,157,
-157,ጺ,ṣi,ṣaday,,,,,,Variants of ṣaday,156,158,
-158,ጻ,ṣā,ṣaday,,,,,,Variants of ṣaday,157,159,
-159,ጼ,ṣe,ṣaday,,,,,,Variants of ṣaday,158,160,
-160,ጽ,ṣə,ṣaday,,,,,,Variants of ṣaday,159,161,
-161,ጾ,ṣo,ṣaday,,,,,,Variants of ṣaday,160,162,
+156,ጹ,ṣu,ṣaday,,,𐩰,155.gif,,Variants of ṣaday,155,157,
+157,ጺ,ṣi,ṣaday,,,𐩰,155.gif,,Variants of ṣaday,156,158,
+158,ጻ,ṣā,ṣaday,,,𐩰,155.gif,,Variants of ṣaday,157,159,
+159,ጼ,ṣe,ṣaday,,,𐩰,155.gif,,Variants of ṣaday,158,160,
+160,ጽ,ṣə,ṣaday,,,𐩰,155.gif,,Variants of ṣaday,159,161,
+161,ጾ,ṣo,ṣaday,,,𐩰,155.gif,,Variants of ṣaday,160,162,
 162,ፀ,ḍa,ḍappa,,,,162.gif,,Variants of ḍappa,161,163,
-163,ፁ,ḍu,ḍappa,,,,,,Variants of ḍappa,162,164,
-164,ፂ,ḍi,ḍappa,,,,,,Variants of ḍappa,163,165,
-165,ፃ,ḍā,ḍappa,,,,,,Variants of ḍappa,164,166,
-166,ፄ,ḍe,ḍappa,,,,,,Variants of ḍappa,165,167,
-167,ፅ,ḍə,ḍappa,,,,,,Variants of ḍappa,166,168,
-168,ፆ,ḍo,ḍappa,,,,,,Variants of ḍappa,167,169,
+163,ፁ,ḍu,ḍappa,,,,162.gif,,Variants of ḍappa,162,164,
+164,ፂ,ḍi,ḍappa,,,,162.gif,,Variants of ḍappa,163,165,
+165,ፃ,ḍā,ḍappa,,,,162.gif,,Variants of ḍappa,164,166,
+166,ፄ,ḍe,ḍappa,,,,162.gif,,Variants of ḍappa,165,167,
+167,ፅ,ḍə,ḍappa,,,,162.gif,,Variants of ḍappa,166,168,
+168,ፆ,ḍo,ḍappa,,,,162.gif,,Variants of ḍappa,167,169,
 169,ፈ,fa,ʾaf,,,,169.gif,,Variants of ʾaf,168,170,
-170,ፉ,fu,ʾaf,,,,,,Variants of ʾaf,169,171,
-171,ፊ,fi,ʾaf,,,,,,Variants of ʾaf,170,172,
-172,ፋ,fā,ʾaf,,,,,,Variants of ʾaf,171,173,
-173,ፌ,fe,ʾaf,,,,,,Variants of ʾaf,172,174,
-174,ፍ,fə,ʾaf,,,,,,Variants of ʾaf,173,175,
-175,ፎ,fo,ʾaf,,,,,,Variants of ʾaf,174,176,
+170,ፉ,fu,ʾaf,,,,169.gif,,Variants of ʾaf,169,171,
+171,ፊ,fi,ʾaf,,,,169.gif,,Variants of ʾaf,170,172,
+172,ፋ,fā,ʾaf,,,,169.gif,,Variants of ʾaf,171,173,
+173,ፌ,fe,ʾaf,,,,169.gif,,Variants of ʾaf,172,174,
+174,ፍ,fə,ʾaf,,,,169.gif,,Variants of ʾaf,173,175,
+175,ፎ,fo,ʾaf,,,,169.gif,,Variants of ʾaf,174,176,
 176,ፐ,pa,pəs,,,,176.gif,,Variants of pəs,175,177,
-177,ፑ,pu,pəs,,,,,,Variants of pəs,176,178,
-178,ፒ,pi,pəs,,,,,,Variants of pəs,177,179,
-179,ፓ,pā,pəs,,,,,,Variants of pəs,178,180,
-180,ፔ,pe,pəs,,,,,,Variants of pəs,179,181,
-181,ፕ,pə,pəs,,,,,,Variants of pəs,180,182,
-182,ፖ,po,pəs,,,,,,Variants of pəs,181,183,
+177,ፑ,pu,pəs,,,,176.gif,,Variants of pəs,176,178,
+178,ፒ,pi,pəs,,,,176.gif,,Variants of pəs,177,179,
+179,ፓ,pā,pəs,,,,176.gif,,Variants of pəs,178,180,
+180,ፔ,pe,pəs,,,,176.gif,,Variants of pəs,179,181,
+181,ፕ,pə,pəs,,,,176.gif,,Variants of pəs,180,182,
+182,ፖ,po,pəs,,,,176.gif,,Variants of pəs,181,183,

@@ -31,15 +31,7 @@ layout: home
 }
 
 </style>
-<div class='row'>
 
-    <div class='col-sm-12' style='text-align:center;'>
-
-      <h1>THE GE'EZ SCRIPT</h1>
-      <h5>The Rules, History, and Aesthetics of the Ethiopian-Eritrean Writing System.</h5>
-   </div>
-
-</div>
 
 
 
@@ -54,7 +46,7 @@ layout: home
       <a href="letters.html" class='frontblock'>
        <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheLetters-bg3.jpg);'>
          <div class="bg_gradient">
-         <h2>The Letters</h2>
+         <h2>Letters</h2>
          </div>
        </div>
       </a>
@@ -63,7 +55,7 @@ layout: home
       <a href="syllabary.html" class='frontblock'>
        <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheSyllables-bg3.jpg);'>
          <div class="bg_gradient">
-         <h2>The Syllabary</h2>
+         <h2>Syllabary</h2>
          </div>
        </div>
       </a>
@@ -72,26 +64,19 @@ layout: home
       <a href="numerals.html" class='frontblock'>
        <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheNumerals-bg3.jpg);'>
          <div class="bg_gradient">
-         <h2>The Numerals</h2>
+         <h2>Numerals</h2>
          </div>
        </div>
       </a>
       
-      <a href="history.html" class='frontblock'>
+      <a href="learn.html" class='frontblock'>
        <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheHistory-bg3.jpg);'>
          <div class="bg_gradient">
-         <h2>The History</h2>
+         <h2>Learn</h2>
          </div>
        </div>
       </a>
       
-      <a href="quiz.html" class='frontblock-wide'>
-       <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheLetters-bg3.jpg);height:20vh;'>
-         <div class="bg_gradient">
-         <h2>Quiz</h2>
-         </div>
-       </div>
-      </a>
 
    </div>
 </div>

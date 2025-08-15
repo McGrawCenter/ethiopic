@@ -10,7 +10,7 @@ banner: TheNumerals-wide.jpg
 
   <div class='col-sm-12'>
 
-      <h2 style="margin:2em 0 1.6em;">The Numerals</h2>
+      <h2 style="margin:2em 0 1.6em;">Numerals</h2>
       
       <p>Geʽez numerals, called ኍለቍ (ḫwəlaqwə), are an alphanumeric system likely derived from Coptic uncial letters. Numerals are always bracketed by strokes placed above and below.</p>
 

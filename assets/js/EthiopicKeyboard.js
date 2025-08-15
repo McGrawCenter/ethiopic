@@ -5,7 +5,7 @@
                 mode: 'open'
             });
             this.shadowRoot.innerHTML = `<style>
- #keyboard { font-size:2em;margin-top:2em; }
+ #keyboard { font-size:2em; }
  th, td { text-align:center; }
  #keyboard-container { position:relative; }
  #copybutton { position:absolute;bottom:4px;right:-8px;border-radius:4px; }
@@ -69,15 +69,12 @@
 <tr><th>t</th><td>ተ</td><td>ቱ</td><td>ቲ</td><td>ታ</td><td>ቴ</td><td>ት</td><td>ቶ</td><td>ቷ</td><td></td></tr>
 <tr><th>c</th><td>ቸ</td><td>ቹ</td><td>ቺ</td><td>ቻ</td><td>ቼ</td><td>ች</td><td>ቾ</td><td>ቿ</td><td></td></tr>
 <tr><th>x</th><td>ኀ</td><td>ኁ</td><td>ኂ</td><td>ኃ</td><td>ኄ</td><td>ኅ</td><td>ኆ</td><td>ኇ</td><td></td></tr>
-
 <tr><th>xw</th><td>ኈ</td><td></td><td>ኊ</td><td>ኋ</td><td>ኌ</td><td>ኍ</td><td></td><td></td><td></td></tr>
 <tr><th>n</th><td>ነ</td><td>ኑ</td><td>ኒ</td><td>ና</td><td>ኔ</td><td>ን</td><td>ኖ</td><td>ኗ</td><td></td></tr>
 <tr><th>ny</th><td>ኘ</td><td>ኙ</td><td>ኚ</td><td>ኛ</td><td>ኜ</td><td>ኝ</td><td>ኞ</td><td>ኟ</td><td></td></tr>
-</table>
-<table style='margin:1em auto;width:100%;table-layout: fixed;'>
-<tr><th></th><th>a</th><th>u</th><th>i</th><th>aa</th><th>e</th><th>🛇</th><th>o</th><th>ua</th><th>ya</th></tr>
 <tr><th>'</th><td>አ</td><td>ኡ</td><td>ኢ</td><td>ኣ</td><td>ኤ</td><td>እ</td><td>ኦ</td><td>ኧ</td><td></td></tr>
 <tr><th>k</th><td>ከ</td><td>ኩ</td><td>ኪ</td><td>ካ</td><td>ኬ</td><td>ክ</td><td>ኮ</td><td>ኳ</td><td></td></tr>
+<tr><th>k<sup>w</sup></th><td>ኰ</td><td></td><td>ኲ</td><td>ኳ</td><td>ኴ</td><td>ኵ</td><td></td><td></td><td></td></tr>
 <tr><th>kk</th><td>ኸ</td><td>ኹ</td><td>ኺ</td><td>ኻ</td><td>ኼ</td><td>ኽ</td><td>ኾ</td><td>ዃ</td><td></td></tr>
 <tr><th>kkw</th><td>ዀ</td><td></td><td>ዂ</td><td>ዃ</td><td>ዄ</td><td>ዅ</td><td></td><td></td><td></td></tr>
 <tr><th>w</th><td>ወ</td><td>ዉ</td><td>ዊ</td><td>ዋ</td><td>ዌ</td><td>ው</td><td>ዎ</td><td></td><td></td></tr>
