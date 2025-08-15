@@ -21,7 +21,7 @@ banner: TheSyllables-wide.jpg
 </style>
 <div class='row'>
   <div class='col-sm-12'>
-      <h2 style="margin:2em 0 1.6em;">Scribal Hand Quiz</h2>
+      <h2 style="margin:2em 0 1.6em;">Transcription Quiz</h2>
   </div> <!-- /.col -->
 </div>
 <div class='row'>
@@ -32,7 +32,7 @@ banner: TheSyllables-wide.jpg
       
       <a href="quiz.html" class="btn active">Character Quiz</a><br />
       <a href="vocabularyquiz.html" class="btn active">Vocabulary Quiz</a><br />
-      <a href="scribalhandquiz.html" class="btn active">Scribal Hand Quiz</a><br />
+      <a href="transcriptionquiz.html" class="btn active">Transcription Quiz</a><br />
 
   </div> <!-- /.col -->
 

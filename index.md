@@ -16,7 +16,7 @@ layout: home
   position: relative;
   margin: 0 1em 1em 0;
   color: white;
-  border-radius:40px;
+  border-radius:40px 40px 40px 0;
   overflow:hidden;
 }
 .frontblock-wide:hover, .frontblock:hover { color:#c8c3ad;  }
@@ -26,7 +26,7 @@ layout: home
   position: relative;
   margin: 0 1em 1em 0;
   color: white;
-  border-radius:30px;
+  border-radius:30px 30px 30px 0;
   overflow:hidden;
 }
 
@@ -52,7 +52,7 @@ layout: home
 
 
       <a href="letters.html" class='frontblock'>
-       <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheLetters-bg.jpg);'>
+       <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheLetters-bg3.jpg);'>
          <div class="bg_gradient">
          <h2>The Letters</h2>
          </div>
@@ -61,7 +61,7 @@ layout: home
 
 
       <a href="syllabary.html" class='frontblock'>
-       <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheSyllables-bg.jpg);'>
+       <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheSyllables-bg3.jpg);'>
          <div class="bg_gradient">
          <h2>The Syllabary</h2>
          </div>
@@ -70,7 +70,7 @@ layout: home
 
 
       <a href="numerals.html" class='frontblock'>
-       <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheNumerals-bg.jpg);'>
+       <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheNumerals-bg3.jpg);'>
          <div class="bg_gradient">
          <h2>The Numerals</h2>
          </div>
@@ -78,7 +78,7 @@ layout: home
       </a>
       
       <a href="history.html" class='frontblock'>
-       <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheHistory-bg.jpg);'>
+       <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheHistory-bg3.jpg);'>
          <div class="bg_gradient">
          <h2>The History</h2>
          </div>
@@ -86,7 +86,7 @@ layout: home
       </a>
       
       <a href="quiz.html" class='frontblock-wide'>
-       <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheLetters-bg.jpg);height:20vh;'>
+       <div class='big-menu-block cinzel-900' style='background-image:url(assets/images/TheLetters-bg3.jpg);height:20vh;'>
          <div class="bg_gradient">
          <h2>Quiz</h2>
          </div>

@@ -33,7 +33,7 @@ banner: TheSyllables-wide.jpg
       
       <a href="quiz.html" class="btn active">Character Quiz</a><br />
       <a href="vocabularyquiz.html" class="btn active">Vocabulary Quiz</a><br />
-      <a href="scribalhandquiz.html" class="btn active">Scribal Hand Quiz</a><br />
+      <a href="transcriptionquiz.html" class="btn active">Transcription Quiz</a><br />
 
   </div> <!-- /.col -->
   <div class='col-sm-9'>

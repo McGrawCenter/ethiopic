@@ -11,7 +11,7 @@
  #copybutton { position:absolute;bottom:4px;right:-8px;border-radius:4px; }
  #keybutton { position:absolute;bottom:4px;left:0;border-radius:4px; }
  #vowelbar { height: 340px;overflow-y:auto;display:none; }
- #key-container { height: 400px;overflow-y:auto;display:none; }
+ #key-container { display:none; }
  #key-container.shown,#vowelbar.shown { display:block; }
  button {color: #fff;background-color: #286090;border-color: #204d74;padding:0.2em 0.4em;}
 </style>`;
@@ -93,7 +93,7 @@
 <tr><th>cc</th><td>ጨ</td><td>ጩ</td><td>ጪ</td><td>ጫ</td><td>ጬ</td><td>ጭ</td><td>ጮ</td><td>ጯ</td></tr>
 <tr><th>pp</th><td>ጰ</td><td>ጱ</td><td>ጲ</td><td>ጳ</td><td>ጴ</td><td>ጵ</td><td>ጶ</td><td>ጷ</td><td></td></tr>
 <tr><th>ts</th><td>ጸ</td><td>ጹ</td><td>ጺ</td><td>ጻ</td><td>ጼ</td><td>ጽ</td><td>ጾ</td><td>ጿ</td><td></td></tr>
-<tr><th>dz</th><td>ፀ</td><td>ፁ</td><td>ፂ</td><td>ፃ</td><td>ፄ</td><td>ፅ</td><td>ፆ</td><td>ፇ</td><td></td></tr>
+<tr><th>tz</th><td>ፀ</td><td>ፁ</td><td>ፂ</td><td>ፃ</td><td>ፄ</td><td>ፅ</td><td>ፆ</td><td>ፇ</td><td></td></tr>
 <tr><th>f</th><td>ፋ</td><td>ፉ</td><td>ፊ</td><td>ፋ</td><td>ፌ</td><td>ፍ</td><td>ፎ</td><td>ፏ</td><td>ፚ</td></tr>
 <tr><th>p</th><td>ፐ</td><td>ፑ</td><td>ፒ</td><td>ፓ</td><td>ፔ</td><td>ፕ</td><td>ፖ</td><td>ፗ</td><td></td></tr>
 </table>
@@ -511,7 +511,9 @@
                 ['ዽo', 'ዾ', 'ddo'],
                 ['ዹa', 'ዿ', 'ddua'],
 
-                ['ድዝ', 'ፅ', 'dz'],
+// edit
+		/*
+                ['ዝ', 'ፅ', 'dz'],
                 ['ፅa', 'ፀ', 'dza'],
                 ['ፅu', 'ፁ', 'dzu'],
                 ['ፅi', 'ፂ', 'dzi'],
@@ -519,7 +521,16 @@
                 ['ፅe', 'ፄ', 'dze'],
                 ['ፅo', 'ፆ', 'dzo'],
                 ['ፁa', 'ፇ', 'dzua'],
-
+		*/
+                ['ትዝ', 'ፅ', 'tz'],
+                ['ፅa', 'ፀ', 'tza'],
+                ['ፅu', 'ፁ', 'tzu'],
+                ['ፅi', 'ፂ', 'tzi'],
+                ['ፀa', 'ፃ', 'tzaa'],
+                ['ፅe', 'ፄ', 'tdze'],
+                ['ፅo', 'ፆ', 'tzo'],
+                ['ፁa', 'ፇ', 'tzua'],		
+		
                 ['j', 'ጅ', 'j'],
                 ['ጅa', 'ጀ', 'ja'],
                 ['ጅu', 'ጁ', 'ju'],
@@ -565,24 +576,24 @@
                 ['ፉa', 'ፏ', 'fua'],
                 ['ፍየ', 'ፚ', 'fya'],
 
-                ['p', 'ፕ', 'p'],
-                ['P', 'ፕ', 'P'],
-                ['ፕa', 'ፐ', 'pa'],
-                ['ፕu', 'ፑ', 'pu'],
-                ['ፕi', 'ፒ', 'pi'],
-                ['ፐa', 'ፓ', 'paa'],
-                ['ፕe', 'ፔ', 'pe'],
-                ['ፕo', 'ፖ', 'po'],
-                ['ፑa', 'ፗ', 'pua'],
+                ['p', 'ጵ', 'p'],
+                ['P', 'ጵ', 'P'],
+                ['ጵa', 'ጰ', 'pa'],
+                ['ጵu', 'ጱ', 'pu'],
+                ['ጵi', 'ፒ', 'pi'],
+                ['ጰa', 'ጳ', 'paa'],
+                ['ጵe', 'ፔ', 'pe'],
+                ['ጵo', 'ፖ', 'po'],
+                ['ጱa', 'ፗ', 'pua'],
 
-                ['ፕፕ', 'ጵ', 'pp'],
-                ['ጵa', 'ጰ', 'ppa'],
-                ['ጵu', 'ጱ', 'ppu'],
-                ['ጵi', 'ጲ', 'ppi'],
-                ['ጰa', 'ጳ', 'ppaa'],
-                ['ጵe', 'ጴ', 'ppe'],
-                ['ጵo', 'ጶ', 'ppo'],
-                ['ጱa', 'ጷ', 'ppua'],
+                ['ጵጵ',      'ፕ', 'pp'],
+                ['ፕa', 'ፐ', 'ppa'],
+                ['ፕu', 'ፑ', 'ppu'],
+                ['ፕi', 'ጲ', 'ppi'],
+                ['ፐa', 'ጳ', 'ppaa'],
+                ['ፕe', 'ጴ', 'ppe'],
+                ['ፕo', 'ጶ', 'ppo'],
+                ['ፑa', 'ጷ', 'ppua'],
 
                 [';', '፡', ';'],
                 ['`', '፤', '`'],
