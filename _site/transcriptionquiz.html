@@ -129,7 +129,7 @@
       <div id="quiz">
       <div id="progress"><div id="progress-bar"></div></div>
      <div id="card"></div>
-     <div id="choices"></div>
+     <ethiopic-keyboard></ethiopic-keyboard>
       </div>
 
   </div> <!-- /.col -->
@@ -176,41 +176,33 @@ deal(0);
 	  choices = [];
 	  choices.push(deck[current]);  // add character to the final choices
 	  answer = deck[current].Tags; // save the answer
-	  remainder = [...deck]; // make a copy of the deck
-	  remainder.splice(current,1); // remove the correct one fmor the deck
-	  remainder = shuffle(remainder); // shuffle
-	  choices.push(remainder[0]); // add the first three to the possible choices
-	  choices.push(remainder[1]);
-	  choices.push(remainder[2]);
-	  choices = shuffle(choices); // finally, shuffle
-	  
-	  for(var x= 0;x<=3;x++) {
-	    jQuery("#choices").append("<a class='choice' href='#' rel='"+choices[x].Tags+"'><div class='choice-inner'>"+choices[x].Tags+"</div></a>");
-	  }
+
 	  current++;
+	  jQuery(kbd).val("");
 	}
 	
 	
 	
-	jQuery(document).on("click",".choice",function(e){
-	  var c = jQuery(this).attr('rel');
-	  console.log(c, answer);
-	  if(c == answer) {
-	   jQuery(this).addClass("correct");
-	   const myTimeout = setTimeout(function(){
+	var shadowel = jQuery("ethiopic-keyboard").get(0),shadowRoot;
+	var kbd = shadowel.shadowRoot.children[1].childNodes[1];
+	
+	jQuery(document).on("keyup",kbd,function(e){
+	  if(kbd.value == answer) { 
+	  //if(1 == 1) {
 	     if(current < 9) {
 	       current++;
-	       deal(current);
+	       var c = setTimeout(function(){
+	         deal(current);
+	       }, 2000);
+	       
 	       jQuery("#progress-bar").css('width',((current/10)*100)+"%");
 	     }
 	     else {
 	       jQuery("#progress-bar").css('width',"100%");
 	       alert('Refresh the page to try again.');
 	     }
-	   }, 2000);
+
 	  }
-	  else { jQuery(this).addClass("incorrect"); }
-	  
 	  
 	});
 
@@ -218,6 +210,8 @@ deal(0);
 
 });
 </script>
+
+<script src="assets/js/EthiopicKeyboard.js?v=0.0.2"></script>
 
 
 
