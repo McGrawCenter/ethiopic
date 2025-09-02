@@ -391,6 +391,20 @@
                 ['እe', 'ኤ', "'e"],
                 ['እo', 'ኦ', "'o"],
                 ['ኡa', 'ኧ', "'ua"],
+                
+                ['።a', 'አ', 'colon a'],                
+                ['።u', 'ኡ', 'colon u'],
+                ['።i', 'ኢ', 'colon i'],
+                ['።aa', 'ኣ', 'colon aa'],
+                ['።e', 'ኤ', 'colon e'],
+                ['።o', 'ኦ', 'colon o'],  
+                ['አa', 'ዐ', 'colon aa'],
+                ['ኡu', 'ዑ', 'colon uu'],
+                ['ኢi', 'ዒ', 'colon ii'],
+                ['ዐa', 'ዓ', 'colon aaa'],
+                ['ኤe', 'ዔ', 'colon ee'],
+                ['ኦo', 'ዖ', 'colon oo'],
+                                     
 
                 ['k', 'ክ', 'k'],
                 ['K', 'ክ', 'K'],
@@ -433,25 +447,22 @@
                 ['ውo', 'ዎ', 'wo'],
 
                 //["እእ",'ዕ'," "],
-                ['ዐa', 'ዓ', " aaaa"], // space aaaa
-                ['ኣa', 'ዐ', " aaa"],
-                ['ኣa', 'ኣ', " aa"],
-                [' a', 'አ', " a"], // space a
+                [' ዐa', 'ዓ', " aaaa"], // space aaaa
+                [' አa', ' ዐ', " aa"], // space aa
+                [' ዐa', ' ዐ', " aaa"],  // space aaa                
+                [' a', ' አ', " a"], // space a
 
-                ['ኢi', 'ዒ', " i"], // space ii
-                [' i', 'ኢ', " i"], // space i
+                ['ኢi', ' ዒ', " i"], // space ii
+                [' i', ' ኢ', " i"], // space i
 
-                ['ኤe', 'ዔ', "''e"], //space ee
-                [' e', 'ኤ', " e"], //space e
+                ['ኤe', ' ዔ', "''e"], //space ee
+                [' e', ' ኤ', " e"], //space e
 
-                ['ኦo', 'ዖ', " o"], //space oo
-                [' o', 'ኦ', " o"], //space o
+                ['ኦo', ' ዖ', " o"], //space oo
+                [' o', ' ኦ', " o"], //space o
 
-                ['ኡu', 'ዑ', "''u"], // space uu
-                [' u', 'ኡ', " u"], // space u
-
-
-
+                ['ኡu', ' ዑ', "''u"], // space uu
+                [' u', ' ኡ', " u"], // space u
 
 
                 ["እእ", 'ዕ', "''"], // double apostrophe
@@ -508,17 +519,6 @@
                 ['ዽo', 'ዾ', 'ddo'],
                 ['ዹa', 'ዿ', 'ddua'],
 
-// edit
-		/*
-                ['ዝ', 'ፅ', 'dz'],
-                ['ፅa', 'ፀ', 'dza'],
-                ['ፅu', 'ፁ', 'dzu'],
-                ['ፅi', 'ፂ', 'dzi'],
-                ['ፀa', 'ፃ', 'dzaa'],
-                ['ፅe', 'ፄ', 'dze'],
-                ['ፅo', 'ፆ', 'dzo'],
-                ['ፁa', 'ፇ', 'dzua'],
-		*/
                 ['ትዝ', 'ፅ', 'tz'],
                 ['ፅa', 'ፀ', 'tza'],
                 ['ፅu', 'ፁ', 'tzu'],
@@ -606,6 +606,24 @@
 
             function transcribe() {
                 car = area.value;
+                
+                car = car.replace(/ አa/i, ' ዐ'); // space aa
+		car = car.replace(/^[Aa]a/i, 'ዐ'); // aa at beginning of line
+		car = car.replace(/^[Uu]u/i, 'ዑ'); // uu at beginning of line
+
+		car = car.replace(/^[Ii]i/, 'ዒ'); // ii at beginning of line
+		car = car.replace(/^ኣaa/, 'ዓ'); // aaaa at beginning of line
+
+		car = car.replace(/^[Ee]e/, 'ዔ'); // ee at beginning of line
+		car = car.replace(/^[Oo]o/, 'ዖ'); // oo at beginning of line
+		
+		car = car.replace(/^[Aa]/,'አ'); // a at beginning of line
+		car = car.replace(/^[Uu]/, 'ኡ'); // u at beginning of line
+		car = car.replace(/^[Ii]/, 'ኢ'); // i at beginning of line	
+		car = car.replace(/^[Aa]aa/, 'ኣ'); // aaa at beginning of line
+		car = car.replace(/^[Ee]/, 'ኤ'); // e at beginning of line
+		car = car.replace(/^[Oo]/, 'ኦ'); // o at beginning of line
+
 
                 var x;
                 for (x of dict) {
