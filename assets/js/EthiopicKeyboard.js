@@ -392,13 +392,20 @@
                 ['እo', 'ኦ', "'o"],
                 ['ኡa', 'ኧ', "'ua"],
                 
-                ['።a', 'አ', 'colon a'],                
-                ['።u', 'ኡ', 'colon u'],
-                ['።i', 'ኢ', 'colon i'],
-                ['።aa', 'ኣ', 'colon aa'],
-                ['።e', 'ኤ', 'colon e'],
-                ['።o', 'ኦ', 'colon o'],  
-                ['አa', 'ዐ', 'colon aa'],
+                [':a', 'አ', 'colon a'],                
+                [':u', 'ኡ', 'colon u'],
+                [':i', 'ኢ', 'colon i'],
+                [':aa', 'ኣ', 'colon aa'],
+                [':e', 'ኤ', 'colon e'],
+                [':o', 'ኦ', 'colon o'],  
+                [':አa', 'ዐ', 'colon aa'],
+                ['።a', '።አ', 'colon a'],                
+                ['።u', '።ኡ', 'colon u'],
+                ['።i', '።ኢ', 'colon i'],
+                ['።aa', '።ኣ', 'colon aa'],
+                ['።e', '።ኤ', 'colon e'],
+                ['።o', '።ኦ', 'colon o'],  
+                ['።አa', '።ዐ', 'colon aa'],                
                 ['ኡu', 'ዑ', 'colon uu'],
                 ['ኢi', 'ዒ', 'colon ii'],
                 ['ዐa', 'ዓ', 'colon aaa'],
@@ -597,7 +604,8 @@
                 [',', '፣', ','],
                 ['==', '፨', '=='],
                 ['?', '፧', '?'],
-                [':', '።', ':'],
+                [':', ':', ':'],
+                ['::', '።', '::'],
                 [',', '፣', ','],
                 ['.', '፥', '.'],
                 ['++', '፠', '++'],
@@ -608,21 +616,21 @@
                 car = area.value;
                 
                 car = car.replace(/ አa/i, ' ዐ'); // space aa
-		car = car.replace(/^[Aa]a/i, 'ዐ'); // aa at beginning of line
-		car = car.replace(/^[Uu]u/i, 'ዑ'); // uu at beginning of line
 
-		car = car.replace(/^[Ii]i/, 'ዒ'); // ii at beginning of line
-		car = car.replace(/^ኣaa/, 'ዓ'); // aaaa at beginning of line
-
-		car = car.replace(/^[Ee]e/, 'ዔ'); // ee at beginning of line
-		car = car.replace(/^[Oo]o/, 'ዖ'); // oo at beginning of line
-		
-		car = car.replace(/^[Aa]/,'አ'); // a at beginning of line
-		car = car.replace(/^[Uu]/, 'ኡ'); // u at beginning of line
-		car = car.replace(/^[Ii]/, 'ኢ'); // i at beginning of line	
-		car = car.replace(/^[Aa]aa/, 'ኣ'); // aaa at beginning of line
-		car = car.replace(/^[Ee]/, 'ኤ'); // e at beginning of line
-		car = car.replace(/^[Oo]/, 'ኦ'); // o at beginning of line
+		car = car.replace(/(^|(.|[\r\n]))[Uu]u/i, '$1ዑ'); // uu at beginning of line
+		car = car.replace(/(^|(.|[\r\n]))[Ii]i/i, '$1ዒ'); // ii at beginning of line
+		car = car.replace(/(^|(.|[\r\n]))[Ee]e/i, '$1ዔ'); // ee at beginning of line
+		car = car.replace(/(^|(.|[\r\n]))[Oo]o/i, '$1ዖ'); // oo at beginning of line
+		car = car.replace(/(^|(.|[\r\n]))[Uu]/i, '$1ኡ'); // u at beginning of line
+		car = car.replace(/(^|(.|[\r\n]))[Ii]/i, '$1ኢ'); // i at beginning of line
+			
+		car = car.replace(/(^|(.|[\r\n]))[Aa]/i,'$1አ'); // a at beginning of line	
+		car = car.replace(/(^|(.|[\r\n]))አa/i, '$1ዐ'); // aa at beginning of line		
+		car = car.replace(/(^|(.|[\r\n]))ዐa/i, '$1ኣ'); // aaa at beginning of line
+		car = car.replace(/(^|(.|[\r\n]))ኣa/i, '$1ዓ'); // aaaa at beginning of line
+				
+		car = car.replace(/(^|(.|[\r\n]))[Ee]/i, '$1ኤ'); // e at beginning of line
+		car = car.replace(/(^|(.|[\r\n]))[Oo]/i, '$1ኦ'); // o at beginning of line
 
 
                 var x;

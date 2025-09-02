@@ -6,18 +6,21 @@ layout: secondary-narrow
 banner: TheSyllables-wide.jpg
 ---
 <style>
- #quiz {  max-width:700px; width:100%;	 }
+ #quiz {  max-width:700px; width:100%;position:relative; }
  #progress { width:100%;  }
  #progress-bar { width:0%;height:10px;background:crimson; }
  #card { text-align:center; background:black;color:white;font-size:3.4em;padding:1em; }
  #card img { height: 200px; width:auto; }
  #choices { width:100%; display:flex; flex-wrap:wrap; justify-content:center;margin-top:1em;}
+ #counter { position:absolute; top:10px;right:5px; color:white;padding:10px; }
  .choice { width:25%;text-decoration:none; }
  .choice-inner { margin:0.2em;padding:1em; background:#777;text-align:center; color:white; font-size:1.5em}
  a.incorrect { pointer-events: none;text-decoration:none; }
  a.incorrect > .choice-inner { background:#EEE;}
  a.correct { text-decoration:none; }
- a.correct > .choice-inner { background:#474;} 
+ a.correct > .choice-inner { background:#474;}
+ #incorrect { color:red; font-weight:bold; }
+ #check { background: #444;color: white;width: 100%;border: solid 0px black;padding: 0.5em; }
 </style>
 <div class='row'>
   <div class='col-sm-12'>
@@ -28,11 +31,15 @@ banner: TheSyllables-wide.jpg
 
   <div class='col-sm-3'>
 
+      <div id="quiz">
+         <a href="quiz.html" class="btn active">Character Quiz</a><br />
+         <a href="vocabularyquiz.html" class="btn active">Vocabulary Quiz</a><br />
+         <a href="transcriptionquiz.html" class="btn active">Transcription Quiz</a><br />
+         <div id="counter"><span id="current">1</span> of 10</div>
+      </div>
       
       
-      <a href="quiz.html" class="btn active">Character Quiz</a><br />
-      <a href="vocabularyquiz.html" class="btn active">Vocabulary Quiz</a><br />
-      <a href="transcriptionquiz.html" class="btn active">Transcription Quiz</a><br />
+
 
   </div> <!-- /.col -->
 
@@ -40,9 +47,14 @@ banner: TheSyllables-wide.jpg
      
       
       <div id="quiz">
-      <div id="progress"><div id="progress-bar"></div></div>
-     <div id="card"></div>
-     <ethiopic-keyboard></ethiopic-keyboard>
+        <div id="progress"><div id="progress-bar"></div></div>
+        <div id="card"></div>
+        <button id="check">Check</button>
+        <ethiopic-keyboard></ethiopic-keyboard>
+        <div id="counter">
+           <span id="current">1</span> of 10
+           <div id="incorrect">0</div>
+        </div>        
       </div>
 
   </div> <!-- /.col -->
@@ -62,6 +74,7 @@ var remainder = [];
 var current = 0;
 var answer = 0;
 var choices = [];
+var incorrect = 0;
 
 deal(0);
   
@@ -99,11 +112,12 @@ deal(0);
 	var shadowel = jQuery("ethiopic-keyboard").get(0),shadowRoot;
 	var kbd = shadowel.shadowRoot.children[1].childNodes[1];
 	
-	jQuery(document).on("keyup",kbd,function(e){
+	jQuery("#check").click(function(e){
 	  if(kbd.value == answer) { 
 	  //if(1 == 1) {
 	     if(current < 9) {
 	       current++;
+	       jQuery("#current").text(current);
 	       var c = setTimeout(function(){
 	         deal(current);
 	       }, 2000);
@@ -116,9 +130,20 @@ deal(0);
 	     }
 
 	  }
+	  else {
+	    incorrect++;
+	    jQuery("#incorrect").text(incorrect);
+	    jQuery(kbd).val("");
+	  }
+	  e.preventDefault();
+	});
+	
+/*
+	jQuery(document).on("keyup",kbd,function(e){
+
 	  
 	});
-
+*/
   
 
 });

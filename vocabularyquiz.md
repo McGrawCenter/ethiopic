@@ -6,7 +6,7 @@ layout: secondary-narrow
 banner: TheSyllables-wide.jpg
 ---
 <style>
- #quiz {  max-width:700px; width:100%;position:relative; }
+ #quiz {  max-width:700px; width:100%;position:relative;text-align:right; }
  #progress { width:100%;  }
  #progress-bar { width:0%;height:10px;background:crimson; }
  #card { text-align:center; background:black;color:white;font-size:3.4em;padding:2em 1em; }
@@ -21,6 +21,7 @@ banner: TheSyllables-wide.jpg
  a.incorrect > .choice-inner { background:#EEE;}
  a.correct { text-decoration:none; }
  a.correct > .choice-inner { background:#474;} 
+ #incorrect { color:red;font-weight:bold; }
 </style>
 <div class='row'>
   <div class='col-sm-12'>
@@ -46,7 +47,10 @@ banner: TheSyllables-wide.jpg
          <div id="progress"><div id="progress-bar"></div></div>
          <div id="card"></div>
          <div id="choices"></div>
-         <div id="counter"><span id="current">1</span> of 10</div>
+         <div id="counter">
+           <span id="current">1</span> of 10
+           <div id="incorrect">0</div>
+         </div>
       </div>
 
   </div> <!-- /.col -->
@@ -67,6 +71,7 @@ var current = 0;
 var answer = 0;
 var choices = [];
 var mode = 'ethiopic';
+var incorrect = 0;
 
 deal(0);
   
@@ -133,7 +138,6 @@ deal(0);
 	
 	jQuery(document).on("click",".choice",function(e){
 	  var c = jQuery(this).attr('rel');
-	  console.log(c, answer);
 	  if(c == answer) {
 	   jQuery(this).addClass("correct");
 	   const myTimeout = setTimeout(function(){
@@ -148,7 +152,11 @@ deal(0);
 	     }
 	   }, 2000);
 	  }
-	  else { jQuery(this).addClass("incorrect"); }
+	  else { 
+	    jQuery(this).addClass("incorrect");
+	    incorrect++;
+	    jQuery("#incorrect").text(incorrect);
+	  }
 	  
 	  
 	});
