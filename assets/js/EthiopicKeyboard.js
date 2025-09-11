@@ -614,7 +614,7 @@
 
             function transcribe() {
                 car = area.value;
-                
+                /*
                 car = car.replace(/ አa/i, ' ዐ'); // space aa
 
 		car = car.replace(/(^|(.|[\r\n]))[Uu]u/i, '$1ዑ'); // uu at beginning of line
@@ -631,7 +631,7 @@
 				
 		car = car.replace(/(^|(.|[\r\n]))[Ee]/i, '$1ኤ'); // e at beginning of line
 		car = car.replace(/(^|(.|[\r\n]))[Oo]/i, '$1ኦ'); // o at beginning of line
-
+		*/
 
                 var x;
                 for (x of dict) {
