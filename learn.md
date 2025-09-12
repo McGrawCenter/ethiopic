@@ -50,7 +50,7 @@ banner: TheHistory-wide.jpg
   </div>
 
 </div>
-<script src="assets/js/EthiopicKeyboard.js?v=0.0.3"></script>
+<script src="assets/js/EthiopicKeyboard.js?v=0.0.4"></script>
 
   </div>
 
