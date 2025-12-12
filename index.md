@@ -47,24 +47,29 @@ a.newfrontblock:hover { color:#DDD !important; text-decoration:none !important; 
     </div>
     <div class='col-sm-5'>
     
-      <a href="letters.html" class='newfrontblock' style="background-image: url(assets/images/TheLetters-bg3.jpg);">
+      <a href="letters.html" class='newfrontblock' style='background:#9a9683'>
          <h2>Letters</h2>
          <p>Explore the principle consonants of the alphabet.</p>
       </a>
-      <a href="syllabary.html" class='newfrontblock' style="background-image: url(assets/images/TheSyllables-bg3.jpg);">
+      <a href="syllabary.html" class='newfrontblock' style='background:#807C69'>
          <h2>Syllabary</h2>
          <p>Explore the syllabary of the alphabet.</p>
       </a>
-      <a href="numerals.html" class='newfrontblock' style="background-image: url(assets/images/TheNumerals-bg3.jpg);">
+      <a href="numerals.html" class='newfrontblock' style='background:#716D5A'>
          <h2>Numerals</h2>
          <p>Explore the characters used to express numbers.</p>
       </a> 
-      <a href="learn.html" class='newfrontblock' style="background-image: url(assets/images/TheHistory-bg3.jpg);">
+      <a href="learn.html" class='newfrontblock' style='background:#4B4734'>
          <h2>Learn</h2>
          <p>Test yourself with quizzes and flashcards.</p>
       </a>
     
-      
+      <!--
+       style="background-image: url(assets/images/TheLetters-bg3.jpg);"
+       style="background-image: url(assets/images/TheSyllables-bg3.jpg);"
+       style="background-image: url(assets/images/TheNumerals-bg3.jpg);"
+       style="background-image: url(assets/images/TheHistory-bg3.jpg);"
+      -->
       
     </div>
 </div>
