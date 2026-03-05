@@ -31,6 +31,9 @@ a.newfrontblock:hover { color:#DDD !important; text-decoration:none !important; 
   margin-bottom:1em;
 }
 
+.newfrontblock:hover {
+  box-shadow:0px 0px 4px #666;
+}
 
 
 

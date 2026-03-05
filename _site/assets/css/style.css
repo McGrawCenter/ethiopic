@@ -8,6 +8,14 @@ a:hover { color:#777; }
   border:0px;
   border-radius: 10px 10px 10px 0px;
 }
+.btn-primary:hover {
+  background:black !important;
+  color:white; 
+}
+
+
+
+
 .dropcap {
   color: #000;
   float: left;
@@ -121,12 +129,10 @@ audio { width:100%; margin:1em 0;border-radius: 10px; }
   padding: 0.2em 0.6em;
   margin:3px;
   }
+
 .btn:hover { 
-  /*
-  background:#165d8b;
+  background:#555555;
   color:white; 
-  */
-  color:grey;
   }
 .btn.active, .btn:active {
   background-image: none;
@@ -182,6 +188,8 @@ width: 600px;
   text-decoration:none;
   background:#ffffff;
   box-shadow: 0 .1em .2em rgba(0,0,0,0.05);
+  margin: 3px;
+  border-radius: 0px 20px 0 0;
 }
 a.tile { color: darkblue; }
 .tile-title{ font-size: 0.28em; color: #AAA; }
